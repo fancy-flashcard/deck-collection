@@ -9,3 +9,11 @@
 | Native App Entwicklung - Backendentwicklung | Benno Grimm | Grimmig18 | Michael Spengler | - |
 | Native App Entwicklung - Flutter | Tristan Emig | TristanMrb | Michael Spengler | - |
 | Native App Entwicklung - Rechtliches | Anna-Lena Richert | aalenaa | Michael Spengler | - |
+| Programmieren I & II | Andrei Berbescu | AndreiBerbescu | Mathias Berg-Neels | ? |
+| Kryptographie | Andrei Berbescu | AndreiBerbescu | Prof. Dr. Hans-Henning Pagnia | henning.pagnia@dhbw-mannheim.de |
+| - | Aaron Schweig | aaronschweig | - | - | 
+| - | Troy Kessler | troykessler | - | - | 
+| - | Michael Angermeier | Michi0400 | - | - | 
+| - | Patrick Mischka| Patrickmischka | - | - | 
+| - | Matthias Vonend | Ermodo | - | - | 
+| - | Jan Grübener | jangruebener | - | - | 
