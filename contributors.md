@@ -20,3 +20,5 @@
 | - | Matthias Vonend | Ermodo | - | - | 
 | - | Jan Grübener | jangruebener | - | - | 
 | - | Timon Pitz | timonpitz | - | - | 
+| - | Calogero Meli | xcarlitos | - | - | 
+| - | Tobias Jansen | tjbnde | - | - | 
