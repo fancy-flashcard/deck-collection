@@ -3,6 +3,7 @@
 | IT Recht | Nina Meffert | NinaWolff | Barbara Sommer | https://www.weitnauer.net/team/dr-barbara-sommer/ |
 | Kommunikationssysteme | Nina Meffert | NinaWolff | Maurus Dehoff | M.dehoff@dehoff.de |
 | IT Sicherheit | Gian-Luca Beck | lucab2k | Prof. Dr. Hans-Henning Pagnia | henning.pagnia@dhbw-mannheim.de |
+| IT (Service) Management | Dennis Neumann | Dennis2512 | Prof. Dr. Carsten Dorrhauer | carsten.dorrhauer@hwg-lu.de |
 | Native App Entwicklung - App Design | Tizian Groß | tizian123 | Michael Spengler | - |
 | Blockchain | Anton Ochel | Tony1704 | Michael Spengler | - |
 | Native App Entwicklung - Marketingkonzepte | Marleen Benner |Marleen Benner | Michael Spengler | - |
