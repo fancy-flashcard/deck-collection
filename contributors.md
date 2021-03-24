@@ -1,7 +1,6 @@
 | Exploration Area | Contributor Name | Contributor GitHub User | Lecturer Name | Lecturer Contact | 
 |----------------------|--------------------|------------------------|----------|----------|
 | IT Recht | Nina Meffert | NinaWolff | Barbara Sommer | https://www.weitnauer.net/team/dr-barbara-sommer/ |
-| Kommunikationssysteme | Nina Meffert | NinaWolff | Maurus Dehoff | M.dehoff@dehoff.de |
 | IT Sicherheit | Gian-Luca Beck | lucab2k | Prof. Dr. Hans-Henning Pagnia | henning.pagnia@dhbw-mannheim.de |
 | Native App Entwicklung - App Design | Tizian Groß | tizian123 | Michael Spengler | - |
 | Blockchain | Anton Ochel | Tony1704 | Michael Spengler | - |
@@ -18,3 +17,4 @@
 | - | Patrick Mischka| Patrickmischka | - | - | 
 | - | Matthias Vonend | Ermodo | - | - | 
 | - | Jan Grübener | jangruebener | - | - | 
+| - | Jan Eger | egerj | - | - | 
