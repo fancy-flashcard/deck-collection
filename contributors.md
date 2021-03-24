@@ -17,3 +17,4 @@
 | - | Patrick Mischka| Patrickmischka | - | - | 
 | - | Matthias Vonend | Ermodo | - | - | 
 | - | Jan Grübener | jangruebener | - | - | 
+| - | Timon Pitz | timonpitz | - | - | 
