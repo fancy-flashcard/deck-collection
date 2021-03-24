@@ -4,3 +4,9 @@
 | IT Sicherheit | Gian-Luca Beck | lucab2k | Prof. Dr. Hans-Henning Pagnia | henning.pagnia@dhbw-mannheim.de |
 | Programmieren I & II | Andrei Berbescu | AndreiBerbescu | Mathias Berg-Neels | ? |
 | Kryptographie | Andrei Berbescu | AndreiBerbescu | Prof. Dr. Hans-Henning Pagnia | henning.pagnia@dhbw-mannheim.de |
+| - | Aaron Schweig | aaronschweig | - | - | 
+| - | Troy Kessler | troykessler | - | - | 
+| - | Michael Angermeier | Michi0400 | - | - | 
+| - | Patrick Mischka| Patrickmischka | - | - | 
+| - | Matthias Vonend | Ermodo | - | - | 
+| - | Jan Grübener | jangruebener | - | - | 
