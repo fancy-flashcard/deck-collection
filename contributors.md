@@ -22,3 +22,7 @@
 | - | Timon Pitz | timonpitz | - | - | 
 | - | Timo Scheuermann | TimoScheuermann | - | - |
 | - | Nicolas Fürhaupter | Salocinf | - | - |
+| - | Calogero Meli | xcarlitos | - | - | 
+| - | Tobias Jansen | tjbnde | - | - | 
+| - | Timon Pitz | timonpitz | - | - |
+| - | Mohammad Ali Alnaser | ali-alnaser1 | - | - |
