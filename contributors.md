@@ -20,6 +20,8 @@
 | - | Matthias Vonend | Ermodo | - | - | 
 | - | Jan Grübener | jangruebener | - | - | 
 | - | Timon Pitz | timonpitz | - | - | 
+| - | Timo Scheuermann | TimoScheuermann | - | - |
+| - | Nicolas Fürhaupter | Salocinf | - | - |
 | - | Calogero Meli | xcarlitos | - | - | 
 | - | Tobias Jansen | tjbnde | - | - | 
 | - | Timon Pitz | timonpitz | - | - |
