@@ -19,5 +19,8 @@
 | - | Patrick Mischka| Patrickmischka | - | - | 
 | - | Matthias Vonend | Ermodo | - | - | 
 | - | Jan Grübener | jangruebener | - | - | 
+| - | Timon Pitz | timonpitz | - | - | 
+| - | Calogero Meli | xcarlitos | - | - | 
+| - | Tobias Jansen | tjbnde | - | - | 
 | - | Timon Pitz | timonpitz | - | - |
 | - | Mohammad Ali Alnaser | ali-alnaser1 | - | - |
