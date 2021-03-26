@@ -12,6 +12,7 @@
 | Native App Entwicklung - Rechtliches | Anna-Lena Richert | aalenaa | Michael Spengler | - |
 | Programmieren I & II | Andrei Berbescu | AndreiBerbescu | Mathias Berg-Neels | ? |
 | Kryptographie | Andrei Berbescu | AndreiBerbescu | Prof. Dr. Hans-Henning Pagnia | henning.pagnia@dhbw-mannheim.de |
+| Unternehmensführung | Florian Klinke | MrFloK | Robin Wagner-Fabisch| ? |
 | - | Aaron Schweig | aaronschweig | - | - | 
 | - | Troy Kessler | troykessler | - | - | 
 | - | Michael Angermeier | Michi0400 | - | - | 
