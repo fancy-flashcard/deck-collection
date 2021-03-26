@@ -5,7 +5,7 @@
 | IT (Service) Management | Dennis Neumann | Dennis2512 | Prof. Dr. Carsten Dorrhauer | carsten.dorrhauer@hwg-lu.de |
 | Native App Entwicklung - App Design | Tizian Groß | tizian123 | Michael Spengler | - |
 | Blockchain | Anton Ochel | Tony1704 | Michael Spengler | - |
-| Native App Entwicklung - Marketingkonzepte | Marleen Benner |Marleen Benner | Michael Spengler | - |
+| Native App Entwicklung - Marketingkonzepte | Marleen Benner |MarleenBenner | Michael Spengler | - |
 | Native App Entwicklung - SMS-Gateway | Marcel Mertens | NerdyStuff | Michael Spengler | - |
 | Native App Entwicklung - Backendentwicklung | Benno Grimm | Grimmig18 | Michael Spengler | - |
 | Native App Entwicklung - Flutter | Tristan Emig | TristanMrb | Michael Spengler | - |
