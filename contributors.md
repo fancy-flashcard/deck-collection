@@ -40,3 +40,6 @@
 | - | Lilli Michaelis | LilliMi | - | - ||
 | Grundlagen der IT | Daniel Kossack | d-t-k | Prof. Dr. Armin Wiedemann | 	armin.wiedemann@dhbw-mannheim.de ||
 | Theoretische Informatik | Daniel Kossack | d-t-k | Prof. Dr. Armin Wiedemann | 	armin.wiedemann@dhbw-mannheim.de ||
+| - | Velichka Popp | Velii | - | - ||
+| - | Rouven Krinke | Nevuor| - | - ||
+| - | Lukas Blank | LukasBlank | - | - ||
