@@ -38,4 +38,5 @@
 | Einführung in die WI | Tobias Lorenz | s181173 | Dipl. Ing. Gerd Urban | ? ||
 | Personalmanagement | Tobias Lorenz | s181173 | Prof. Dr. Ulf Dettmann| ? ||
 | - | Lilli Michaelis | LilliMi | - | - ||
+| - | Rouven Krinke | Nevuor| - | - ||
 | - | Lukas Blank | LukasBlank | - | - ||
