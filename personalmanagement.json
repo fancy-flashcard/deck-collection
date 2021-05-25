@@ -1,0 +1,663 @@
+{
+    "meta": {
+      "author": "Tobias Lorenz",
+      "version": "1.1.1",
+      "uuid": "6f188461-7cf2-445d-82e5-b8f7d1f3c5ab"
+    },
+    "decks": {
+      "d1": {
+        "meta": {
+          "deck_name": "Personalmanagement",
+          "next_card_id": 1,
+          "description": "Kartendeck für das Fach Personalmanagement."
+        },
+        "cards": {
+          "0": {
+            "q": "Was ist unter Wirtschafts- und Unternehmensethik zu verstehen?",
+            "a": "Anwendung der allgemeinen Ethik auf den Bereich des Wirtschaftens"
+          },
+          "1": {
+            "q": "Was sind die Untersuchungsgegenstände der Wirtschaftsethik?",
+            "a": "der Staat; das Wirtschaftssystem; die Gesamtgesellschaft"
+          },
+          "2": {
+            "q": "Was sind die Untersuchungsgegenstände der Unternehmensethik?",
+            "a": "Unternehmen; Körperschaften; Organisationen"
+          },
+          "3": {
+            "q": "Was analysiert die deskriptive Wirtschaftsethik?",
+            "a": "bestehende ökonomische Theorien; ökonomische Rationalität; Folgewirkungen wirtschaftspolitischer Aktivitäten (Umweltpolitik; Entwicklungshilfe); ethisch defizitäre Entwicklungen; Unterschiede zwischen den idealtypischen Annahmen der ökonomischen Theorie und der sozialen Wirklichkeit der betroffenen Individuen; Interpendenzen verschiedener Ordnungen (z.B. zwischen Wirtschafts- und Rechtsordnung)"
+          },
+          "4": {
+            "q": "Was sind die Aufgaben der normativen Wirtschaftsethik?",
+            "a": "Anwendung ethischer Begriffe und Theorien auf wirtschaftsethische Fragestellungen; Entwicklung eigenständiger wirtschaftsethischer Theorien; Beantwortung der Frage nach sinnvollen Anreizbedingungen zur Ermöglichung des moralischen Handelns in ökonomischen Kontexten"
+          },
+          "5": {
+            "q": "Was analysiert die deskriptive Unternehmensethik?",
+            "a": "Werthaltungen in der Unternehmensführung; Genese moralischer Fehlentscheidungen; Ermöglichungsbedingungen moralischen Handelns; Probleme der Verantwortungszuweisung; moralische Folge- und Nebenwirkungen unternehmerischen Handelns; Adressaten moralischer Normen und Sanktionen"
+          },
+          "6": {
+            "q": "Was sind die Aufgaben der normativen Unternehmensethik?",
+            "a": "Anwendung ethischer Begriffe und Theorien auf unternehmensethische Fragestellungen; Entwicklung eigenständiger unternehmensethischer Theorien, ethischer Kompetenz und Ethikkodizes; Festlegung der Bedingungen moralischen Handelns; moralische Kritik an unternehmerischen Entscheidungen; Bereitstellung von Entscheidungshilfen für moralische Entscheidungen"
+          },
+          "7": {
+            "q": "Nennen Sie 2 eigenständige wirtschaftsethische Theorien!",
+            "a": "Utilitarismus (eher in England und in den USA); Deontologie (eher in Deutschland)"
+          },
+          "8": {
+            "q": "Was ist der Soll-Zustand bzgl. der ethischen Kompetenz der Mitarbeiter?",
+            "a": "Lernen potenzieller Mitarbeiter des ethisch kompetenten Umgangs (Reaktion auf Probleme in umsichtiger, kompetenter und reflektierter Weise) mit moralischen ggf. im Berufsalltag auftretenden Problemen bereits in ihrer Berufsausbildung"
+          },
+          "9": {
+            "q": "Warum ist die ethische Kompetenz der Mitarbeiter wichtig?",
+            "a": "zunehmende moralische Konfliktlagen in Unternehmen; häufig unzureichende Problemlösungsversuche; zunehmende Moralisierung der Märkte"
+          },
+          "10": {
+            "q": "Was bedeutet ethische Kompetenz?",
+            "a": "Fähigkeiten zum logischen Denken, zur Begriffsanalyse und zur begrifflichen Differenzierung sowie zu rationalem Argumentieren; Kenntnis der wichtigsten ethischen Ausdrücke und Theorien; Wirtschaftswissenschaftliche Kompetenz; Kompetenz der Gewichtung empirischer und normativer Gesichtspunkte"
+          },
+          "11": {
+            "q": "Zwischen welchen 2 Ansätzen wird innerhalb der normativen Unternehmensethik differenziert?",
+            "a": "Unternehmensethik als ethischer Begründungsdiskurs & Unternehmensethik als Managementtheorie"
+          },
+          "12": {
+            "q": "Was ist der Grundkonflikt bei der Unternehmensethik als Begründungsdiskurs?",
+            "a": "gleichzeitige Konfrontation der Wirtschaftsakteure mit 2 Forderungen: moralische Forderungen & ökonomische Forderungen -> dadurch nicht selten Nahelegen gegensätzlicher Handlungsempfehlungen, aber Moral/ Altrusimus <-> Gewinn/ Egoismus"
+          },
+          "13": {
+            "q": "Was ist die Rolle der Unternehmensethik als Begründungsdiskurs bei diesem Grundkonflikt (Moral vs. Gewinn)?",
+            "a": "Aufgabe der Unternehmensethik: Lösen dieses Konflikts"
+          },
+          "14": {
+            "q": "Was ist das Problem aus Sicht der Handlungstheorie?",
+            "a": "Wirtschaftsakteur (rationaler, nur am Eigennutz interessierter Nutzenmaximierer, d.h. Homo Oeconomicus) vs. Moralischer Akteur (rationaler, am Wohl anderer interessierter, altruistischer Akteur)"
+          },
+          "15": {
+            "q": "Was sind die grundlegenden zu beantwortenden Fragen der Unternehmensethik als ethischer Begründungsdiskurs?",
+            "a": "Ausschluss oder sinnvolle Ergänzung von Moral und Eigeninteresse? -> Lösung des Problems einer scheinbar widersprüchlichen interessensbasierten Moral & Wie lässt sich in einer von rationalen Egoisten durchdrungenen ökonomischen Welt Moral ermöglichen? -> Lösung des Problems der Implementierung moralischer Forderungen unter Wettbewerbsbedingungen"
+          },
+          "16": {
+            "q": "Was sind Möglichkeiten zur Lösung des Problems aus Sicht der Handlungstheorie?",
+            "a": "Möglichkeit 1: Ausschluss von Moral und Eigeninteresse, d.h. Notwendigkeit einer Entscheidung oder Vermittlung zwischen beiden Forderungen; Möglichkeit 2: Vereinbarkeit von Moral und Eigeninteresse miteinander"
+          },
+          "17": {
+            "q": "Was sind Nachteile des Ausschlusses von Moral und Eigeninteresse?",
+            "a": "Gefahr des unmoralischen Handelns (Primat der Ökonomie) bzw. Gefahr des wirtschaftlichen Ruins (Primat der Moral) -> Problem der Implementierung nicht bzw. nur schwer lösbar"
+          },
+          "18": {
+            "q": "Was bedeutet Vereinbarkeit von Moral und Eigeninteresse als Möglichkeit zur Lösung des Problems aus Sicht der Handlungstheorie konkret?",
+            "a": "Moralisches Handeln = Handeln zugunsten anderer, im langfristigen, rationalen Interesse der betroffenen Akteure, d.h. Zusammenarbeit zum gegenseitigen Vorteil (interessensbasierte Ethik; Kontraktualismus)"
+          },
+          "19": {
+            "q": "Was ist der Vorteile der Vereinbarkeit von Moral und Eigeninteresse miteinander als Möglichkeit zur Lösung des Problems aus Sicht der Handlungstheorie?",
+            "a": "Möglichkeit der anreizkompatiblen Gestaltung der Moral, d.h. Möglichkeit des Lösens des Problems der Implementierung moralischer Forderungen unter Wettbewerbsbedingungen"
+          },
+          "20": {
+            "q": "Was ist die normative Zielsetzung der interessensbasierten Unternehmensethik?",
+            "a": "Vereinbarkeit von Moral und Eigeninteresse miteinander durch geeignete Investitionen in die eigene und zugleich allgemeine Besserstellung"
+          },
+          "21": {
+            "q": "Was sind mögliche Investitionen im Kontext der normativen Zielsetzung der interessensbasierten Unternehmensethik?",
+            "a": "Investitionen in die Rahmenbedingungen; Investitionen in die Reputation; Investitionen in die Produktivität der Mitarbeiter"
+          },
+          "22": {
+            "q": "Was sind Beispiele für Investitionen in die Rahmenbedingungen im Kontext der normativen Zielsetzung der interessensbasierten Handlungstheorie?",
+            "a": "Ethikkodizes, Ethikbüros, Ethikaudits; Mediation; Corporate Governance"
+          },
+          "23": {
+            "q": "Was sind Beispiele für Investitionen in die Reputation im Kontext der normativen Zielsetzung der interessensbasierten Handlungstheorie?",
+            "a": "Corporate Reputation; Corporate Citizenship; Nachhaltigkeitsfonds"
+          },
+          "24": {
+            "q": "Was sind Beispiele für Investitionen in die Produktivität der Mitarbeiter im Kontext der normativen Zielsetzung der interessensbasierten Handlungstheorie?",
+            "a": "Mitarbeiterführung; Work-Life-Balance"
+          },
+          "25": {
+            "q": "Was ist die Aufgabe der Unternehmensethik als Managementtheorie?",
+            "a": "Lösen, wie eine Gestaltung der Investitionen so möglich ist, dass das Ziel der eigenen und zugleich allgemeinen Besserstellung erreicht werden kann"
+          },
+          "26": {
+            "q": "Was ist das Problem im Kontext der Unternehmensethik als Managementtheorie?",
+            "a": "Leisten eines Beitrags zur allgemeinen Besserstellung bzw. Investieren in eine Zusammenarbeit zum gegenseitigen Vorteil nicht immer im Interesse des Einzelnen"
+          },
+          "27": {
+            "q": "Was ist der Grund, dass ein Investieren in eine Zusammenarbeit zum gegenseitigen Vorteil nicht immer im Interesse des Einzelnen ist?",
+            "a": "Hervorrufen ökonomischer Nachteile durch moralische Vorleistungen unter bestimmten Bedingungen (Begriff in der Wirtschaftsethik: Dilemmastruktur)"
+          },
+          "28": {
+            "q": "Was sind die 2 Anforderungen für ein gutes Ethikmanagement im Kontext der Unternehmensethik als Managementtheorie?",
+            "a": "Befriedigung sozialer Bedürfnisse; Erhalten bzw. Ausbauen der Wettbewerbsfähigkeit"
+          },
+          "29": {
+            "q": "Welche 2 Strategien werden gewählt, um die 2 Anforderungen eines guten Ethikmanagements im Kontext der Unternehmensethik als Managementtheorie zu erfüllen?",
+            "a": "Ausrichtung des sozialen Engagements an der Wertschöpfungskette und Implementierung der Ethik im Unternehmen"
+          },
+          "30": {
+            "q": "Was bedeutet die Strategie Ausrichtung des sozialen Engagements an der Wertschöpfungskette im Kontext der Unternehmensethik als Managementtheorie konkret?",
+            "a": "Entstehung einer Win-Win-Situation für Unternehmen und Gesellschaft durch das soziale Engagement eines Unternehmens im Idealfall; Erreichen einer Win-Win-Situation am besten durch Annehmen gesellschaftlicher Probleme mit Zusammenhang zum Kerngeschäft des Unternehmens"
+          },
+          "31": {
+            "q": "Was sind Gründe für die Ausrichtung des sozialen Engagements an der Wertschöpfungskette im Kontext der Unternehmensethik als Managementtheorie?",
+            "a": "Möglichkeit für Innovationen; Möglichkeit der ethischen Profilbildung des Unternehmens; Möglichkeit des Profitierens gesellschaftlicher Probleme von unternehmerischem Know-How"
+          },
+          "32": {
+            "q": "Was ist ein Beispiel für die Ausrichtung des sozialen Engagements an der Wertschöpfungskette im Kontext der Unternehmensethik als Managementtheorie?",
+            "a": "Entwicklung des Hybridmotors durch Toyota lange vor den Aktivitäten anderer Unternehmen (Erfolgreiche Innovation = Hybridmotor; ethische Profilbildung = Assoziation der Marke Toyota mit umweltschonenden Autos; Einsatz des unternehmerischen Know Hows = Reduzieren der Umweltverschmutzung durch Autos)"
+          },
+          "33": {
+            "q": "Was ist der Zusammenhang der beiden Strategien im Kontext der Unternehmensethik als Managementtheorie?",
+            "a": "Notwendigkeit der systematischen Implementierung der Ethik im Unternehmen zur Ausrichtung des sozialen Engagements an der Wertschöpfungskette"
+          },
+          "34": {
+            "q": "Was sind die 5 Implementierungsphasen zur Implementierung der Ethik im Unternehmen im Kontext der Unternehmensethik als Managementtheorie?",
+            "a": "1.) Ist-Aufnahme/ Identifikation des Handlungsbedarfs -> 2.) Erarbeitung eines ethisch reflektierten Unternehmensleitbilds und Auswahl von CSR-Schwerpunkten -> 3.) Verankerung im Unternehmen -> 4.) Externe Begutachtung umgesetzter Maßnahmen -> 5.) Berichterstattung und Kommunikation"
+          },
+          "35": {
+            "q": "Was ist die Aufgabe der Wirtschaftsethik?",
+            "a": "Das Aufzeigen der Bedingungen der Möglichkeit ethischen Handelns unter Wettbewerbsbedingungen  & Berücksichtigung der dilemmatischen Strukturen in ökonomischen Kontexten"
+          },
+          "36": {
+            "q": "Was versteht man unter einer Dilemmastruktur?",
+            "a": "Eine Situation, in der Interessenskonflikte die Realisierung der gemeinsamen Interessen verhindern"
+          },
+          "37": {
+            "q": "Was ist ein Beispiel für eine Dilemmastruktur?",
+            "a": "Das Gefangenendilemma"
+          },
+          "38": {
+            "q": "Was ist die Ausgangssituation im Gefangenendilemma??",
+            "a": "Festnahme von 2 Bankräubern; Möglichkeit der Überführung als Bankräuber nur bei mindestens einem Tatgeständnis; keine Kommunikationsmöglichkeit der Männer untereinander für Abstimmung der Aussagen; Einzelverhöre kurz bevorstehend"
+          },
+          "39": {
+            "q": "Was sind die Optionen der Männer im Gefangenendilemma?",
+            "a": "Schweigen beider Männer; Gestehen beider Männer; Geständnis eines Mannes und Belastung des nicht geständigen Komplizen"
+          },
+          "40": {
+            "q":"Was ist die Konsequenz im Gefangenendilemma, wenn beide Männer schweigen?",
+            "a": "ggf. Gefängnisstrafe von einem Jahr, da nur Nachweis unerlaubten Waffenbesitzes, aber keiner Straftat"
+          },
+          "41": {
+            "q": "Was ist die Konsequenz im Gefangenendilemma, wenn beide Männer gestehen?",
+            "a": "ggf. jeweils eine Gefängnisstrafe von 5 Jahren"
+          },
+          "42": {
+            "q": "Was ist die Konsequenz im Gefangenendilemma bei einem Geständnis eines Mannes, der den nicht geständigen Komplizen belastet?",
+            "a": "Fallenlassen der Anklage als Kronzeuge und Bestrafung des nicht geständigen Komplizen mit 10 Jahren Freiheitsentzug"
+          },
+          "43": {
+            "q": "Welches Verhalten wird aufgrund rationaler Überlegungen bei der Prämisse des Anstrebens einer möglichst geringen Strafe von jedem der beiden Gefangenen im Gefangenendilemma angestrebt?",
+            "a": "bei Nichtgestehen des Komplizen -> Gestehen am günstigsten, da Entlassung in die Freiheit und kein Verbringen eines Jahres im Gefängnis; bei Gestehen des Komplizen -> Gestehen am günstigsten, da Rechnen mit 5 Jahren und nicht mit 10 Jahren Gefängnis"
+          },
+          "44": {
+            "q": "Was ist das Ergebnis des Gefangenendilemmas?",
+            "a": "Geständnis führt immer zu günstigeren Konsequenzen im Vergleich zum Leugnen unabhängig vom Schweigen oder Geständnis des Komplizen, aber: Geständnis beider Gefangenen (rationale Entscheidung) -> 5 Jahre Gefängnisstrafe; Leugnen beider Gefangenen -> Gefängnisstrafe von einem Jahr für beide Gefangenen "
+          },
+          "45": {
+            "q": "Was ist das Fazit bzgl. des Gefangenendilemmas?",
+            "a": "Hervorrufen relativ ungünstiger Konsequenzen für beide Männer von der durch das Eigeninteresse diktierten Wahl; günstigere Konsequenzen für beide Seiten durch beiderseitiges Vertrauen, d.h. Überzeugung vom kooperativem Verhalten (Schweigen) des Komplizen"
+          },
+          "46": {
+            "q": "Was ist die Folgerung aus dem Gefangenendilemma?",
+            "a": "einerseits führt rationales Verhalten nicht zwangsläufig zu den günstigsten Konsequenzen für denjenigen mit unkooperativem Verhalten, andererseits lässt sich kooperatives Verhalten nur bei Existenz der begründeten Erwartung des ebenfalls kooperativen Verhaltens des anderen rational rechtfertigen"
+          },
+          "47": {
+            "q": "Was sind die zugrundeliegenden Probleme des Gefangenendilemmas?",
+            "a": "Anreizproblem; Informationsproblem"
+          },
+          "48": {
+            "q": "Was ist die Aussagekraft des Anreizproblems im Kontext des Gefangenendilemmas?",
+            "a": "Jeder in einer Dilemmastruktur hat einen massiven Anreiz zur Verfolgung des der Kooperation in einer Weise zuwiderlaufenden Eigeninteresses"
+          },
+          "49": {
+            "q": "Wie kann das Anreizproblem gelöst werden?",
+            "a": "Durch geeignete Rahmenbedingungen"
+          },
+          "50": {
+            "q": "Was ist die Aussagekraft des Informationsproblems im Kontext des Gefangenendilemmas?",
+            "a": "fehlende verlässliche, glaubwürdige Information über die Kooperationsbereitschaft des Anderen -> Scheitern der Kooperation ohne diese Information"
+          },
+          "51": {
+            "q": "Wie kann das Informationsproblem gelöst werden?",
+            "a": "Durch das Schaffen geeigneter Institutionen"
+          },
+          "52": {
+            "q": "Was sind beispielhafte Situationen aus dem Alltag mit struktureller Entsprechung des Gefangenendilemmas?",
+            "a": "Luftverschmutzung, z.B. durch Autoabgase; hoher Wasserverbrauch von Privathaushalten; Schädigung der Erde durch Treibgase; Verschmutzung von Gewässern durch Korruption"
+          },
+          "53": {
+            "q": "Was ist die Schlussfolgerung von den beispielhaften Situationen aus dem Alltag mit struktureller Entsprechung des Gefangenendilemmas?",
+            "a": "Individuell kluges Handeln, kollektiv an den Tag gelegt, gerät gemessen an den Eigenmaximierungszielen der Akteure zur kollektiven Dummheit."
+          },
+          "54": {
+            "q": "Wer kann Rahmenbedingungen zur Lösung des Anreizproblems setzen?",
+            "a": "der Staat; die Verbraucher; die Unternehmen selbst"
+          },
+          "55": {
+            "q": "Wie kann der Staat geeignete Rahmenbedingungen zur Lösung des Anreizproblems setzen?",
+            "a": "Gesetze, z.B. die Sentencing Guidelines in den USA oder das Ordnungswidrigkeitsgesetz §130 in Deutschland"
+          },
+          "56": {
+            "q": "Was besagen die Sentencing Guidelines?",
+            "a": "Die Bestrafung der Unternehmen als Unternehmen ist bei Begehen einer Straftat durch einen Mitarbeiter zugunsten des Unternehmens möglich (z.B. Schmiergeld)."
+          },
+          "57": {
+            "q": "Wann kann ein Unternehmen mit einer Strafmilderung/ einem Straferlass im Kontext der Sentencing Guidelines rechnen?",
+            "a": "Bei einem Nachweis, dass alles mögliche für die Verhinderung der Straftat getan wurde -> Nachweis des Verfügens über ein Unternehmensleitbild; Schulung der Mitarbeiter bzgl. der Werte des Unternehmensleitbilds; Einrichtung eines Compliance-Büros zum Melden solcher Regelverstöße"
+          },
+          "58": {
+            "q": "Was besagt das Ordnungswidrigkeitsgesetz §130?",
+            "a": "Verurteilung zu einer Geldstrafe bei Begehen einer Ordnungswidrigkeit durch einen Manager bei Verletzung seiner Aufsichtspflicht"
+          },
+          "59": {
+            "q": "In welchem Fall verletzt ein Manager seine Aufsichtspflicht gemäß des Ordnungswidrigkeitsgesetzes §130?",
+            "a": "wenn ein Manager nicht alles zur Verhinderung einer Straftat im Unternehmen getan hat, auch wenn er selbst die Straftat weder angeordnet noch davon gewusst hat (Bsp.: Schmiergeldaffäre bei Siemens)"
+          },
+          "60": {
+            "q": "Was ist das Fazit der Rahmenbedingungen durch den Staat zur Lösung des Anreizproblems?",
+            "a": "Möglichkeit für den Staat durch einschlägige Gesetze, ethisches Handeln für Unternehmen attraktiv bzw. unethisches Handeln unattraktiv zu machen -> Rahmenbedingungen durch den Staat = klassischer Gegenstand der Wirtschaftsethik"
+          },
+          "61": {
+            "q": "Was sind geeignete Rahmenbedingungen durch den Verbraucher zur Lösung des Anreizproblems?",
+            "a": "Möglichkeit des Prämierens ethischen Verhaltens von Unternehmen am Markt bzw. des Abstrafens unethischen Verhaltens von Unternehmen am Markt durch den Verbraucher"
+          },
+          "62": {
+            "q": "Was sind beispielhafte Rahmenbedingungen, die der Verbraucher zur Lösung des Anreizproblems setzen kann?",
+            "a": "LOHAS; Nachhaltigkeitsfonds"
+          },
+          "63": {
+            "q": "Was ist die Konsequenz von gesetzten Rahmenbedingungen durch den Verbraucher zur Lösung des Anreizproblems?",
+            "a": "Die Moralisierung der Märkte führt zu einem enormen Anreiz für Unternehmen, sich ethisch korrekt zu verhalten."
+          },
+          "64": {
+            "q": "Was sind Rahmenbedingungen durch Unternehmen zur Lösung des Anreizproblems?",
+            "a": "Kollektive Probleme (z.B. Luftverschmutzung; Korruption; Verpflichtungen zur Einhaltung hoher Sozialstandards) erfordern kollektive Lösungen (z.B. Branchenvereinbarung; Integritätspakt)"
+          },
+          "65": {
+            "q": "Warum bedarf ein kollektives Problem, wie die Korruption, einer kollektiven Lösung zur Lösung des Anreizproblems?",
+            "a": "Die Korruption besitzt eine dilemmatische Struktur, d.h. bei Verzicht eines Unternehmens auf Schmiergeldzahlungen, während alle anderen Unternehmen weiterhin Schmiergeld bezahlen, entgeht diesem Unternehmen die Chance, an bestimmte Aufträge zu kommen"
+          },
+          "66": {
+            "q": "Was passiert, wenn alle Unternehmen ein Schmiergeld bezahlen?",
+            "a": "Es entsteht für kein Unternehmen ein Vorteil durch die Schmiergeldzahlung, stattdessen entsteht für jedes Unternehmen ein Nachteil durch höhere Kosten und die Gefahr der Entdeckung und Bestrafung"
+          },
+          "67": {
+            "q": "Was ist für Unternehmen in Bezug auf das Korruptionsproblem, das eine dilemmatische Struktur aufweist, am attraktivsten?",
+            "a": "Verzicht auf Schmiergeldzahlungen, da dies die Kosten reduziert und eine Straftat vermieden wird"
+          },
+          "68": {
+            "q": "Warum zahlen Unternehmen weiterhin Schmiergeld, obwohl dies für sie nicht am attraktivsten ist?",
+            "a": "keine Möglichkeit der Annahme der Imitation anderer Unternehmen bzgl. des Verzichts von Schmiergeldzahlungen, sobald ein Unternehmen auf Schmiergeldzahlungen verzichtet"
+          },
+          "69": {
+            "q": "Was sind kollektive Lösungen zur Lösung kollektiver Probleme?",
+            "a": "Branchenvereinbarung; Integritätspakt (1966 von 35 Unternehmen der bayerischen Bauindustrie gegen Korruption beschlossen); gemeinsame Verpflichtung aller Unternehmen auf Verzicht bestimmter Praktiken; Durchführung bestimmter, gemeinsam beschlossener Maßnahmen; Notwendigkeit der Kontrolle der Verpflichtungen von externer Seite"
+          },
+          "70": {
+            "q": "Was sind Institutionen zur Beseitigung von Informationsdefiziten oder -asymmetrien im Kontext des Informationsproblems?",
+            "a": "anreizbewehrte, dauerhaft, gestaltbare Regeln bzw. Systeme von Regeln mit der Aufgabe zur Herstellung von Berechenbarkeit und der dauerhaften Stabilisierung der wechselbeseitigen Verhaltenserwartungen; geeignete Institutionen sind dabei Teil der zu realisierenden Rahmenbedingungen zur Ermöglichung von ethisch richtigem Handeln"
+          },
+          "71": {
+            "q": "Was sind exemplarische Institutionen zur Lösung des Informationsproblems?",
+            "a": "Verträge; Gesetze; moralische Normen (Politik, Verwaltung, Gerichtsbarkeit, Polizei, Gemeinschaft etc. )"
+          },
+          "72": {
+            "q": "Was ist das Fazit bzgl. des Anreiz- und Informationsproblems?",
+            "a": "Das Problem sind nicht die Gesinnungen der Akteure, sondern die Bedingungen der Situation"
+          },
+          "73": {
+            "q": "Was passiert, wenn die geeigneten Rahmenbedingungen im Kontext des Anreiz- und Informationsproblems nicht gegeben sind?",
+            "a": "Ethisches Handeln führt ggf. zu schweren Wettbewerbsnachteilen und verdrängt im Extremfall ausgerechnet die moralischen Akteure vom Markt."
+          },
+          "74": {
+            "q": "Was passiert, wenn die Rahmenbedingungen im Kontext des Anreiz- und Informationsproblems richtig gesetzt werden?",
+            "a": "Ethisch richtiges Handeln führt ggf. zu einem Wettbewerbsvorteil."
+          },
+          "75": {
+            "q": "Was ist eine weitere Möglichkeit zur Lösung des Anreiz- und Informationsproblems neben Institutionen und Rahmenbedingungen?",
+            "a": "Die Tit-for-Tat-Strategie bei dilemmatischen Situationen mit der Struktur eines iterierten Gefangenendilemmas, d.h. Anreiz- und Informationsprobleme verschwinden in dilemmatischen Situationen unter bestimmten Bedingungen durch den Zauber der Wiederholung"
+          },
+          "76": {
+            "q": "Was besagt das iterierte Gefangenendilemma?",
+            "a": "Bei einmaligen Spielen gilt die unkooperative Wahl als rational, bei mehrfachem Spielen hintereinander ist die unkooperative Wahl nicht mehr unbedingt rational -> Unkooperative Wahlen werden i.d.R. durch eine unkooperative Wahl vom Mitspieler beantwortet, was ein ungünstiges Gesamtergebnis in der Endabrechnung erzeugt."
+          },
+          "77": {
+            "q": "Was besagt die Tit-for-Tat-Strategie?",
+            "a": "Tit-for-Tat (\"Wie du mir, so ich dir\"); Ergebnis einer berühmt gewordenen Untersuchung des amerikanischen Politikwissenschaftlers Robert Axelrod (Kooperation zu Beginn; Wahl der Strategie (Kooperation/ Defektion), die dein Gegenspieler als Antwort auf deine Strategie wählt"
+          },
+          "78": {
+            "q": "Warum funktioniert die Tit-for-Tat-Strategie?",
+            "a": "Der Zauber der Wiederholung führt zu kooperativem Verhalten, d.h. der Mitmensch, der seine Partner regelmäßig übertölpelt, steht bald alleine dar; Stärkung der Geschäftsmoral durch die Hoffnung auf weitere Geschäfte"
+          },
+          "79": {
+            "q": "Was ist zusammengefasst die Aufgabe der Wirtschaftsethik?",
+            "a": "Das Aufzeigen der Bedingungen der Möglichkeit ethischen Handelns unter Wettbewerbsbedingungen, z.B. anreizgesteuerte Wirtschaftspolitik, ethisch orientierte Verbrauchernachfrage, kollektive Lösungen für kollektive Probleme, Schaffung geeigneter Institutionen"
+          },
+          "80": {
+            "q": "Was sind die Voraussetzungen für erfolgreiches ethisches Handeln eines Unternehmens am Markt?",
+            "a": "Die Erfüllung der genannten notwendigen bzw. externen Kriterien Bedingungen (->Wirtschaftsethik); Die ERfüllung einer hinreichenden, internen Bedingung (-> Unternehmensethik), d.h. das Unternehmen muss über ein gutes Ethikmanagement für erfolgreiches ethisches Handeln am Markt verfügen"
+          },
+          "81": {
+            "q": "Worin liegt der ökonomische Nutzen der Ethik für Unternehmen?",
+            "a": "Alleinstellungsmerkmal; allgemeine Wertsteigerung des Unternehmens; Risikominimierung; Kostensenkungseffekte (etwa durch nachhaltiges HR-Management); Vertrauensbildung; höhere Mitarbeiterbindung; leichtere Gewinnung neuer Mitarbeiter; verbesserte Unternehmenskultur; Stärkung der Kundenbindung; verbesserter Zugang zu Kapitalmärkten"
+          },
+          "82": {
+            "q": "Was sind die Bedingungen erfolgreichen ethischen Handelns in Unternehmen?",
+            "a": "Geeignete Rahmenbedingungen, z.B. eine anreizgesteuerte Wirtschaftspolitik, eine ethisch orientierte Verbrauchernachfrage, kollektive Lösungen für kollektive Probleme, geeignete Institutionen, sowie ein gutes Ethikmanagement"
+          },
+          "83": {
+            "q": "Was sind die meistgenannten Gründe für Corporate Responsibility?",
+            "a": "Reputation bzw. Marke; Ethische Überlegungen; Mitarbeitermotivation; Innovation und Lernen; Risikomanagement oder -minderung; Zugang zu Kapital oder gesteigerter Unternehmenswert; Ökonomische Überlegungen; Verbesserte Beziehungen zum Lieferanten; Verbesserung der Markenposition bzw. -anteile; Verbesserte Beziehung zu Behörden und Regierung; Kostenersparnisse"
+          },
+          "84": {
+            "q": "Was sind die wichtigsten Faktoren bzgl. des Ethikbedarfs im Geschäftsleben nach einer CEO-Umfrage von Accenture für die Sicherstellung des künftigen Erfolgs?",
+            "a": "Bildung und Klimawandel"
+          },
+          "85": {
+            "q": "Was wird nach der CEO-Umfrage von Accenture zukünftig immer mehr zu einem kritischen Erfolgsfaktor für das Geschäft?",
+            "a": "Das Thema Nachhaltigkeit"
+          },
+          "86": {
+            "q": "Was sind nach der CEO-Umfrage von Accenture die 3 Hauptmotivatoren für das aktive Auseinandersetzen mit dem Thema Nachhaltigkeit?",
+            "a": "Marke; Vertrauen; Reputation"
+          },
+          "87": {
+            "q": "Was sind 3 elementare Gründe für das wachsende Interesse an Corporate Responsibility?",
+            "a": "Größere Transparenz; Wachsende Stakeholder Erwartungen; Schrumpfende Ressourcen"
+          },
+          "88": {
+            "q": "Auf wen beziehen sich die wachsenden Stakeholder-Erwartungen?",
+            "a": "Behörden; (LOHAS-)Kunden; Lieferanten; Investoren; Mitarbeiter"
+          },
+          "89": {
+            "q": "Was sind Beispiele für wachsende Stakeholder-Erwartungen?",
+            "a": "Umgang mit Korruption (z.B. Petrobas oder Siemens); Supply Chain Verantwortung (z.B. Nike vs. Apple); Socially Responsible Investing (SRI); LOHAS-Bewegung"
+          },
+          "90": {
+            "q": "Was/ Wer verursacht eine größere Transparenz bzgl. Corporate Responsibility?",
+            "a": "NGOs; Whistleblower; Aktivisten; Medien; Neue Technologien (Google, Facebook, Twitter, Avaaz)"
+          },
+          "91": {
+            "q": "Was sind Beispiele für eine größere Transparenz?",
+            "a": "Wasserkraftwerk im Regenwald (z.B. Sawarak oder Amazonas); Shells \"Brent Spar\"; Flughafenerweiterung in Zürich; VW-Abgasskandal"
+          },
+          "92": {
+            "q": "Worauf beziehen sich schrumpfende Ressourcen?",
+            "a": "Soziale Gerechtigkeit; Nahrung; Artenvielfalt; Klimaschutz; Trinkwasser; Visionen/ Strategien; Gute Ideen; Regenwälder; Luftqualität; Rohstoffe; Energie"
+          },
+          "93": {
+            "q": "Was sind Beispiele für schrumpfende Ressourcen?",
+            "a": "Abbau seltener Erden (z.B. Glencore); Gentechnisch verändertes Saatgut (z.B. Monsanto); Vermarktung von Trinkwasser (z.B. Nestlé)"
+          },
+          "94": {
+            "q": "Was ist der Grund für das Schrumpfen der Ressourcen?",
+            "a": "Das Zurückgreifen auf Ressourcen durch jedes Unternehmen zum Herstellen von Produkten und zum Erbringen von Dienstleistungen, aber Ressourcen sind nicht unbegrenzt vorhanden; oftmals kommt es zu einer Entwertung oder gar irreversiblen Zerstörung von Boden, Luft, Wasser, Regenwäldern und der Artenvielfalt"
+          },
+          "95": {
+            "q": "Zwischen welchen Ressourcenarten wird differenziert?",
+            "a": "Materielle Ressourcen (Rohstoffe, wie Erdöl, Metalle, seltene Erden); soziale und mentale Ressourcen (Arbeitskräfte, Kreativität, Ideenvielfalt, Kunden, Lieferanten, Wohlwollen der Anwohner und Nachbarn)"
+          },
+          "96": {
+            "q": "Was ist die Hauptaussage bzgl. schrumpfender Ressourcen für Unternehmen?",
+            "a": "Ohne soziale Gerechtigkeit, Nachhaltigkeit und daraus abgeleitete Strategien ist für Unternehmen kein langfristiges Überleben möglich; Unternehmen sollen für einen Ausgleich durch nachhaltige Unternehmensverantwortung sorgen."
+          },
+          "97": {
+            "q": "Was ist ein Bestandteil der nachhaltigen Unternehmensverantwortung?",
+            "a": "Der Cradle-to-Cradle-Ansatz (Michael Braungart und William McDonough)"
+          },
+          "98": {
+            "q": "Was ist der Cradle-to-Cradle-Ansatz?",
+            "a": "Eine Kreislaufwirtschaft, deren Produktzyklen nicht wie üblich von der Wiege zum Grab (Cradle-to-grave), also bis zum unverwertbaren Abfall, sondern von der Wiege bis bis zur Wiege reichen"
+          },
+          "99": {
+            "q": "Was ist der Soll-Zustand des Cradle-to-Cradle-Ansatzes?",
+            "a": "Verwendung des Abfalls in der \"Circular Economy\" zu 100% als Rohstoff für neue Produkte"
+          },
+          "100": {
+            "q": "Was sind Maßnahmen zur Vermeidung struktureller Verschwendung im Kontext des Cradle-to-Cradle-Ansatzes?",
+            "a": "Wiederherstellen (Erholung der Ökosysteme; Einsatz erneuerbarer Energien); Teilen (Fahrzeuge; Räume; Geräte); Optimieren (Effizienzsteigerung von Produkten; Müllvermeidung in der Wertschöpfungskette); Recyceln (Wiederaufbereitung; Wiederverwertung); Virtualisieren (Digitale Waren und Dienstleistungen, z.B. E-Books und Online-Handel); Umsteigen (Einsatz neuer Technologien, z.B. 3D-Drucker; kombinierter Verkehr)"
+          },
+          "101": {
+            "q": "Was bedeutet eine größere Transparenz in Unternehmen in der öffentlichen Wahrnehmung?",
+            "a": "kein Abschotten der Unternehmen von der Öffentlichkeit und Gewinnmaximierung auf Kosten von Natur und Gesellschaft möglich"
+          },
+          "102": {
+            "q": "Was sind die Haupttreiber für eine größere Transparenz der unternehmerischen Aktivitäten?",
+            "a": "neue technologische Entwicklungen; Veröffentlichung geheimer Materialien (zugespielt von Insidern) von Wikileaks und NGOs wie Greenpeace"
+          },
+          "103": {
+            "q": "Inwiefern trägt die Online-Plattform Avaaz zu einer größeren Transparenz bei?",
+            "a": "Möglichkeit der Unterschriftensammlung für jedes Mitglied (aktuell ca. 40 Mio. Mitglieder) in Form von Klicks gegen echte oder vermeintliche Mißstände in Politik und Wirtschaft sowie Möglichkeit des Vorlegens dieser Unterschriften den zuständigen Politikern/ Wirtschaftsführern, um sie zu einem Lösungsbeitrag zu bewegen"
+          },
+          "104": {
+            "q": "Was sind die Folgen von solchen Kampagnen auf der Online-Plattform Avaaz?",
+            "a": "Korrupte Politiker werden zum Rücktritt gezwungen.; Der Ausverkauf natürlicher Ressourcen wird gestoppt.; Die Vermarktung riskanter Produkte wird behindert."
+          },
+          "105": {
+            "q": "Was ist unter Share- und Stakeholdern zu verstehen?",
+            "a": "Gruppierungen, die entweder in die Aktivitäten eines Unternehmens direkt involviert oder indirekt von deren Handlungen betroffen sind"
+          },
+          "106": {
+            "q": "Woraus leiten sich die Ansprüche von Share- und Stakeholdern ab?",
+            "a": "Aus ihren Investitionen in das Unternehmen z.B.: Shareholder -> Kapital; Mitarbeiter -> Arbeitskraft; Lieferant -> Produkte; Anwohner -> Wohlwollen gegenüber der Produktionsstätte"
+          },
+          "107": {
+            "q": "Was erwarten Share- und Stakeholder als Anspruch aus ihren Investitionen in das Unternehmen?",
+            "a": "Einen Return on Investment (ROI), z.B.: Shareholder -> Dividende oder Wertsteigerung seiner Aktien; Mitarbeiter -> angemessener Lohn und ergonomischer Arbeitsplatz; Lieferant -> langfristige Geschäftsbeziehung; Anwohner -> wenige Immissionen oder eine gute Infrastruktur seitens des Unternehmens"
+          },
+          "108": {
+            "q": "Was ist das Fazit aus den wachsenden Ansprüchen der Share- und Stakeholder?",
+            "a": "Die Unternehmen sind für langfristigen Erfolg auf eine vertrauensvolle Beziehung zu ihren Stakeholder angewiesen. Ein Vertrauensverlust führt ggf. dazu, dass Unternehmen in Mißkredit geraten und geht u.U. mit einem Reputationsverlust einher."
+          },
+          "109": {
+            "q": "Welche Kategorien bzgl. Stakeholdereinflüsse auf das Unternehmen gibt es?",
+            "a": "Markt; Gesellschaft; Staat"
+          },
+          "110": {
+            "q": "Nennen Sie Stakeholdereinflüsse auf das Unternehmen, die sich auf den Markt beziehen!",
+            "a": "Aktionäre; Mitarbeiter; Kunden; Lieferanten; Hersteller von Ersatzprodukten"
+          },
+          "111": {
+            "q": "Nennen Sie Stakeholdereinflüsse auf das Unternehmen, die sich auf die Gesellschaft beziehen!",
+            "a": "Medien; Bürgerinitiativen; Versicherungen; Direkt Geschädigte; Interessensverbände; Politische Parteien; Gegenexperten"
+          },
+          "112": {
+            "q": "Nennen Sie Stakeholdereinflüsse auf das Unternehmen, die sich auf den Staat beziehen!",
+            "a": "Experten; Ministerien; Aufsichtsbehörden; Polizei; Feuerwehren; Fachbehörden"
+          },
+          "113": {
+            "q": "Was ist die Geschäftstätigkeit des Unternehmens Foxconn?",
+            "a": "Montage von iPhones für Apple mit rund 300.000 Mitarbeitern als ein Hauptlieferant von Apple"
+          },
+          "114": {
+            "q": "Was hat die Organisation \"Students & Scholars Against Corporate Misbehaviour (SACOM)\" in Bezug auf Foxconn angeprangert?",
+            "a": "Minimale Bezahlung; Extreme Arbeitszeiten; Giftige Materialien; Schlechte Unterbringung; Hohe Selbstmordraten; Kinderarbeit"
+          },
+          "115": {
+            "q": "Wie verhalten sich die Gewinnmargen in Bezug auf iPhones bei Apple und die Profitabilität von Foxconn bei der Fertigung der Geräte?",
+            "a": "Gewinnmarge von Apple: 40-50%; Profitabilität von Foxconn bei der Fertigung: ca. 5%; -> Cost-Benefit-Kalkül für Apples iPhone"
+          },
+          "116": {
+            "q": "Wer kommt als Hauptverantwortlicher für die sozialen Missstände bei den Foxconn-Mitarbeitern in Frage?",
+            "a": "Auftraggeber (Brand Owner); mit knappen Margen bedachter Lieferant"
+          },
+          "117": {
+            "q": "Welche unbequemen Fragen ergeben sich aus den Ansprüchen der involvierten Mitarbeiter?",
+            "a": "Verantwortlichkeit des Unternehmens Apple für die Arbeitsbedingungen seiner Lieferanten oder nicht?; Zahlung eines unerheblichen Mehrpreises zur Beseitigung der Missstände von Apple oder nicht?; Beitragen zu diesem Zustand durch den Konsumenten selbst mit dem Kauf eines iPhones oder nicht?"
+          },
+          "118": {
+            "q": "Wie werden die Fragen aus den Ansprüchen der involvierten Mitarbeiter (Foxconn) von Experten beantwortet?",
+            "a": "Verantwortung des Auftraggebers für die sozialen und ökologischen Missstände innerhalb der gesamten Lieferkette; Verweisen auf Beispiele wie Firma Nike"
+          },
+          "119": {
+            "q": "Warum wird als positives Beispiel auf das Unternehmen Nike in Bezug auf Lieferantenansprüche verwiesen?",
+            "a": "Neue Definition ihrer Verantwortung als Brand Owner auf Druck ihrer Kunden und vieler NGOs; Nike = inzwischen Vorbild für die Suche des Implementierens bestmöglicher sozialer und ökologischer Standards bei der Produktion ihrer Kleidung und Sportartikel mit großem Aufwand"
+          },
+          "120": {
+            "q": "Was ist ein Beispiel für Lieferantenansprüche?",
+            "a": "Foxconn"
+          },
+          "121": {
+            "q": "Was bedeuten Konsumentenansprüche?",
+            "a": "Das Konsumentenverhalten (z.B. Boykottieren eines Produzenten) führt ggf. zu einer Haltungsänderung einer Firma. Diese Entwicklung wird von Soziologen in dem Trend der LOHAS (Lifecycle of Health and Sustainability) betrachtet."
+          },
+          "122": {
+            "q": "Was hat in den vergangenen Jahren bzgl. der Konsumentenansprüche zugenommen?",
+            "a": "Zunahme der Konsumenten vor allem in den entwickelten Ländern, die vorwiegend Produkte von solchen Unternehmen kaufen, die ihren Wertvorstellungen entsprechen und Meidung solcher Anbieter, die ihre Ansprüche nicht erfüllen"
+          },
+          "123": {
+            "q": "Was sind die Wertvorstellungen der LOHAS-Bewegung?",
+            "a": "Umweltverträglichkeit; Sozialverträglichkeit; Gesundheitsverträglichkeit"
+          },
+          "124": {
+            "q": "Was sind die ethischen Treiber durch den LOHAS-Markt?",
+            "a": "ca. ein 226,8 Mrd. € Markt für Produkte und Dienstleistungen, die Gesundheit, natürliche Umwelt, soziale Gerechtigkeit und nachhaltiges Leben fördern; Konsumenten mit Tendenz zu diesem Markt gelten als \"Cultural Creatives\" und sind in den USA allein 30% der Erwachsenen, was 63 Millionen mit hoher Kaufkraft entspricht."
+          },
+          "125": {
+            "q": "Was sind Reaktionen der LOHAS-Bewegung?",
+            "a": "Belohnung von Unternehmen, die die LOHAS-Werte vertreten durch Produkttreue, Empfehlungen etc.; Bestrafung von Organisationen, die die LOHAS-Werte nicht vertreten, durch Produktboykott, negative Berichte etc.; Achten der Konsumenten/ Mitarbeiter/ sonstigen Stakeholdern auf eine Übereinstimmung der Werte der Produzenten mit den eigenen Werten"
+          },
+          "126": {
+            "q": "Was ist ein Beispiel für Konsumentenansprüche?",
+            "a": "Fairphone"
+          },
+          "127": {
+            "q": "Was ist Fairphone?",
+            "a": "ein niederländisches Smartphone mit einem Absatz von 70k Stück von der zweiten Serie, obwohl von der ersten Serie erst 35k Stk abgesetzt wurden; Produkt einer nachhaltigen verantwortungsvollen Produktion; typisches Angebot auf die Nachfrage des LOHAS-Marktes"
+          },
+          "128": {
+            "q": "Was ist das Besondere an Fairphone?",
+            "a": "Die Hersteller setzen alles auf die Optimierung der sozialen Bedingungen bei den Lieferanten und auf die Gewinnung der Rohstoffe auf ökologisch höchstmöglichem Niveau."
+          },
+          "129": {
+            "q": "Was sind 3 Beispiele für Ethikbedarf im Geschäftsleben?",
+            "a": "Lieferantenansprüche; Konsumentenansprüche; Ansprüche von Ratingagenturen und Ökolabels"
+          },
+          "130": {
+            "q": "Auf Basis welcher Indikatoren beurteilen Ratingagenturen Firmen?",
+            "a": "Beurteilung von Firmen bzgl. ihrer ökonomischen Stärke und ihrer Sozial- und Ökobilanz"
+          },
+          "131": {
+            "q": "Nennen Sie exemplarische Ratingagenturen, die die Firmen innerhalb einer Branche vergleichen und bewerten!",
+            "a": "Oekom; Robeco-SAM"
+          },
+          "132": {
+            "q": "In welchem Index werden die Branchenbesten im Kontext des Ratings gelistet?",
+            "a": "Dow Jones Sustainability Index"
+          },
+          "133": {
+            "q": "Warum haben vermehrt größere Publikumsgesellschaften Interesse an der Aufnahme in den Dow Jones Sustainability Index?",
+            "a": "Immer mehr private und institutionelle Anleger orientieren sich an diesem Index, um sicherzugehen, dass ihr Kapital in nachhaltige Firmen investiert wird"
+          },
+          "134": {
+            "q": "Welche Dokumentationen nehmen Unternehmen zur Erfüllung der Vorgaben der UN Global Reporting Initiative (GRI) vor?",
+            "a": "Dokumentation der Bemühungen um eine positive Sozial- und Ökobilanz in den Jahresberichten"
+          },
+          "135": {
+            "q": "Was sind Öko- oder Soziallabels?",
+            "a": "eine Methode, um Produkte den LOHAS-Konsumenten schmackhaft zu machen; immer wieder Streit über den Sinn und Unsinn dieser Labels"
+          },
+          "136": {
+            "q": "Was wird vielen Herstellern in Bezug auf Öko- oder Soziallabels vorgeworfen?",
+            "a": "Das Betreiben von Greenwashing"
+          },
+          "137": {
+            "q": "Was ist unter Greenwashing zu verstehen?",
+            "a": "Das Geben eines grünen Anstrichs ohne das Versprochene wirklich einzuhalten"
+          },
+          "138": {
+            "q": "Was ist die Selbstaufgabe der Internetplattform https://sinsofgreenwashing.org?",
+            "a": "Die Anprangerung der typischen Sünden des Greenwashings von vielen Herstellern"
+          },
+          "139": {
+            "q": "Was sollten die Verbraucher in Bezug auf das Greenwashing beachten?",
+            "a": "Notwendigkeit des genauen Hinsehens und zusätzlich des kritischen Hinterfragens des Gesehenen; nachhaltiger Lebensstil wie eine Leiter -> Wasser, Energie, Recycling und Ressourcenschonung = die Sprossen, deren Erklimmung nacheinander zum Zurücklegen des weiten Wegs nach oben erforderlich ist"
+          },
+          "140": {
+            "q": "Welche Sünden umfasst das Greenwashing?",
+            "a": "Sünde der versteckten Kompromisse; Sünde des fehlenden Nachweises; Sünde der Unschärfe; Sünde der Irrelevanz; Sünde des geringeren Übels; Sünde der Lüge; Sünde der falschen Label"
+          },
+          "141": {
+            "q": "Was ist unter der Sünde der versteckten Kompromisse zu verstehen?",
+            "a": "Das Bewerben \"grüner\" Produkte oft mit Attributen, die ein besonders umweltverträgliches Merkmal herausstellen, wobei Eigenschaften allerdings schnell in Vergessenheit geraten, die u.U. weniger zu einem nachhaltigen Lebensstil beitragen"
+          },
+          "142": {
+            "q": "Was ist ein Beispiel für die Sünde der versteckten Kompromisse?",
+            "a": "Papier aus nachhaltiger Forstwirtschaft -> für das Produkt sprechen Aspekte aus der Rohstoffgewinnung, aber keine Berücksichtigung folgender Aspekte: Energieaufwand während der Herstellung; Wasserverbrauch während der Herstellung; Ausstoß von Treibgasen während der Herstellung"
+          },
+          "143": {
+            "q": "Was ist unter der Sünde des fehlenden Nachweises im Kontext des Greenwashings zu verstehen?",
+            "a": "Aussagen auf der Produktverpackung, wie \"Nachwachsende Rohstoffe, Vollständiges Recycling\" klingen zwar sehr positiv für LOHAS-Verfechter, aber wer garantiert die Richtigkeit dieser Statements und wer hat sie überprüft?; Es gehört viel Vertrauen dazu, wenn kein unabhängiger Dritter die Werbebotschaft bestätigen kann."
+          },
+          "144": {
+            "q": "Was ist unter der Sünde der Unschärfe im Kontext des Greenwashings zu verstehen?",
+            "a": "Viele mißverständliche Aussagen sind auf den ersten Blick oft gar nicht erkennbar und führen Verbraucher ggf. leicht in die Irre"
+          },
+          "145": {
+            "q": "Was ist ein Beispiel für die Sünde der Unschärfe im Kontext des Greenwashings?",
+            "a": "Naturbelassene Inhaltsstoffe, die zunächst einladend klingen, bei denen spontan Auszüge aus aus zarten Pflanzen und pflegenden Ölen erwartet wird, aber sind Stoffe, wie Arsen oder Formaldehyd nicht auch naturbelassen? -> Bezeichnung naturbelassen ist nicht gleichbedeutend mit \"grün\" oder \"unbedenklich\", sondern bedeutet ggf. auch schädlich oder giftig"
+          },
+          "146": {
+            "q": "Was ist unter der Sünde des geringeren Übels im Kontext des Greenwashings zu verstehen?",
+            "a": "Der Verbraucher wird durch Claims dieser Sorte von den schwerwiegenden Auswirkungen eines Produkts abgelenkt bzw. diese werden überspielt."
+          },
+          "147": {
+            "q": "Was ist ein Beispiel für die Sünde des geringeren Übels im Kontext des Greenwashings?",
+            "a": "Bio-Zigaretten (schaden der Gesundheit dennoch); \"benzinsparende\" Sportwagen (deren Verbrauch liegt noch weit über dem Durchschnitt)"
+          },
+          "148": {
+            "q": "Was ist unter der Sünde der Lüge zu verstehen?",
+            "a": "wissentlich falsche Aussagen, die die Verbraucher gezielt in die Irre führen; Werben mit den Worten \"registered\" oder \"certified\" in Verbindung mit einer Label-Bezeichnung, ohne dass die Produkte dies tatsächlich tragen"
+          },
+          "149": {
+            "q": "Was wird bei der Sünde der Lüge im Kontext des Greenwashings riskiert?",
+            "a": "Ein Strafverfahren sowie der Vertrauensverlust seitens der Kunden"
+          },
+          "150": {
+            "q": "Was ist unter der Sünde der Irrelevanz im Kontext des Greenwashings zu verstehen?",
+            "a": "Aussagen, wie FCKW-frei sind zwar grundlegend richtig und aufrichtig, jedoch sind dies gesetzlich vorgeschrieben; beim Produktkauf absolut irrelevante Aussagen und daher kein Bestandteil eines besonders umweltfreundlichen Produkts, da dies kein USP ist"
+          },
+          "151": {
+            "q": "Was wird unter der Sünde der falschen Label verstanden?",
+            "a": "dramatische Zunahme der Nutzung von Fake-Labels neben echten Zertifizierungen, d.h. Möglichkeit des Downloads einer \"Zertifizierung in Form eines fantasievollen, grünen Zeichens\" für jedermann zum Preis weniger € in Bildportalen"
+          },
+          "152": {
+            "q": "Was sind mögliche Maßnahmen des sozialen Engagements in der internen Logistik?",
+            "a": "Verringerung negativer Folgen durch Transporte (Emissionen, Staus, Straßen zum Holzfällen); gesunde Arbeitsorganisation, sichere Anlagen, Ergonomie am Arbeitsplatz, Persönliche Schutzausrichtung"
+          },
+          "153": {
+            "q": "Was sind mögliche Maßnahmen des sozialen Engagements in innerbetrieblichen Abläufen?",
+            "a": "Vermeidung von Emissionen und Müll; Erhaltung der Artenvielfalt und der Umwelt; Verringerung des Energie- und Wasserverbrauchs; Verbesserung der Arbeitssicherheit und industrieller Beziehungen; Vermeidung gefährlicher Materialien; gesunde Arbeitsorganisation, sichere Anlagen, Ergonomie am Arbeitsplatz, Persönliche Schutzausrichtung"
+          },
+          "154": {
+            "q": "Was sind mögliche Maßnahmen des sozialen Engagements in der externen Logistik?",
+            "a": "umweltfreundliche Gestaltung von Verpackungen und deren Beseitigung; Verringerung negativer Folgen durch Transporte; gesunde Arbeitsorganisation, sichere Anlagen, Ergonomie am Arbeitsplatz, Persönliche Schutzausrichtung"
+          },
+          "155": {
+            "q": "Was sind mögliche Maßnahmen des sozialen Engagements im Marketing und Vertrieb?",
+            "a": "Information der Kunden über alle gesundheitsrelevanten Aspekte des Produkts; Marketing und Werbung (wahrheitsgetreue Werbung, verantwortliche Werbung bei Kindern); Preispolitik (keine Preisdiskriminierung bei verschiedenen Kunden, keine Preisabsprachen, Vergünstigungen für Arme); umfassende Konsumenteninformation; Respektieren der Privatsphäre der Kunden"
+          },
+          "156": {
+            "q": "Was sind mögliche Maßnahmen des sozialen Engagements im Kundendienst?",
+            "a": "Betreuung von Kunden im Zusammenhang mit gesundheitsrelevanten Aspekten des Produkts nach dem Verkauf; fachgerechte Entsorgung gebrauchter Produkte und Betriebsmittel (Motorenöl, Tonerkartuschen); Respektieren der Privatsphäre der Kunden"
+          },
+          "157": {
+            "q": "Was sind mögliche Maßnahmen des sozialen Engagements in der Firmeninfrastruktur?",
+            "a": "Gesundes Raumklima (Baumaterialien, Heizung/ Kühlung, Lüftung, Akustik); Transparenz; Gute Corporate Governance; Saubere Finanzberichtserstattung; Lobbyismus"
+          },
+          "158": {
+            "q": "Was sind mögliche Maßnahmen des sozialen Engagements im Personalmanagement?",
+            "a": "Suchtprävention, Case Management, Versicherungsleistungen, Weiterbildungen zum Gesundheitsschutz; Vergütungspolitik; Aus- und Weiterbildungen; Gesundheitsfürsorge und andere Sozialleistungen; keine Diskriminierung; sichere Arbeitsbedingungen"
+          },
+          "159": {
+            "q": "Was sind mögliche Maßnahmen des sozialen Engagements in der Technologieentwicklung?",
+            "a": "Gesundheitsfördernde Produkte; Konsumentensicherheit; Gesundheitsschonende Prozesse; Ethische Forschungspraktiken (keine Tierversuche oder Genveränderungen); Recycling; Beziehungen zu Universitäten; Produktsicherheit; sparsamer Ressourceneinsatz"
+          },
+          "160": {
+            "q": "Was sind mögliche Maßnahmen des sozialen Engagements in der Beschaffung/ im Einkauf?",
+            "a": "Vermeidung gesundheitsbelastender Materialien; Arbeitsbedingungen/ Gesundheitsschutz bei (Sub-)Lieferanten; Meiden bestimmter Ressourcen beim Einkauf (z.B. Pelze); Schonen natürlicher Ressourcen; Faire Praktiken im Einkauf und in der Lieferkette"
+          }
+
+        }
+      }
+    }
+  }
