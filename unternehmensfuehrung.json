@@ -1,0 +1,181 @@
+{
+    "meta": {
+      "author": "Florian Klinke & FFC Quickcheck",
+      "version": "1.1"
+    },
+    "decks": {
+      "d0": {
+        "meta": {
+          "deck_name": "Unternehmensführung",
+          "next_card_id": 41,
+          "description": "Das Deck beschreibt einige Grundlagen für das Fach Unternehmensführung."
+        },
+        "cards": {
+          "0": {
+            "q": "Grundsätzliches Verständnis des Begriffes \"Management\" – Definition",
+            "a": "Definition: Management beschreibt die Führung eines Unternehmens im Bezug zu sozialem Kapital und anderen materiellen Ressourcen, um Ziele zu erreichen."
+          },
+          "1": {
+            "q": "Grundsätzliches Verständnis des Begriffes \"Management\" – Funktionen",
+            "a": "Funktionen: Planung, Organisation, Führung und Kontrolle. \nFokus: Plannung"
+          },
+          "2": {
+            "q": "Grundsätzliches Verständnis des Begriffes \"Management\" – Fokus",
+            "a": "Fokus: Planung"
+          },
+          "3": {
+            "q": "Wettbewerbsvorteil – wann entsteht er?",
+            "a": "Ein Unternehmen verfügt über ein Wettbewerbsvorteil gegenüber seinen Konkurrenten, wenn sie es schaffen, sowohl für den Kunden als auch durch den Kunden einen Mehrwert zu generieren und diesen Langfristig generieren können."
+          },
+          "4": {
+            "q": "Wettbewerbsvorteil – welche Kriterien müssen erfüllt werden?",
+            "a": "Kriterien: Relevant (Produkt muss Begierden bei dem Anwender erwecken), Wahrgenommen (Unterscheidbarkeit des Angebots wird vom Kunden angenommen), Langfristig (Angebot muss langfristig gegeben sein)"
+          },
+          "5": {
+            "q": "Make or Buy Entscheidung – Definition",
+            "a": "Entscheidung, ob ein Produkt intern hergestellt werden soll oder von einem externen Zulieferer bezogen werden soll."
+          },
+          "6": {
+            "q": "Make or Buy Entscheidung – ausschlaggebende Faktoren",
+            "a": "Faktoren: in-House-Experience, Lager-/Produktionskapazität, Gesamtkosten, Qualitätskontrolle, Bedarf an Technologien, Relevanz für das Unternehmen"
+          },
+          "7": {
+            "q": "Kerninhalte der rational entscheidungsorientierten Perspektive",
+            "a": "Kerninhalte: Weit verbreitete, präskriptive Perspektive (Entscheidungstheorie). Strategisches Management als Planungsprozess, der aus einer Ansammlung von Entscheidungen (Maßnahmenplan) besteht. Die Perspektive ist in zwei Phasen unterteilt, die Planung bzw. Formulierung und die Umsetzung bzw. Implementierung. Die klassischen Ansätze sind Ansoffs Ansatz und LCAG Schema der Harvard Business School."
+          },
+          "8": {
+            "q": "Problematiken der rational entscheidungsorientierte Perspektive",
+            "a": "Ansoffs Ansatz beschreibt einen technokratischen Ansatz. Auch werden die verschiedenen Verhaltensdimensionen nicht berücksichtigt. Es gibt zusätzlich ein Konzept für die Implementierung. Ein letzter Kritikpunkt ist, dass die Strategieplanung nicht immer rational und bewusst durchgeführt werden kann. \nBei dem LCAG-Schema verhindert die explizite Strategie die erforderliche Flexibilität. Auch wird die Identifikation von Stärken und Schwächen nicht objektiv durchgeführt. Allgemein ist hinzuzufügen, dass die Trennung von Planung und Durchführung fehleranfällig ist. Die ambivalente Interpretation von Struktur führt zu einem Gegensatze innerhalb des Schemas. So muss entschieden werden ob die Struktur der Strategie folgt oder die Strategie der Struktur folgt. Auch muss beachtet werden, dass mit dem LCAG-Schema weiche Faktoren nicht berücksichtigt werden."
+          },
+          "9": {
+            "q": "Kerninhalte der Ressourcenorientierten Perspektive",
+            "a": "Die Ressourcenorientierte Perspektive beschreibt eine häufige Managmenttheorie. Die Grundidee, auf die die Perspektive beruht, ist Folgende: \"Ein Wettbewerbsvorteil ist ein Ergebnis der Ressourcen und der Verwendung dieser.\""
+          },
+          "10": {
+            "q": "Kritik an der Ressourcenorientierten Perspektive",
+            "a": "Es liegt eine mangelnde Definition, was eine Ressource ist, vor. Auch ist die Relevanz zum Absatzmarkt nicht vorahnden.  Bei gewissen Typen von Ressourcen liegt eine unklare Analyseeinheit für Ressourcen vor. Auch handelt es sich lediglich um eine statische Analyse."
+          },
+          "11": {
+            "q": "Kernidee der \"Upper Echelons\"-Theorie",
+            "a": "Für die \"Upper Echelons\"-Theorie gilt das eine Organisation die Top-Manager widerspiegelt. So wird innerhalb der Theorie die Beeinflussung der Top-Managements untersucht. Das Ergebnis ist eine organisatorische Reflektion der Werte und Grundlage eines Unternehmens. Die Theorie steht im Gegensatz zu der Annahme: \"Mensch als Akteur ist außen vor\". Durch die Theorie werden somit verschiedene menschliche Aspekte, wie das Zielkonflikt, variierende Anspruchsniveau und irrationales Handeln mit einbezogen"
+          },
+          "12": {
+            "q": "Kernidee der begrenzten Rationalität",
+            "a": "Die Kernidee ist die Anerkennung der begrenzten Informationsverarbeitungskapazität des Menschen. So wird berücksichtigt, dass Menschen faul sind und dadurch nur begrenzte Informationen aufnehmen, nur einen begrenzten Rahmen an Alternativen erarbeiten und befriedigende, brauchbare Lösungen ansteuern. Die individuelle Entscheidungsverhalten wird beeinflusst durch unklare Problemdefinition, Reduzierung von Unsicherheiten und Perzeption Abwehr. Die begrenzte Rationalität steht im Gegensatz zu der Annahme, dass der Mensch vollständig informiert ist und die bestmögliche Entscheidung trifft."
+          },
+          "13": {
+            "q": "PESTEL erklären können",
+            "a": "PESTEL ist eine Möglichkeit die Makroumgebung eines Unternehmens analysieren zu können. Dabei wird eine Liste an Einflüssen überprüft, welche über den Erfolg oder Misserfolg bestimmter Strategien entscheiden können. \nPolitical – Politische Gegebenheiten (Bundes-, Landes-, Kommunalgestzgebung, politische Überzeugung der Regierung, …) \nEconomic – Wirtschaftliche Gegebenheiten (Wachstumsrate, Einkommensniveau, …) \nSocial – Sozial-Kulturelle Gegebenheiten (Werte und Einstellung der Gesellschaft, Lebensstille und -milleus, …) \n Technic – Technische Gegebenheiten (Wissenschaftliche Entdeckungen, Technologische Entwicklung  in der Branche) \nEcological – Ökologische Gegebenheiten (Nachhaltigkeitsproblem, Höhte und Art der verbrauchten Energie, Müll, Abfall und dessen Entsorgungen) \nLegal – Rechtliche Gegebenheiten (Wettbewerbsrecht und Regierungspolitik, Arbeits- und Arbeitssicherheitsrecht, …)"
+          },
+          "14": {
+            "q": "Porter’s 5 Forces – Dimensionen",
+            "a": "Dimensionen: Verhandlungsmacht der Lieferanten, Bedrohungen durch neue Kunden, Verhandlungsmacht der Abnehmer, Bedrohung durch Substitutionsprodukte/ -dienstleistungen."
+          },
+          "15": {
+            "q": "Porter’s 5 Forces – Ablauf",
+            "a": "Ablauf: Zu Beginn werden die spezifischen Einflussfaktoren identifiziert, anschließend werden die Stärken jeder Marktmacht evaluiert. Der nächste Schritt ist es die kollektive Stärke der fünf Marktmächte zu bestimmen. Zum Abschluss wird eine strategische Entscheidung gefällt."
+          },
+          "16": {
+            "q": "Porter’s 5 Forces – Ziele",
+            "a": "Ziele: Porter’s 5 Forces verfolgt verschiedene Ziele: Unternehmen vor Wettbewerbern schützen, Änderung der „Spielregel“ durch Beeinflussung der Wettbewerbskräfte und durch die Prognose der Wettbewerbsverschiebungen frühzeitg reagieren zu können."
+          },
+          "17": {
+            "q": "GE-McKinsey-Matrix – Grundidee",
+            "a": "Die Grundidee der Matrix ist es als Entscheidungsgrundlage für Marktstrategien zu dienen. Das Ziel ist es, eine präzisere Entscheidung treffen zu können als mit der BCG-Matrix. Das wird durch eine quantitative und qualitative Analyse unterstützt."
+          },
+          "18": {
+            "q": "GE-McKinsey-Matrix – mögliche Entscheidungen",
+            "a": "Die verschiedenen Entscheidungen sind Folgende: Expanieren (viele Mittel in die Strategie investieren), Auswählen (2. Wahl hinter Expanieren, da Zukunft teilweise ungewiss ist) und Abschöpfen (nur Geld investieren, wenn die erwarteten Mehreinnahmen diese decken)"
+          },
+          "19": {
+            "q": "Konzeptionelle Ansätze der Strategy Canvas kennen",
+            "a": "Der Ansatz beschreibt einen Liniendiagramm, um Wettbewerbspositionen innerhalb der Branche zu erkennen"
+          },
+          "20": {
+            "q": "Konstrukt Kundenzufriedenheit und -loyalität – Definition",
+            "a": "Die Definition von Kundenzufriedenheit besagt, dass die Kundenzufriedenheit ein psychologischer Prozess ist. So wird die Erwartung mit der Realität im Bezug auf ein Produkt oder Dienstleistung verglichen. "
+          },
+          "21": {
+            "q": "Customer-Lifetime-Value – Grundidee",
+            "a": "Die Grundidee vom CLV ist es eine Kennzahl zu generieren, die einen ökonomischen Wert einer Kundenbeziehung widerspiegelt. So wird es ermöglicht Marketingmaßnahmen zielgerichtet und effizient durchzuführen. Das Ziel ist es, eine langfristige Bindung zum Kunden zu erzeugen. Die Vorteile vom CLV sind zum einen, die Möglichkeit einzelne Kunden auf monetärer Basis bewerten zu können, zum anderen, dass CLV-Modelle Veränderungen in der Kundenbasis überwachen können und dass die Modelle dynamisch und zukunftsorientiert sind. Die Nachteile vom CLV sind die hohen Anforderungen im Bezug zu Datenvolumen und Qualität und der hohe Bedarf an Methodenwissen"
+          },
+          "22": {
+            "q": "Customer-Lifetime-Value – Vor- und Nachteile",
+            "a": "Die Vorteile vom CLV sind zum einen, die Möglichkeit einzelne Kunden auf monetärer Basis bewerten zu können, zum anderen, dass CLV-Modelle Veränderungen in der Kundenbasis überwachen können und dass die Modelle dynamisch und zukunftsorientiert sind. Die Nachteile vom CLV sind die hohen Anforderungen im Bezug zu Datenvolumen und Qualität und der hohe Bedarf an Methodenwissen"
+          },
+          "23": {
+            "q": "Analyse des internen betrieblichen Umfeldes – Leitfaden",
+            "a": "Die Leitfragen sind Folgende: Ressourcenstärke und -schwächen? Externe Chancen und Bedrohungen? Preis und Kosten wettbewerbsfähig? Eigene Unternehmen wettbewerbsfähiger als die anderen Wettbewerber? Wie gut ist die aktuelle Strategie?"
+          },
+          "24": {
+            "q": "Analyse des internen betrieblichen Umfeldes – Ebenen und Instrumente",
+            "a": "Die Ebenen sind Folgende: Kompetenz (Stärken/ Schwächen-Profil, SWOT-Analyse), Wertschöpfung (Wertschöpfungskettenanalyse), Ressourcen (VIRO-Schema, Kompetenz-Markt-Matrix), Prozesse (Prozessanalyse, Benchmarking) und Projekt/Analyse (ABC-Analyse)"
+          },
+          "25": {
+            "q": "Definition der Wertschöpfungskette",
+            "a": "Die Wertschöpfungskette stellt die Stufen der Produktion als eine geordnete Reihung von Tätigkeiten dar. Diese Tätigkeiten schaffen Werte, verbrauchen Ressourcen und sind in Prozessen miteinander verbunden. Die Kette ist in unterstützende Aktivitäten (Unternehmensinfrastruktur, Personalwirtschaft und technologischer Entwicklungen) und primäre Aktivitäten (Eingangslogistik, Operationen, Ausgangslogistik, Marketing & Vertrieb und Kundendienst)aufgeteilt. Die Aktivitäten können in weitere Aspekte aufgeteilt werden"
+          },
+          "26": {
+            "q": "Synergie definieren können",
+            "a": "Von einer Synergie wird gesprochen, wenn zwei oder mehr Parteien zusammenarbeiten und für alle Parteien einen Vorteil generiert wird. Synergie verfolgt das Prinzip \"2+2=5\"."
+          },
+          "27": {
+            "q": "Synergiearten kennen",
+            "a": "Die unterschiedlichen Arten sind Folgende: Managementsynergien, Umsatzsynergien, andere Kosteneinsparungssynergien, technologische Synergien und finanzielle Synergien"
+          },
+          "28": {
+            "q": "VIRO – Schema verstehen können",
+            "a": "Durch das Schema wird die Kernkompetenz eines Unternehmens dargestellt. \nV – Value: Ressourcen und Kompetenzen ermöglichen Reaktion auf externe Chancen und Risiken. \nR – Rareness: Wie viel Konkurrenz liegt vor. \n   I – Imitability: Welchen Vorteil hat das eigene Unternehmen im Vergleich zu den Wettbewerben ohne die Ressourcen oder Kompetenz. O – Organization: Ist ein Unternehmen so organisiert, dass der Vorteil auch umgesetzt werden kann."
+          },
+          "29": {
+            "q": "Vergleichshorizont – traditionelle Betrachtung versus Benchmarking",
+            "a": "Gemeinsame Ebenen: eigene Leistung im Zeitverlauf, Leistung anderen Unternehmensbereiche, Leistung der unmittelbaren Konkurrenten. \nEbenen, die das Benchmarking mehr berücksichtigt: Leistung der Branche, Leistung branchenfremder, nationaler Unternehmungen und Leistung branchenfremder, internationaler Unternehmungen "
+          },
+          "30": {
+            "q": "Renner-Penner-Analyse – Grundidee",
+            "a": "Die Grundidee der Analyse ist die Klassifizierung von Produkten in die drei Kategorien: Verlierer, Penner und Gewinner. Die Klassifizierung sagt über den Wert eines Produktes für ein Unternehmen aus."
+          },
+          "31": {
+            "q": "Renner-Penner-Analyse – Gefahr kennen",
+            "a": "Es muss beachtet werden, dass auch „Verlierer“ entscheidend für ein Geschäft berücksichtigt werden müssen, da für die Klassifizierung nur der Deckungsbeitrag und Absatz betrachtet werden. Andere Faktoren bleiben bei der Klassifizierung außen vor."
+          },
+          "32": {
+            "q": "Gütekriterien der Marktforschung kennen",
+            "a": "Als Gütekriterien liegen drei Werte vor: Objektivität (Unabhängigkeit von Messvorgang und das mehrere Personen dasselbe Ergebnis erziehen), Reliabilität (frei von Zufallsfehlern und das identischen Messungen dasselbe Ergebnisse erzielen) und Validität (frei von symmetrischen Fehlern und das der eigentliche Sachverhalt erfasst wird)"
+          },
+          "33": {
+            "q": "Regressionsanalyse – Vor- und Nachteil",
+            "a": "Vorteile: leicht zu berechnen, gute Datenlage und flexibel anwendbar. Nachteile: fraglich ob die Vergangenheit der Zukunft entspricht und dass die Marktveränderung nicht antizipiert wird."
+          },
+          "34": {
+            "q": "Bestimmtheitsmaß interpretieren können",
+            "a": "Das Bestimmtheitsmaß gibt die Gültigkeit der Regressionsanalyse an, denn der Wert beschreibt, ob die Distanz der einzelnen Werte hin zur Regressionsgerade minimal ist."
+          },
+          "35": {
+            "q": "Was ist das Erfahrungskurvengesetz?",
+            "a": "Das Gesetzt sieht vor, dass bei jeder Verdopplung der Produktionsmenge ein Stückkostensenkungspotential von 20-30% vorliegt."
+          },
+          "36": {
+            "q": "Nischenstrategie – Voraussetzung für Erfolg",
+            "a": "Die Voraussetzungen für Erfolg sind Folgende: Profitabilität und Wachstumspotential, nicht kritisch für den Erfolg von Marktführern, kostenintensiv und eher für breit aufgestellte Wettbewerber, Ressourcen und Fähigkeiten, wenige Konkurrenten."
+          },
+          "37": {
+            "q": "Nischenstrategie – Risiken",
+            "a": "Die Risiken sind Folgende: Markteinstieg von breiten Mitbewerbern, Nische wird Teil des Hauptmarktes und das schwindende Interesse an der Nische"
+          },
+          "38": {
+            "q": "Was ist \"Stuck in the middle\"?",
+            "a": "Bei \nStuck in the middle\n wird von Unternehmen gesprochen, die weder differenziert handeln noch Kostenführer sind. So befinden sich die Unternehmen in einem wirtschaftlichen Tief, da sie nicht einer der Strategien entsprechen. Ein Beispiel für so ein Unternehmen ist die Fluggesellschaft AirBerlin, die weder durch eine Differenzierung hervorstechen oder als Kostenführer den Markt bestimmen können."
+          },
+          "39": {
+            "q": "Verschiedene Arten von hybriden Strategien",
+            "a": "Die verschiedenen Arten sind Folgende: Hybride Varietätsstrategie (Kostenvorteil durch die Synergie), Hybride Qualitätsstrategie (Kostenvorteil durch Total Quality Management) und Hybride Innovationsstrategie (Kostenvorteil durch Geschwindigkeits- und Lernprozesse)"
+          },
+          "40": {
+            "q": "Agende der Strategieimplementierung",
+            "a": "Die Agende ist wie folgt aufgebaut: Implementierung an Externe anpassen, Strategiegerechte Organisationstruktur, Strategieorientierte Organisationstruktur, Führungskompetenz, Strategieorientierte Anreizanalyse, Kommunikations- und Informationssysteme, Veränderungsprozesse, Richtlinien und Budgetierung"
+          }
+        }
+      }
+    }
+  }
