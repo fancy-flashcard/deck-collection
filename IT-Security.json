@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "author": "Andrei Berbescu",
+    "version": "1.0.0",
+    "uuid": "89665d1d-28b2-4168-bf25-1a7d1f0347fd"
+  },
+  "decks": {
+    "d0": {
+      "meta": {
+        "deck_name": "IT Security",
+        "next_card_id": 91,
+        "description": "Deck zu der Vorlesung IT-Security aus dem 5. Semester des Wirtschaftsinformatik Studiums."
+      },
+      "cards": {
+        "0": {
+          "q": "Was versteht man unter einem verdeckten Kanal?",
+          "a": "Eine verborgene Informationsübermittlung, die meistens über einen unkonventionellen Kanal erfolgt."
+        },
+        "1": {
+          "q": "Warum sollen verdeckte Kanäle verhindert werden?",
+          "a": "Diese können die Leistung eines Systems beeinflussen, indem sie gewisse Ressourcen bewusst abwechselnd auslasten."
+        },
+        "2": {
+          "q": "Welche verdeckten Kanäle gibt es?",
+          "a": "Wiederholtes Starten eines Programms, Belegen des Druckers, Anlegen einer Datei."
+        },
+        "3": {
+          "q": "Was ist der größte Nachteil verdeckter Kanäle?",
+          "a": "Die erzielten effektiven Datenraten sind sehr gering."
+        },
+        "4": {
+          "q": "Was ist ein Speicherkanal?",
+          "a": "Ein Speicherkanal ist ein verdeckter Kanal, der die Kommunikation über eine gespeicherte Datei ermöglicht."
+        },
+        "5": {
+          "q": "Wie kann ein Speicherkanal umgesetzt werden?",
+          "a": "Verändern des Dateinamens, Manipulation der Metadaten, Steganographie (Verstecken von Informationen in Multimedia Dateien."
+        },
+        "6": {
+          "q": "Was sind die Merkmale eines schlechten Passworts?",
+          "a": "Beinhaltet Wörter aus dem Wörterbuch, beinhaltet Namen, sind zu kurz, enthalten keine Zahlen und Sonderzeichen, müssen aufgeschrieben werden, sind zu schnell einzutippen."
+        },
+        "7": {
+          "q": "Wie viele 4 stellige Zahlen-PIN Kombinationen gibt es?",
+          "a": "10 erlaubte Zeichen hoch 4. Also 10000 Möglichkeiten."
+        },
+        "8": {
+          "q": "Wie viele 8 stellige Passwörter ergeben sich im 128 Bit ASCII Code? (52 Buchstaben groß und klein + 10 Ziffern + 30 Satzzeichen)",
+          "a": "Es gibt ca. 90 Zeichen. 90 hoch 8 ergibt in etwa 4.3*10^15."
+        },
+        "9": {
+          "q": "Wie berechnet sich die Passwortentropie?",
+          "a": "H = L * log2(N), mit L als Passwortlänge und N als Größe des Zeichenvorrats."
+        },
+        "10": {
+          "q": "Welche Voraussetzung muss erfüllt werden, um die höchste Passwort-Entropie zu erreichen?",
+          "a": "An jeder Stelle soll jedes Zeichen aus dem Vorrat zufällig und gleich wahrscheinlich eingesetzt werden."
+        },
+        "11": {
+          "q": "Was für eine grobe Richtlinie gibt es für die Passwort-Entropie?",
+          "a": "Ein sicheres Passwort soll eine Entropie höher als 100 Bit haben. (Stand 2015)"
+        },
+        "12": {
+          "q": "Wie kann ein gutes Passwort gebildet werden?",
+          "a": "Verkettung von Wörtern mittels Zahlen und Sonderzeichen, Veränderungen des Wortes an mehreren Stellen, Bilden von Akronymen."
+        },
+        "13": {
+          "q": "Ein Passwortgenerator erzeugt stets Passwörter mit hoher Entropie. Was ist der Nachteil eines solchen Passworts?",
+          "a": "Der Nutzer muss sich dieses (komplizierte) Passwort merken. Er wird es wahrscheinlich aufschreiben. (unsicher!)"
+        },
+        "14": {
+          "q": "Wo werden Passwörter im Unix System gespeichert?",
+          "a": "Die Passwörter befinden sich unter /etc/passwd und sind öffentlich sichtbar."
+        },
+        "15": {
+          "q": "Welche Elemente beinhaltet eine Zeile der passwd-Datei?",
+          "a": "Benutzername, verschlüsseltes Passwort, eindeutige Benutzer ID, eindeutige Gruppen ID, Benutzerkürzel, Login-Verzeichnis und zu startendes Programm."
+        },
+        "16": {
+          "q": "Wie wird das Passwort im Unix sicher gespeichert?",
+          "a": "Das Passwort wird mithilfe der crypt() Fuktion verschlüsselt und als Hash abgespeichert."
+        },
+        "17": {
+          "q": "Worauf basiert die crypt() Funktion?",
+          "a": "Die crypt() Funktion basiert auf DES. Das Passwort wird als Schlüssel für die 25fache Verschlüsselung eines Null-Bits Block eingesetzt."
+        },
+        "18": {
+          "q": "Wie funktioniert ein Login-Vorgang?",
+          "a": "Das Login Programm verschlüsselt das eingegebene Passwort und vergleicht das Ergebnis mit dem gespeicherten Eintrag."
+        },
+        "19": {
+          "q": "Was läuft ein Wörterbuch-Angriff ab?",
+          "a": "Die passwd-Datei wird auf eine lokale Maschine kopiert. Mithilfe verschiedener Tools werden Wörterbucheinträge nach und nach verschlüsselt und überprüft."
+        },
+        "20": {
+          "q": "In welchem Format werden die Passwörter im Unix System abgespeichert?",
+          "a": "Sie werden als ASCII-Zeichenkette mit der Base-64 Kodierung (6 Bit pro Zeichen) abgespeichert."
+        },
+        "21": {
+          "q": "Wie funktioniert der Salz im Unix System?",
+          "a": "Jedem neu generierten Passwort wird eine zufällige 12-Bit Zahl (Salz) beigefügt. Das Passwort hat nun 4096 mögliche Verschlüsselungsmöglichkeiten."
+        },
+        "22": {
+          "q": "Wo wird der Salz abgespeichert?",
+          "a": "Der Salz ist Teil des Passworteintrags in der passwd-Datei."
+        },
+        "23": {
+          "q": "Was ist die Wirkung des Salzes?",
+          "a": "Behinderung schneller DES-Implementierungen, gleiche Passwörter haben verschiedene Darstellungen, Behinderung von Wörterbuch- und Rainbow-Table-Angriffen."
+        },
+        "24": {
+          "q": "Wie ist die Sicherheit der crypt() Funktion heute zu bewerten?",
+          "a": "Bei 6 Milliarden Tests pro Sekunde wird ein 8-Zeichen schwaches Passwort in bereits wenigen Stunden geknackt. Inakzeptable Sicherheit."
+        },
+        "25": {
+          "q": "Wie kann die Sicherheit eines Passworts erhöht werden?",
+          "a": "Nach X Versuchen den Benutzer sperren, nach jeder falschen Eingabe eine Wartezeit einlegen, Passwort-Aging, Shadow Passwords, Längere Passwörter."
+        },
+        "26": {
+          "q": "Was versteht man unter Passwort-Aging?",
+          "a": "Passwort-Aging ist eine Methode, durch die ein Benutzer nach einer gewissen Zeit vom System gezwungen wird, sein Passwort zu ändern."
+        },
+        "27": {
+          "q": "Was sind Nachteile des Passwort-Agings?",
+          "a": "Unbequem für den Nutzer, mögliche gute Passwörter müssen trotzdem ersetzt werden, Entstehung von nachvollziehbaren Passwortmustern"
+        },
+        "28": {
+          "q": "Was versteht sich unter einem Shadow Password?",
+          "a": "Beim Shadow Password wird das Passwort getrennt von den Benutzerinformationen gespeichert und ist nur als System (root permission) lesbar."
+        },
+        "29": {
+          "q": "Welche sicherere Verschlüsselungsmöglichkeiten werden heutzutage verwendet?",
+          "a": "Argon2 (AES), bcrypt (Blowfish), scrypt, yescrypt (SHA-256), Pufferfish."
+        },
+        "30": {
+          "q": "Welche Beziehung gibt es zwischen Benutzer und seiner UID?",
+          "a": "Eine 1 zu 1 Beziehung."
+        },
+        "31": {
+          "q": "Welche Beziehung gibt es zwischen Benutzer und seiner GID?",
+          "a": "Eine n zu m Beziehung. Eine Gruppe kann mehrere Benutzer beinhalten. Ein Benutzer kann mehreren Gruppen angehören."
+        },
+        "32": {
+          "q": "Wo werden die Gruppen eines Benutzers definiert?",
+          "a": "Die Hauptgruppe befindet sich in /etc/passwd. Weitere Gruppen befinden sich in /etc/group"
+        },
+        "33": {
+          "q": "Welche besondere Benutzerkennungen gibt es in Unix?",
+          "a": "root (Superuser), nobody oder www (Benutzer ohne Dateien), ftp, guest (unsicher!)."
+        },
+        "34": {
+          "q": "Wie kann zwischen den Benutzerkennungen gewechselt werden?",
+          "a": "Mithilfe des su-Befehls. (substitute user)"
+        },
+        "35": {
+          "q": "Welche Berechtigungen hat der root-Benutzer?",
+          "a": "Signalisieren der Prozesse, An- und Abschalten der Protokollierung, Ändern der UID und GID seiner Prozesse, Ausführen aller Befehle, Setzen der Systemuhr, Lesen und Schreiben beliebiger Speicherzellen, Dateien und Benutzern, Untersuchen aller Netzwerkpakete, Neukompilieren von Programmen."
+        },
+        "36": {
+          "q": "Welche Rechte gibt es in Unix?",
+          "a": "Lesen bzw. Read (r), Schreiben bzw. Write (w), Ausführen bzw. Execute (x)."
+        },
+        "37": {
+          "q": "Mit welcher Granularität können die Rechte eingestellt werden?",
+          "a": "Eigentümer bzw. User (u), Gruppe bzw. Group (g), alle anderen bzw. Others (o)."
+        },
+        "38": {
+          "q": "Wie lassen sich die einzelnen Rechte bei Verzeichnissen deuten?",
+          "a": "Read - Verzeichnis auflisten, Write - Dateien anlegen und löschen, Execute - Verzeichnis betreten."
+        },
+        "39": {
+          "q": "Was sind die SUID bzw. SGID Bits?",
+          "a": "Jeder Prozess hat eine reale und eine effektive UID bzw. GID. Die SUID bzw. SGID Bits ändern bei einer ausführbaren Datei die UID bzw. GID des Prozesses, so dass dieser z.B. mit höheren Rechten agieren kann."
+        },
+        "40": {
+          "q": "Wie kann ein Benutzer sein Passwort verändern?",
+          "a": "Das Passwortprogramm wird mithilfe von SUID Bits mit root-Berechtigung ausgeführt und hat somit Write-Rechte für die passwd-Datei."
+        },
+        "41": {
+          "q": "Wie werden die Rechte in Unix dargestellt?",
+          "a": "Als String mit 9 Zeichen (jeweils r, w, x Rechte für User, Group und Others) oder als dreistellige Oktalzahl mit den aufsummierten Rechten (read = 4, write = 2, execute = 1) an der jeweiligen Stelle für User, Group und Others."
+        },
+        "42": {
+          "q": "Wie werden in der String Schreibweise die Sonderrechte dargestellt?",
+          "a": "Jeweils anstatt der Execute-Rechte, S für SUID und SGID, T für sticky-Bit. Werden zusätzlich auch Execute-Rechte vergeben, so werden die Kleinbuchstaben s und t benutzt."
+        },
+        "43": {
+          "q": "Wie werden in der Oktalschreibweise die Sonderrechte dargestellt?",
+          "a": "Es wird eine zusätzliche Stelle vorangestellt, die die aufsummierten Rechte beinhaltet. (SUID = 4, SGID = 2, Sticky Bit = 1)"
+        },
+        "44": {
+          "q": "Wie werden die Rechte einer Datei gesetzt?",
+          "a": "Mithilfe des Befehls chmod, in Verbindung mit der Oktal oder String Schreibweise."
+        },
+        "45": {
+          "q": "Wie funktioniert das umask-Kommando?",
+          "a": "Das umask-Kommando gibt an, welche Rechte nicht gesetzt werden."
+        },
+        "46": {
+          "q": "Wie lässt sich die Zugriffskontrolle mithilfe von Listen umsetzen?",
+          "a": "Jede Datei beinhaltet eine Tabelle mit den berechtigten Benutzern und ihren jeweiligen Rechten."
+        },
+        "47": {
+          "q": "Wie funktioniert eine Zugriffskontrollliste in Unix?",
+          "a": "Eine solche Liste hat maximal 16 Einträge. Sie werden nach Genauigkeit sortiert (erst Benutzer und Gruppe, dann Benutzer, usw.) und beinhalten die jeweiligen rwx-Rechte."
+        },
+        "48": {
+          "q": "Was ist das Bell-LaPadula Sicherheitsmodell?",
+          "a": "Es ist eine regelbasierte Informationsflusskontrolle, die im Multics Betriebssystem im Jahr 1968 eingesetzt wurde."
+        },
+        "49": {
+          "q": "Welche Elemente beinhaltet das Bell-LaPadula Modell?",
+          "a": "Datei (Freigabe), Benutzer (Freigabe), Projekt(Menge von Benutzern und Dateien)."
+        },
+        "50": {
+          "q": "Wie werden die Leserechte im Bell-LaPadula Modell definiert?",
+          "a": "Freigabe des Users muss größer gleich der Freigabe der Datei sein. Der User muss sich in allen Projekten der Datei befinden."
+        },
+        "51": {
+          "q": "Wie werden die Schreibrechte im Bell-LaPadula Modell definiert?",
+          "a": "Freigabe des Users muss kleiner gleich der Freigabe der Datei sein. Die Datei muss sich in allen Projekten des Users befinden."
+        },
+        "52": {
+          "q": "Was versteht sich unter Multi-Programming?",
+          "a": "Es befinden sich mehrere Programme gleichzeitig im Speicher. Die Adressierung erfolgt jeweils relativ zum Programmanfang. Die Programme müssen untereinander geschützt sein, insbesondere das Betriebssystem (liegt im unteren Hauptspeicherbereich)."
+        },
+        "53": {
+          "q": "Was versteht sich unter Paging?",
+          "a": "Der Hauptspeicher wird durch einen virtuellen Hintergrundspeicher ergänzt, um einen größeren Adressraum anzubieten. Es werden nur diejenigen Seiten in den Hauptspeicher geladen, die zur Zeit benutzt werden. Ggf. sind Interrupts notwendig, wenn Seiten abwesend sind."
+        },
+        "54": {
+          "q": "Was ist eine Seitentabelle?",
+          "a": "Die Seitentabelle beinhaltet die Zuordnung der virtuellen Adressräume zu den realen Adressen."
+        },
+        "55": {
+          "q": "Wie wird die Trennung von Prozessen realisiert?",
+          "a": "Prozesse haben jeweils eigene Seitentabellen, die einen disjunkten Adressraum zugewiesen bekommen. Eine Adressierung ist nur im eigenen Raum möglich."
+        },
+        "56": {
+          "q": "Welche Probleme hat der virtuelle Speicher?",
+          "a": "Die reelen Seiten liegen verstreut im Hauptspeicher. Es muss eine Buchführung geführt werden, ob die Seite präsent oder abwesend ist."
+        },
+        "57": {
+          "q": "Was ist ein Schutzbit (X-Bit) bei einem Tabelleneintrag?",
+          "a": "Durch den Schutzbit wird verhindert, dass Code zur Laufzeit überschrieben wird, Variablen nachträglich verändert werden oder Daten als Code ausgeführt werden."
+        },
+        "58": {
+          "q": "Welche Systeme können von einem Buffer-Overflow Angriff betroffen werden?",
+          "a": "Jegliche ältere Systeme, die kein X-Bit ab Werk verwenden. Bei solchen Systemen müsste jede Anwendung den Schutz implementieren. (wird in der Regel nicht getan)"
+        },
+        "59": {
+          "q": "Was passiert bei einem Buffer-Overflow Angriff?",
+          "a": "Bei einem solchen Angriff wird ein Puffer einer Funktion mit mehr Daten bescrhieben, als er aufnehmen kann. Dadurch werden ggf. Speicherbereiche überschrieben. Dies führt in den meisten Fällen zum Programmabsturz. Ein Angreifer versucht gezielt durch solche Funktionen, die keine Längenüberprüfung vornehmen, eigene Programmanweisungen in das System einzuschleusen. Diese werden mit den Rechten des betroffenen Prozesses ausgeführt. Problematisch wird es bei Systemanwendungen."
+        },
+        "60": {
+          "q": "Wie kann man sich vor einem Buffer-Overflow Angriff schützen?",
+          "a": "Saubere, bewusste Programmierung, Verwendung neuer Prozessoren, die den X-Bit realisieren, Erkennung mithilfe von Abwehrsoftware."
+        },
+        "61": {
+          "q": "Was versteht man unter IP-Spoofing?",
+          "a": "Ein Angreifer trägt absichtlich eine falsche Absenderadresse ein. Dadurch werden die Zugriffe falsch protokolliert, so dass die Identität des Angreifers unbekannt bleibt. Probleme entstehen, wenn gewisse Absender vertraut sind und daher über mehr Rechte verfügen."
+        },
+        "62": {
+          "q": "Wie funktioniert ein Angriff auf das Routing?",
+          "a": "Der Angreifer schleust falsche Informationen ein, wenn Router Routinginformationen austauschen. Der Angreifer kann die Pakete über die eigene Maschine umleiten und somit ein Man in the Middle Angriff realisieren."
+        },
+        "63": {
+          "q": "Was ist ein Sniffing Angriff?",
+          "a": "Im Normalfall nimmt ein Computer nur die Pakete an, die ihm adressiert sind. Dieser kann vom Angreifer aber so konfiguriert werden, dass er alle Nachrichten verarbeitet (promiscuous mode). Somit kann der gesamte Internetverkehr innerhalb des Netzwerks analysiert werden."
+        },
+        "64": {
+          "q": "Was ist Address Resolution Protocol (ARP)?",
+          "a": "Die Umsetzung der IP-Adresse in die weltweit eindeutige MAC-Adresse der Netzwerkkarte. Der Sender sendet eine Anfrage nach dem Besitzer einer IP-Adresse und die gesuchte Maschine sendet ihre MAC-Adresse."
+        },
+        "65": {
+          "q": "Wie funktioniert das ARP-Spoofing?",
+          "a": "Der Angreifer greift die ARP-Anfrage an und gibt eine falsche MAC-Adresse zurück. Der Angreifer übernimmt dann als Man in the Middle die Rolle des Zielrechners. Der Angriff ist nur im lokalen Netz möglich."
+        },
+        "66": {
+          "q": "Was ist das Domain Name System?",
+          "a": "Rechner sind meistens unter ihrem DNS-Namen bekannt (Domain und Rechnername). Ein Domain Name System setzt den Namen in die zugehörige IP-Adresse um. Jeder Rechner hat eine lokale Host-Tabelle, die allerdings nicht gut skaliert. Aus dem Grund werden verteilte DNS-Server verwendet."
+        },
+        "67": {
+          "q": "Wie funktioniert ein DNS?",
+          "a": "Der Client sendet eine Anfrage mit dem DNS-Namen des Zielrechners. Der Name wird rekursiv oder iterativ von rechts nach links aufgelöst. Der Client erhält die IP-Adresse des Zielrechners als Antwort."
+        },
+        "68": {
+          "q": "Wie ist der Ablauf beim DNS-Spoofing?",
+          "a": "Der Angreifer antwortet vor dem DNS Server. Der Sender akzeptiert diese Antwort und wird falsch umgeleitet."
+        },
+        "69": {
+          "q": "Wie funktioniert ein DNS Cache-Poisoning Angriff?",
+          "a": "DNS-Server tauschen sich untereinander aus und aktualisieren ihre Host-Tabellen, selbst wenn keine Anfragen gestellt wurden. Ein Spoofer kann dadurch bewusst falsche Informationen verbreiten und die Durchführung von Phishing Angriffen ermöglichen."
+        },
+        "70": {
+          "q": "Was ist der Transmission Control Protocol (TCP)?",
+          "a": "Ein Protokoll für die verbindungsorienterte Kommunikation zwischen zwei Rechnern. Es stellt eine zuverlässige und geordnete Kommunikation sicher. Fehlerhafte Pakete werden automatisch nachgesendet, Duplikate werden entfernt, Nachrichten werden zunächst gepuffert und dann in richtiger Reihenfolge angezeigt."
+        },
+        "71": {
+          "q": "Wie funktioniert der TCP Verbindungsaufbau?",
+          "a": "Dafür wird ein sogenannter dreifacher Handshake durchgeführt. Der Client sendet zunächst eine initiale Sequenznummer mit der SYN Flag. Der Server antwortet mit einer ACK Flag und der um 1 erhöhten Sequenznummer des Clients. Er sendet zusätzlich noch eine weitere Sequenznummer mit der SYN Flag. Der Client sendet die um 1 erhöhte Sequenznummer des Servers mit der ACK Flag zurück. Die Verbindung ist nun aufgebaut."
+        },
+        "72": {
+          "q": "Was gibt es für Angriffe auf TCP?",
+          "a": "Angreifer verwenden TCP Port Scans, um nach  offenen Ports zu suchen, die auf verwundbare Dienste hinweisen."
+        },
+        "73": {
+          "q": "Welche Arten von TCP Portscans gibt es?",
+          "a": "Connect Scan, Syn Scan, Stealth Scan und Idle Scan."
+        },
+        "74": {
+          "q": "Wie funktioniert ein TCP Connect Scan?",
+          "a": "Es ist die einfachste Art des Portscans. Dafür wird ein vollständiger Verbindungsaufbau zu den ausgewählten Ports versucht. Die Entdeckungsgefahr ist in dem Fall sehr hoch."
+        },
+        "75": {
+          "q": "Wie funktioniert ein TCP SYN Scan?",
+          "a": "Die erste SYN Flag wird vom Client gesendet. Falls ein Port offen ist, antwortet der Server mit ACK. Sonst kommt RST oder nichts zurück. Verbindungsaufbau wird nicht weiter fortgesetzt. Scan bleibt unbemerkt, da die meisten Systeme solche Versuche nicht protokolieren."
+        },
+        "76": {
+          "q": "Wie funktioniert ein TCP Stealth Scan?",
+          "a": "Der Client sendet einen ungültigen TCP-Segment. Laut RFC soll ein RST zurückkommen, falls der Port offen ist. Die Reaktion hängt jedoch vom Betriebssystem ab. Solche Scans werden meistens nicht protokolliert."
+        },
+        "77": {
+          "q": "Wie funktioniert ein TCP Idle Scan?",
+          "a": "Dafür wird ein in sogenannter Zombie-Rechner gebraucht. Dieser ist meistens ein in Vergessenheit geratener Rechner, ohne eigenen Netzwerkehr und mit veraltetem Betriebssystem. Der Angreifer sendet eine SYN Flag zum Zombie, um seine initiale Sequenznummer zu erfahren. Im zweiten Schritt sendet er eine SYN Flag zum Zielrechner, unter Verwendung der Identität des Zombies. Im letzten Schritt sendet der Angreifer dem Zombie erneut eine SYN Flag und analysiert die veränderte Sequenznummer. War der Port des Zielrechners offen, so soll sich die Sequenznummer um 2 vergrößert haben. Sonst nur um 1. Da der Angreifer nur mit dem Zombie kommuniziert, bleibt er unbemerkt."
+        },
+        "78": {
+          "q": "Wie kann man sich vor Port Scans Schützen?",
+          "a": "Mithilfe von Port Knocking. Ein sogenannter Knock-Daemon versteckt die offenen Ports. Alle Zugriffe werden protokolliert. Nur nach Erkennen einer vordefinierten Klopfsequenz wird der gewünschte Port für den Client freigegeben."
+        },
+        "79": {
+          "q": "Wie funktioniert ein Connection Hijacking Angriff auf TCP?",
+          "a": "Der Angreifer übernimmt eine bestehende Verbindung, die durch Einmalpasswort authenzisiert wurde."
+        },
+        "80": {
+          "q": "Wie kann Sicherheit in ein System nachgerüstet werden?",
+          "a": "Mithilfe des Secure Socket Layer Verschlüsselungsprotokoll."
+        },
+        "81": {
+          "q": "Was ist das SSL Protokoll?",
+          "a": "Das Secure Socket Layer Protokoll ist eine generische Lösung der TCP-Sicherheitsprobleme. Es bietet eine abgesicherte Verbindung für beliebige TCP-Dienste."
+        },
+        "82": {
+          "q": "Was sind die Vorteile von SSL?",
+          "a": "Flexibilität des Sicherheitsniveaus, offen gegenüber neue Verfahren, transparente Verschlüsselung, erhöhte Performance durch Wiederverwendung alter Authentisierungsinformationen."
+        },
+        "83": {
+          "q": "Wie funktioniert die Authentisierung beim SSL Protokoll?",
+          "a": "Der Server authentisiert sich immer gegenüber dem Client, während der Client dies nur auf Anforderung des Servers tun muss."
+        },
+        "84": {
+          "q": "Wie funktioniert wird eine Verbindung mit SSL aufgebaut?",
+          "a": "Die Kommunikationspartner einigen sich auf eine Cipher Suite für die Authentisierung, Nutzdatenverschlüsselung und Integritätssicherung. Sie bilden im Anschluss ein gemeinsames Geheimnis, durch Verschlüsselung einer Zufallszahl mit einem Public Key oder durch den Diffie-Hellman Schlüsseltausch. Aus dem Geheimnis leitet sich der Sitzungsschlüssel ab, der für weitere Verbindungen wiederverwendet wird."
+        },
+        "85": {
+          "q": "Wie funktionieren der Schlüsselaustausch und die Authentisierung im SSL Protokoll?",
+          "a": "Die Authentisierung erfolgt mithilfe von übergeordneten Zertifizierungsautoritäten. Dazu dienen X.509 Zertifikate. Das Verfahren wird bei häufigen Verbindungen zum selben Server verkürzt. So wird die langsame asymmetrische Verschlüsselung eingespart."
+        },
+        "86": {
+          "q": "Wie werden Nutzdaten im SSL Protokoll übertragen?",
+          "a": "Dafür werden der Sitzungsschlüssel und ein geheimer Wert vorausgesetzt. Aus dem geheimen Wert, den Daten, Padding-Daten und der Sequenznummer wird ein Message Authentication Code gebildet, der versendet wird."
+        },
+        "87": {
+          "q": "welche Sicherheit bietet der Message Authentication Code?",
+          "a": "Die Sequenznummer verhindert Replay-Angriffe und der geheime Wert verhindert Known-Plaintext Angriffe."
+        },
+        "88": {
+          "q": "Was versteht man unter Denial of Service (DoS)?",
+          "a": "Das Lahmlegen eines Dienstes oder Systems, durch Ausnutzung von Schwachstellen oder Überlast."
+        },
+        "89": {
+          "q": "Wie funktioniert ein SYN-flooding DoS Angriff?",
+          "a": "Der Angreifer versendet mehrface TCP-Verbindungsaufbauanforderungen. Der Server generiert viele halb offene Verbindungen. Durch die erhöhte Anzahl an Verbindungen, werden Anfragen von normalen Usern zurückgewiesen. Da der Angreifer seine IP spooft, ist ein Firewall System wirkungslos."
+        },
+        "90": {
+          "q": "Was ist ein distributed Denial of Service (DDoS) Angriff?",
+          "a": "Das Opfer wird von vielen Clients mit einer hohen Anzahl an Nachrichten überflutet."
+        }
+      }
+    }
+  }
+}
