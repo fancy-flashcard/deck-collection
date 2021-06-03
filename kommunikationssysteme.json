@@ -1,0 +1,447 @@
+{
+  "meta": {
+    "author": "Nina Meffert",
+    "version": "1.1.1",
+    "uuid": "282bebe2-88d9-4a03-aa8e-8a099e564e62"
+  },
+  "decks": {
+    "d0": {
+      "meta": {
+        "deck_name": "Grundlagen der Kommunikationssysteme",
+        "next_card_id": 75,
+        "description": "Dieses Kapitel behandelt Themen rund um die Anforderungen von Kommunikationssystemen, die Netzwerkarchitektur und die Direktverbindungsnetzwerke. Die Auswahl der Fragen und Antworten orientieren sich am Vorlesungsskript von Dipl. Inform. Maurus Dehoff vom Frühjahr 2019."
+      },
+      "cards": {
+        "0": {
+          "q": "Welches grundsätzliche Ziel verfolgt man mit Kommunikationssystemen?",
+          "a": "Man möchte von Grund auf ein Netz konstruieren. Dafür beschreibt man die \"verfügbaren Elemente und wie diese dazu verwendet kann, um ein Netzwerk von Grund auf zu konstruieren.\" (Dehoff, S. 4)"
+        },
+        "1": {
+          "q": "Definiere den Begriff \"skalierbares System\".",
+          "a": "Ein \"skalierbares System\" ist ein \"System, das dafür ausgelegt wurde, Wachstum in einem beliebigen Umfang zu unterstützen\". Die Skalierbarkeit ist ein zentrales Thema im Netzwerkdesign. (Dehoff, S. 4) "
+        },
+        "2": {
+          "q": "Was ist ein Netzwerk auf niedrigster Ebene?",
+          "a": "\"Ein Netzwerk [ist] aus zwei oder mehr Rechnern zusammengesetzt, die direkt über ein physisches Medium [...] aneinander angeschlossen sind.\" (Dehoff, S. 4) "
+        },
+        "3": {
+          "q": "Was ist eine \"Punkt-zu-Punkt-Verbindung\"?",
+          "a": "Eine \"Punkt-zu-Punkt-Verbindung\" ist eine Verbindungsleitung, die nur zwei Knoten (in diesem Fall bedeutet Knoten vernetzter Rechner) miteinander verbindet. (Vgl. Dehoff, S. 4) "
+        },
+        "4": {
+          "q": "Was ist eine \"Mehrfachzugriffsverbindung\"?",
+          "a": "Eine \"Mehrfachzugriffsverbindung\" ist eine Verbindungsleitung, die mehr als zwei Knoten (in diesem Fall bedeutet Knoten vernetzter Rechner) miteinander verbindet. (Vgl. Dehoff, S. 4-5) "
+        },
+        "5": {
+          "q": "Nenne Kriterien, die eine Mehrfachzugriffsverbindung begrenzen können.",
+          "a": "Eine \"Mehrfachzugriffsverbindung\" kann durch die geographische Entfernung oder die Anzahl der angeschlossenen Knoten begrenzt werden. (Vgl. Dehoff, S. 5) "
+        },
+        "6": {
+          "q": "Welches sind die zwei bekanntesten vermittelten Netzwerke?",
+          "a": "Das leitungs- und paketvermittelte Netzwerk. (Vgl. Dehoff, S. 5) "
+        },
+        "7": {
+          "q": "Nenne eine Beispiel für die Anwendung eines leitungsvermittelten Netzes und erkläre kurz die Funktionalität.",
+          "a": "Ein Beispiel für leitungsvermittelnde Netze sind Telefonnetze. Bei diesen Netzen wird \"zuerst eine dedizierte Verbindung über eine Folge von Verbindungsleitungen aufgebaut. Dann kann der Quellknoten [Sender] über diese Verbindung einen Bitstrom an einen Zielknoten [Empfänger] senden.\" (Dehoff, S. 5)"
+        },
+        "8": {
+          "q": "Nenne eine Beispiel für die Anwendung eines paketvermittelten Netzes und erkläre kurz die Funktionalität.",
+          "a": "Ein Beispiel für paketvermittelnde Netze sind Rechnernetze. Bei diesen Netzen tauschen \"die Knoten untereinander diskrete Datenblöcke aus\". Die Knoten arbeiten mit einer Speichervermittlung, bei der jeder Knoten die Daten speichert, bis er ein vollständiges Paket hat. Anschließend wird dieses an den nächsten Knoten weitergeschickt. (Dehoff, S. 5)"
+        },
+        "10": {
+          "q": "Im Rahmen der Kommunikationssysteme wird oft von der \"Wolke\" gesprochen bzw. \"Wolken\" in Skizzen abgebildet. Was ist damit gemeint?",
+          "a": "Die Wolke bzw. Wolken dienen als Platzhalter für Vernetzungstechnologien. Sie können Netze unterschiedlicher Größen darstellen. (Vgl. Dehoff, S. 5-6)"
+        },
+        "11": {
+          "q": "Wie werden verschiedene Netze miteinander verbunden?",
+          "a": "Mit Knoten, die eine vermittelnde Rolle übernehmen, bspw. Router oder Gateways. (Vgl. Dehoff, S. 6)"
+        },
+        "12": {
+          "q": "Woher weiß der Quellknoten welcher Knoten im Netz sein Zielknoten ist?",
+          "a": "Jeder Knoten im Netz hat eine eindeutige Adresse, die ihn im Netz identifiziert. (Vgl. Dehoff, S. 6)"
+        },
+        "13": {
+          "q": "Was bedeutet es, wenn eine Nachricht als \"Broadcast\" versendet wird?",
+          "a": "\"Broadcast\" bedeutet, dass die versendete \"Nachricht an alle im Netz angeschlossenen Knoten\" versendet wird. (Dehoff, S. 6)"
+        },
+        "14": {
+          "q": "Was bedeutet es, wenn eine Nachricht als \"Multicast\" bzw. \"Anycast\" versendet wird?",
+          "a": "\"Multicast/Anycast\" bedeutet, dass die versendete Nachricht \"an eine bestimmte Gruppe von Knoten\" im Netz versendet wird. (Dehoff, S. 6)"
+        },
+        "15": {
+          "q": "Was bedeutet es, wenn eine Nachricht als \"Unicast\" versendet wird?",
+          "a": "\"Unicast\" bedeutet, dass die versendete Nachricht \"an einen einzelnen Zielknoten\" im Netz versendet wird. (Dehoff, S. 6)"
+        },
+        "16": {
+          "q": "Definiere den Begriff \"Multiplexen\".",
+          "a": "\"Multiplexen\" bedeutet, \"dass eine Systemressource gemeinsam von mehreren Benutzern genutzt wird.\" (Dehoff, S. 7)"
+        },
+        "17": {
+          "q": "Erkläre das \"synchrone Zeitmultiplexverfahren\" (engl. Synchronous Time-Division Multiplexing, STDM).",
+          "a": "Beim STDM bekommt jeder beteiligte Host einen (gleichgroßen) Zeitslot zugewiesen, in der er die Möglichkeit hat, seine Daten über die gemeinsame Verbindungsleitung zu senden. (Vgl. Dehoff, S. 7)"
+        },
+        "18": {
+          "q": "Erkläre das \"Frequenzmultiplexverfahren\" (engl. Frequency-Divison Multiplexing, FDM).",
+          "a": "Beim FDM bekommt jeder beteiligte Host jeweils eine eigene Frequenz zugewiesen.  (Vgl. Dehoff, S. 7)"
+        },
+        "19": {
+          "q": "Nenne die zwei größten gemeinsamen Nachteile von STDM und FDM",
+          "a": "1. Beide Verfahren sind ineffizient, wenn einer der Host mal nichts senden möchte. 2. Bei beiden Verfahren muss \"die maximale Anzahl der Datenströme im Voraus feststeht und bekannt ist\". (Dehoff, S. 7)"
+        },
+        "20": {
+          "q": "Was ist \"statisches Multiplexen\"?",
+          "a": "Beim statischen Multiplexing stellt der Host der Senden möchte eine Anfrage zum Senden. Für das Senden ist jeweils eine Obergrenze der Größe des Dateblocks vorgegeben. Sollte eine Nachricht die Größe überschreiten, wird die Nachricht in mehrere Pakete unterteilt, die der Empfänger anschließend wieder zusammensetzen muss. (Vgl. Dehoff, S. 8)"
+        },
+        "21": {
+          "q": "Welchen Vorteil hat das statische Multiplexen gegenüber FDM und STDM?",
+          "a": "Bei der Verwendung des statischen Mutiplexverfahrens werden Leerlaufzeiten verhindert. (Vgl. Dehoff, S. 8)"
+        },
+        "22": {
+          "q": "Erkläre das Reply Request Protocol (RRP).",
+          "a": "Das RRP oder Anfrage-Antwort Protokoll ist ein Protokoll, das gewährleistet, \"dass jede von einer Seite gesendete Nachricht am anderen Ende empfangen und nur jeweils eine Kopie einer Nachricht zugestellt wird.\" Es eignet \"sich für Dateitransfer- und digitale Bibliotheksanwendung\" und kann \"Datenschutz und -integrität bieten\".(Dehoff, S. 10)"
+        },
+        "23": {
+          "q": "Erkläre das Message Stream Protocol (MSP).",
+          "a": "Das MSP oder Nachrichtenstrom-Protokoll gewährleistet nicht, \"dass alle Nachrichten zugestellt werden\", aber dass \"die zugestellten Nachrichten in der gleichen Reihenfolge ankommen, in der sie gesendet wurden\". Es eignet sich für \"Video-on-Demand- und Videokonferenzanwendung\".(Dehoff, S. 10)"
+        },
+        "24": {
+          "q": "Nenne Ebenen, auf denen sich die drei Fehlerklassen, die bei Netzwerken auftauchen, befinden können.",
+          "a": "Die erste Klasse befindet sich auf der Bit-Ebene, die zweite Klasse befindet sich auf der Paketebene und die dritte Klasse auf der Knoten- und Verbindungseben. (Vgl. Dehoff, S. 11)"
+        },
+        "25": {
+          "q": "Welche konkreten Fehler können auf der Fehlerklassenebene der Bits auftreten?",
+          "a": "Bitfehler, bei denen einzelne Bits falsch übertragen werden oder Burstfehler, bei denen mehrere aufeinanderfolgende Bits falsch übertragen werden. (Vgl. Dehoff, S. 11)"
+        },
+        "26": {
+          "q": "Wie wird mit Fehlern auf der Bitebene umgegangen?",
+          "a": "Es gibt Techniken zur Fehlererkennung und -behebung. In schwere Fällen muss das gesamte Paket verworfen werden. (Vgl. Dehoff, S. 11)"
+        },
+        "27": {
+          "q": "Welche konkreten Fehler können auf der Fehlerklassenebene der Pakete auftreten?",
+          "a": "Von einem Fehler auf Paketebene spricht man, wenn bspw. ein komplettes Paket verloren geht (bspw. durch ein überlastetes Netz) oder die Software einen Fehler macht. (Vgl. Dehoff, S. 11)"
+        },
+        "28": {
+          "q": "Welche konkreten Fehler können auf der Fehlerklassenebene der Knoten- und Verbindungen auftreten?",
+          "a": "Verbindungs- oder Knotenfehler können durch gebrochene Verbindungsleitungen oder abgestürzte Rechner auftreten. (Vgl. Dehoff, S. 11)"
+        },
+        "29": {
+          "q": "Welche beiden Werte sind für die Leistung eines Netzwerkes ausschlaggebend?",
+          "a": "Latenz (Verzögerung) und Bandbreite (Durchsatz). (Vgl. Dehoff, S. 12)"
+        },
+        "30": {
+          "q": "Was genau wird mit dem Begriff der \"Bandbreite\" angegeben?",
+          "a": "\"Die Bandbreite eines Netzwerks wird durch die Anzahl von Bits angegeben, die innerhalb eines bestimmten Zeitraums im Netzwerk übertragen werden können.\" Sie wird in Bit/Zeit angegeben. (Dehoff, S. 12)"
+        },
+        "31": {
+          "q": "Was genau wird mit dem Begriff der \"Latenz\" angegeben?",
+          "a": "Die Latzen gibt die \"Dauer, bis eine Nachricht von einem Ende eines Netzwerks zum anderen gelangt\" ist, an. Sie wird in Zeit gemessen. (Dehoff, S. 12)"
+        },
+        "32": {
+          "q": "Was gibt die \"Round-Trip Time\" (RTT) an?",
+          "a": "Die RRT gibt an, \"wie lange es dauert, um eine Nachricht von einem Ende eines Netzwerks zum anderen und zurück zu senden\". (Dehoff, S. 12)"
+        },
+        "33": {
+          "q": "Welche drei Komponenten sind ausschlaggebend für die Latenz und wie wird sie berechnet?",
+          "a": "Ausschlaggebend für die Latenz ist die endliche Ausbreitungsgeschwindigkeit (Ausbreitungsverzögerung, AV) des Lichts, die Zeit, die es dauert, um eine Dateneinheit zu übertragen (Übertragungsverzögerungen, ÜV) und die Verzögerung aufgrund von Wartezeiten (WZ). Formel zur Berechnung: Latenz = AV + ÜV + Wartezeit = (Entfernung/effektive Lichtgeschwindigkeit) + (Paketgröße/Bandbreite) + (Summe der Verarbeitungszeit pro Hop) (Vgl. Dehoff, S. 12-13)"
+        },
+        "34": {
+          "q": "Verständnisfrage zur Formel der Latenz: Wenn wir eine Nachricht von einem Bit und wir haben nur eine einzelne Leitung anstatt eines Netzwerks, wie große wäre dann die Latenz?",
+          "a": "In diesem Fall wäre die Latenz gleich der Ausbreitungsverzögerung. (Vgl. Dehoff, S. 13)"
+        },
+        "35": {
+          "q": "Was ist das \"Verzögerung-Bandbreite-Produkt\"?",
+          "a": "Beim \"Verzögerung-Bandbreite-Produkt\" stellt man sich den Kanal als hohle Pipeline vor, bei der die Länger der Pipeline die Latenz und der Durchmesser die Bandbreite darstellt. (Vgl. Dehoff, S. 14)"
+        },
+        "36": {
+          "q": "Was berechnet man mit dem \"Verzögerung-Bandbreite-Produkt\" und wie sieht die Formel zur Berechnung aus?",
+          "a": "Mit dem \"Verzögerung-Bandbreite-Produkt\" berechnet man, \"wie viele Bits der Sender übertragen muss, bis das erste Bit beim Empfänger ankommt.\" Formel: Volumen der Pipeline = Latenz * Bandbreite. (Dehoff, S. 13)"
+        },
+        "37": {
+          "q": "Definiere den Begriff \"Burst\".",
+          "a": "\"Unter \"Burst\" versteht man entweder eine Spitzenrate, die über eine gewisse Zeitdauer aufrechterhalten wird oder mit der gesendet werden kann, bis eine gewisse Menge an Daten übertragen wurde.\" (Dehoff, S. 15)"
+        },
+        "38": {
+          "q": "Definiere den Begriff \"Jitter\".",
+          "a": "Jitter bezeichnet die Schwankung in der Latenz. (Vgl. Dehoff, S. 16)"
+        },
+        "39": {
+          "q": "Definiere den Begriff \"Interpacket Gap\".",
+          "a": "Die \"Interpacket Gap\" bezeichnet den variablen \"Abstand zwischen den am Ziel ankommenden Paketen\". Grund dafür ist die variable Verzögerung der einzelnen Pakete. (Dehoff, S. 16)"
+        },
+        "40": {
+          "q": "Wie kann der Effekt des Jitters und des interpacket Gaps ausgeglichen werden?",
+          "a": "Durch einen Pufferspeicher. (Vgl. Dehoff, S. 16)"
+        },
+        "41": {
+          "q": "Definiere den Begriff \"Netzwerkarchitektur\".",
+          "a": "Die \"Netzwerkarchitektur\" kann vereinfacht als \"Leitfaden für die Entwicklung und Implementierung von Netzwerken\" bezeichnet werden. (Dehoff, S. 16)"
+        },
+        "42": {
+          "q": "Welchen Vorteil hat es das Netzwerk in Schichten zu zerlegen?",
+          "a": "Durch die Zerlegung in Schichten hat man zum einen leichter handhabbare Komponenten und zum anderen ein modulares Design, welches die Integration neuer Komponenten vereinfacht, da man nur die Funktionalität einer Schicht ändern braucht. (Vgl. Dehoff, S. 17)"
+        },
+        "43": {
+          "q": "Definiere den Begriff \"Protokoll\"",
+          "a": "Protokolle sind die \"abstrakten Objekte, aus denen sich die Schichten eines Netzwerksystems zusammensetzen\". Sie bieten \"einen Kommunikationsdienst, den Objekte höherer Ebenen zum Austauschen von Nachrichten benutzen.\" (Dehoff, S. 18)"
+        },
+        "44": {
+          "q": "Welche beiden Interfaces definiert jedes Protokoll?",
+          "a": "Das Dienst-Interface und das Partner-Interface. (Vgl. Dehoff, S. 18)"
+        },
+        "45": {
+          "q": "Wofür wird das Dienst-Interface verwendet?",
+          "a": "Das Dienst-Interface ist ein Interface \"zu den übrigen Objekten auf dem gleichen Computer, die seine Kommunikationsdienste nutzen wollen.\" (Dehoff, S. 18)"
+        },
+        "46": {
+          "q": "Wofür wird das Partner-Interface verwendet?",
+          "a": "Das Partner-Interface ist ein Interface zu anderen Rechnern. Es \"definiert Form und Bedeutung von Nachrichten, die zwischen Protokollpartnern ausgetauscht werden, um den Kommunikationsdienst zu implementieren.\" (Dehoff, S. 18)"
+        },
+        "47": {
+          "q": "Erkläre das Prinzip der \"Kapselung\".",
+          "a": "Bei einer Kommunikation wandern die Daten durch alle Schichten einer Netzwerkarchitektur. Jedes Protokoll, welches dabei passiert wird, fügt den Daten einen Header mit Steuerinformationen und einen Trailer oder Footer als Protokolloverhead hinzu. Diese bilden jeweils die Kapsel um die Byte-Kette. Der Empfänger entfernt diese Kapselungen dann wieder von Schicht zu Schicht. (Vgl. Dehoff, S. 19-20)"
+        },
+        "48": {
+          "q": "Eines der bekanntesten Netzwerkarchitekturmodelle ist das ISO/OSI-Modell. Wofür steht die Abkürzung \"ISO/OSI\"?",
+          "a": "ISO steht für \"International Organization for Standardization\" und ist eine Organisation für Standardisierungen. OSI steht für \"Open Systems Interconnection\". (Vgl. Dehoff, S. 21; https://de.wikipedia.org/wiki/OSI-Modell)"
+        },
+        "49": {
+          "q": "Nenne die 7 Schichten des ISO/OSI-Modells.",
+          "a": "Layer 1: Bitübertragsung/Physical, Layer 2: Sicherung/Data Link, Layer 3: Vermittlung/Network, Layer 4: Transport, Layer 5: Sitzung/Session, Layer 6: Darstellung/Presentation, Layer 7: Anwendung/Applikation (Vgl. Dehoff, S. 21; https://de.wikipedia.org/wiki/OSI-Modell)"
+        },
+        "50": {
+          "q": "Wofür wird die Bitübertragungsschicht grundlegend benötigt (ISO/OSI)?",
+          "a": "Die Bitübertragungsschicht \"beinhaltet alle Details, die zum tatsächlichen Empfang oder Versand von Informationen (...) erforderlich sind.\". (Dehoff, S. 21) \" Diese Schicht stellt mechanische, elektrische und weitere funktionale Hilfsmittel zur Verfügung, um physische Verbindungen zu aktivieren bzw. zu deaktivieren, sie aufrechtzuerhalten und Bits darüber zu übertragen.\" (https://de.wikipedia.org/wiki/OSI-Modell) Auf dieser Schicht erfolgt u.a. das Multiplexen. "
+        },
+        "51": {
+          "q": "Wofür wird die Sicherungssicht grundlegend benötigt (ISO/OSI)?",
+          "a": "Die Sicherungsschicht besteht aus zwei Unterschichten: Der Media Access Control (\"regelt den Zugang zum Übertragungsmedium\" + Zugriffskontrolle (bspw. CSDMA/CD) ) und der Logical Link Control (\"Transport von Informationen (...) von einem Knoten zu einem anderen\") (Dehoff, S. 21, Vgl. https://de.wikipedia.org/wiki/OSI-Modell)"
+        },
+        "52": {
+          "q": "Wofür wird die Vermittlungsschicht grundlegend benötigt (ISO/OSI)?",
+          "a": "Auf dem Networklayer passiert u.a. das Routing. \"In dieser Schicht [findet] unter anderem eine Umsetzung von logischen zu physikalischen Netzwerkadressen statt\". (Dehoff, S. 21)"
+        },
+        "53": {
+          "q": "Wofür wird die Transportschicht grundlegend benötigt (ISO/OSI)?",
+          "a": "\"Zu den Aufgaben der Transportschicht (...) zählt die Segmentierung des Datenstroms, die Stauvermeidung (...) und die Sicherstellung einer fehlerfreien Übertragung\". (https://de.wikipedia.org/wiki/OSI-Modell#Schicht_3_%E2%80%93_Vermittlungsschicht_(Network_Layer))"
+        },
+        "54": {
+          "q": "Wofür wird die Sitzungsschicht grundlegend benötigt (ISO/OSI)?",
+          "a": "\"Der Session Layer kontrolliert den Auf- wie Abbau einer virtuellen Verbindung (einer »Session«) zwischen zwei Knoten.\" (Dehoff, S. 22)"
+        },
+        "55": {
+          "q": "Wofür wird die Darstellungsschicht grundlegend benötigt (ISO/OSI)?",
+          "a": "\"Die Darstellungsschicht (...) setzt die systemabhängige Darstellung der Daten (...) in eine unabhängige Form um und ermöglicht somit den syntaktisch korrekten Datenaustausch zwischen unterschiedlichen Systemen. \" (https://de.wikipedia.org/wiki/OSI-Modell#Schicht_6_%E2%80%93_Darstellungsschicht_(Presentation_Layer))"
+        },
+        "56": {
+          "q": "Wofür wird die Anwendungsschicht grundlegend benötigt (ISO/OSI)?",
+          "a": "\"Der Applikation Layer bildet die oberste Schicht und tauscht Informationen mit der Applikation eines anderen Rechners aus.\" (Dehoff, S. 22)"
+        },
+        "57": {
+          "q": "Nenne die 4 Schichten des TCP/IP Referenzmodells.",
+          "a": "1. Layer: Netzzugang, 2. Layer: Internet, 3. Layer: Transport, 4. Layer: Anwendung (Vgl. Dehoff S. 23, Vgl. https://de.wikipedia.org/wiki/Internetprotokollfamilie)"
+        },
+        "58": {
+          "q": "Welche Schichten des ISO/OSI-Modells entspricht der Netzzugangsschicht des TCP/IP Referenzmodells?",
+          "a": "Die Netzzugangsschicht des TCP/IP-Modells entspricht der Sicherungs- und der Bitübertragungsschicht des ISO/OSI-Modells. (Vgl. https://de.wikipedia.org/wiki/Internetprotokollfamilie)"
+        },
+        "59": {
+          "q": "Welche Schicht des ISO/OSI-Modells entspricht der Internetschicht des TCP/IP Referenzmodells?",
+          "a": "Die Internetschicht des TCP/IP-Modells entspricht der Vermittlungsschicht des ISO/OSI-Modells. (Vgl. https://de.wikipedia.org/wiki/Internetprotokollfamilie)"
+        },
+        "60": {
+          "q": "Welche Schicht des ISO/OSI-Modells entspricht der Transport des TCP/IP Referenzmodells?",
+          "a": "Die Transportschicht ist in beiden Modellen gleich. (Vgl. https://de.wikipedia.org/wiki/Internetprotokollfamilie)"
+        },
+        "61": {
+          "q": "Welche Schichten des ISO/OSI-Modells entspricht der Anwendung des TCP/IP Referenzmodells?",
+          "a": "Die Anwendungen des TCP/IP-Modells entspricht der Sitzungs-, der Darstellungs- und der Anwendungsschicht des ISO/OSI-Modells. (Vgl. https://de.wikipedia.org/wiki/Internetprotokollfamilie)"
+        },
+        "62": {
+          "q": "Welche Techniken sind der Netzzugangsschicht zuzuordnen?",
+          "a": "Ethernet, Token Bus, Token Ring, FDDI (Fiber Distributed Data Interface, Lichtwellenleiter), WLAN, ARP (Address Resolution Protocol). Protokolle sind vor allem Netzprotokolle, die oft NET genannt werden. (Vgl. Dehoff S. 22, Vgl. https://de.wikipedia.org/wiki/Internetprotokollfamilie)"
+        },
+        "63": {
+          "q": "Nenne typische, bekannte Protokolle, die zur Internetschicht gehören?",
+          "a": "Typische Protokolle auf der Internetschicht sind vor allem das IP (Internet Protokoll) und das ICMP (Internet Control Message Protocol). (Vgl. Dehoff S. 22, Vgl. https://de.wikipedia.org/wiki/Internetprotokollfamilie)"
+        },
+        "64": {
+          "q": "Nenne typische, bekannte Protokolle/Techniken, die zur Transportschicht gehören?",
+          "a": "Typische Protokolle auf der Transportschicht sind vor allem das TCP (Transmission Control Protocol), TLS/SSL (Transport Layer Security, ehemals Secure Socket Layer) und UDP (User Datagram Protocol). (Vgl. Dehoff S. 22, Vgl. https://de.wikipedia.org/wiki/Internetprotokollfamilie)"
+        },
+        "65": {
+          "q": "Nenne typische, bekannte Protokolle, die zur Anwendungsschicht gehören? (mind. 5 für 5 Sterne)",
+          "a": "Zu den wichtigsten und bekanntesten Anwendungsprotokollen gehören FTP (File Transport Protocol), Telenet (Remote Login), SMTP (Simple Mail Transfer Protocol), HTTP (HyperText Transport Protocol), IMAP (Internet Message Access Protocol), POP3 (Post Office Protocol), SMTP (Simple Mail Transfer Protocol),... (Vgl. Dehoff S. 22, Vgl. https://de.wikipedia.org/wiki/Internetprotokollfamilie)"
+        },
+        "66": {
+          "q": "Definiere den Begriff \"Signal\" (im Sinne der Datenübertragung mittels physikalischen Medien).",
+          "a": "Signale sind \"elektromagnetische Wellen, die sich mit Lichtgeschwindigkeit fortbewegen\". (Dehoff S. 25)"
+        },
+        "67": {
+          "q": "Definiere den Begriff \"Wellenlänge\".",
+          "a": "Die Wellenlänge entspricht der \"Entfernung zwischen zwei benachbarten Maxima oder Minima einer Welle, die normalerweise in Metern gemessen wird\". (Dehoff S. 25)"
+        },
+        "68": {
+          "q": "Definiere den Begriff \"Vollduplexbetrieb\".",
+          "a": "Vollduplex bedeutet, dass zwei Bitströme gleichzeitig auf einer Verbindungsleitung übertragen werden, d.h., dass zwei Clients sich gegenseitig und zeitgleich eine Nachricht schicken können. (Vgl. Dehoff S. 25)"
+        },
+        "69": {
+          "q": "Definiere den Begriff \"Halbduplexbetrieb\".",
+          "a": "Unterstützt den Datenfluss zwischen zwei Clients jeweils nur in eine Richtung. (Vgl. Dehoff S. 26)"
+        },
+        "70": {
+          "q": "Nenne die vier möglichen Kodierungen von Bits in Signale, die wir im Rahmen der Vorlesung kennen gelernt haben.",
+          "a": "Non-Return to Zero (NRZ), Non-Return to Zero Inverted (NRZI), Manchester und 4B/5B (Vgl. Dehoff S. 28-30)"
+        },
+        "71": {
+          "q": "Wie funktioniert die Kodierung von Signalen mit NRZ?",
+          "a": "Beim Non-Return to Zero (NRZ) wir für eine 1 ein high-Signal und für eine 0 ein Low-Signal abgebildet. (Vgl. Dehoff S. 28)"
+        },
+        "72": {
+          "q": "Wie funktioniert die Kodierung von Signalen mit NRZI?",
+          "a": "Beim Non-Return to Zero Inverted (NRZI) werden Signale durch Signalwechsel gesendet. Ein Signalwechsel bedeutet eine 1, kein Signalwechsel bedeutet 0. (Vgl. Dehoff S. 29)"
+        },
+        "73": {
+          "q": "Wie funktioniert die Kodierung von Signalen mit Manchester?",
+          "a": "Manchester ist dadurch gekennzeichnet, \"dass 0 bei der Manchester-Kodierung als low/high-Übergang und 1 als high/low-Übergang kodiert wird.\" (Dehoff S. 29)"
+        },
+        "74": {
+          "q": "Wie funktioniert die Kodierung von Signalen mit 4B/5B?",
+          "a": "Beim 4B/5B werden zusätzliche Bits einem Bitstrom zugefügt, um lange 1er- und 0er-Folgen zu unterbrechen. (Vgl. Dehoff S. 29-30)"
+        }
+      }
+    },
+    "d1": {
+      "meta": {
+        "deck_name": "Grundlagen zu den lokalen Netzwerken",
+        "next_card_id": 32,
+        "description": "Dieses Kapitel behandelt Themen rund um die Merkmale und den strukturellen Aufbau eines LANs, Netzwerktopologien, Zugriffsverfahren, Ethernet, Komponenten eines Rechnernetzes und Netzwerkprotokolle. Die Auswahl der Fragen und Antworten orientieren sich am Vorlesungsskript von Dipl. Inform. Maurus Dehoff vom Frühjahr 2019."
+      },
+      "cards": {
+        "0": {
+          "q": "Definiere den Begriff \"LAN\" nach ISO.",
+          "a": "\"Ein lokales Netzwerk (Local Area Network, LAN) dient der bitseriellen Informationsübertragung zwischen miteinander verbundenen, unabhängigen Geräten. Es befindet sich vollständig im Entscheidungsbereich des Benutzers und ist in seiner Ausdehnung auf sein Gelände beschränkt.\" (Dehoff, S. 41)"
+        },
+        "2": {
+          "q": "Nenne fünf Aspekte, die für den Einsatz eines LANs sprechen.",
+          "a": "Datenverbund (\"Logische Kopplung von räumlich getrennten Datenbeständen\"), Funktionsverbund (\"Integration von Geräten und Systemen in ein Gesamtsystem\"), Verfügbarkeitsverbund (\"Erreichen einer Mindestleistung des Gesamtsystems auch bei Ausfall einzelner Komponenten\"), Leistungsverbund (\"Integration funktionaler Komponenten\"), Lastverbund (\"Ausnutzung von Ressourcen momentan schwach belasteter Rechner\") (Dehoff, S. 41)"
+        },
+        "3": {
+          "q": "Nenne die vier Unterscheidungskriterien für den strukturellen Aufbau eines lokalen Netzwerks, die wir im Rahmen der Vorlesung behandelt haben.",
+          "a": "Die Unterscheidungskriterien sind die Netzwerktopologie, das Übertragungsmedium, das Übertragsverfahren und das Zugriffsverfahren. (Vgl. Dehoff, S. 41 ff.)"
+        },
+        "4": {
+          "q": "Was ist unter \"Netzwerktopologie\" zu verstehen?",
+          "a": "Die Netzwerktopologie beschreibt die \"Art des Aufbaus des Netzes\". (Dehoff, S. 40)"
+        },
+        "5": {
+          "q": "Was ist unter \"Übertragungsmedium\" zu verstehen?",
+          "a": "Das Übertragungsmedium beschreibt die \"Art der Verkabelung\". (Dehoff, S. 40)"
+        },
+        "6": {
+          "q": "Was ist unter \"Übertragungsverfahren\" zu verstehen?",
+          "a": "Das Übertragungsverfahren beschreibt die \"Art der Übertragung, ob also ein Basisband gewählt wird oder eine Breitbandübertragung.\" (Dehoff, S. 41)"
+        },
+        "7": {
+          "q": "Was ist unter \"Zugriffsverfahren\" zu verstehen?",
+          "a": "Das Zugriffsverfahren beschreibt die \"Art und Weise, wie die am Netz angeschlossenen Stationen die Daten auf das Übertragungsmedium bringen.\" (Dehoff, S. 41)"
+        },
+        "8": {
+          "q": "Nenne 5 Netzwerktopologien.",
+          "a": "Es gibt den Bus, den Ring, den Stern, den Baum und die Vermaschung. (Vgl. Dehoff, S. 41)"
+        },
+        "9": {
+          "q": "Das LAN ist eine Netzgröße, die sich i.d.R. auf ein Grundstück begrenzt. Welche anderen Netzwerkgrößen gibt es und wie weit gehen diese in etwa?",
+          "a": "Weitere Netzwerkgrößen neben dem LAN sind PAN (Personal Area Network), bspw. für Bluetooth, WLAN (Wireless LAN) für die Übertragung per Funk, MAN (Metropolitan Area Network) für gesamte Städte, WAN (Wide Area Network) für Kontinente und GAN (Global Area Network) für die weltweite Vernetzung. (Vgl. Dehoff, S. 43)"
+        },
+        "10": {
+          "q": "Nenne die vier Zugriffsverfahren, die wir im Rahmen der Vorlesung kennen gelernt haben.",
+          "a": "Die gelernten Zugriffsverfahren sind ALOHA, CSMA/CD (Carrier Sense Multiple Access/Collision Detect), der Token-Ring und der Token-Bus. (Vgl. Dehoff, S. 43-45)"
+        },
+        "11": {
+          "q": "Wie funktioniert das Zugriffsverfahren \"ALOHA\"?",
+          "a": "\"Jede Station darf jederzeit senden. Danach wartet die sendende Station auf eine Bestätigung auf einem separaten Rückkanal. (...) Wurde eine Bestätigung empfangen, kann bei Bedarf weitergesendet werden. Im anderen Fall wartet jede Sendestation eine Zeitspanne, deren Länge zufällig bestimmt wird. Danach wird der Datenblock nochmals gesendet.\" (Dehoff, S. 43)"
+        },
+        "12": {
+          "q": "Wie funktioniert das Zugriffsverfahren \"CSMA/CD\"?",
+          "a": "Bevor eine Station im Carrier Sense Multiple Access/Collision Detect Zugriffsverfahren \"sendet, hört sie zunächst die Leitung ab, um festzustellen, ob nicht schon ein Datenverkehr zwischen anderen Stationen stattfindet (Carrier Sense). Erst bei freier Leitung wird gesendet und auch während der Sendung wird mitgehört, um festzustellen, ob eine Kollision mit einer Station auftritt, die zufällig zum gleichen Zeitpunkt mit dem Senden begonnen hat (Multiple Access / Collision Detect).\" (Dehoff, S. 43)"
+        },
+        "13": {
+          "q": "Was ist \"Ethernet\"?",
+          "a": "Ethernet ist ein Standard für lokale Netze. Die Datenübertragung funktioniert dabei mit Hilfe von CSMA/CD über unterschiedliche Protokolle. (Vgl. Dehoff, S. 45)"
+        },
+        "14": {
+          "q": "Was ist \"Power over Ethernet\"?",
+          "a": "Durch Power over Ethernet können angeschlossene Geräte neben der Anbindung ans Netz auch mit Strom versorgt werden. \"Damit eignet sich diese Technik hervorragend um Webcams, Print-Server, IP-Telefone (Voice-over-IP), Wireless LAN Access Points, Handheld-Computer und sparsame Notebooks mit Strom zu versorgen.\" (Dehoff, S. 46)"
+        },
+        "15": {
+          "q": "Definiere den Begriff \"Server\".",
+          "a": "\"Unter einem Server versteht man einen zentralen Rechner im Netzwerk, der allen angeschlossenen Einheiten notwendige Ressourcen zur Verfügung stellt.\" (Dehoff, S. 47)"
+        },
+        "16": {
+          "q": "Man unterscheidet zwischen dedicated und non-dedicated Servern. Worin liegt der Unterschied?",
+          "a": "Dedicated Server \"ist ein Rechner in einem Netzwerk, der ausschließlich für einen (oder mehrere) bestimmten Netzwerkdienst reserviert ist.\" Auf diesen läuft also keine Anwendungssoftware. (Dehoff, S. 47)"
+        },
+        "17": {
+          "q": "Was ist ein \"Client\"?",
+          "a": "\"Die im Netz hängenden Rechner, auf denen die Anwender arbeiten, nennt man Workstation, Arbeitsstationen oder auch Client - Rechner. Auf diesen Arbeitsstationen lassen sich via Netz die Daten und Programme eines Servers sowie angeschlossene Peripheriegeräte nutzen.\" (Dehoff, S. 47)"
+        },
+        "18": {
+          "q": "Welche Arten von Clients gibt es?",
+          "a": "Man unterscheidet zwischen Thin- und Fat Clients. Fat Clients können vollständig autonom arbeiten. \"Thin Client [ist] eine Art Terminal, der lediglich Tastatureingaben über das Netz an einen zentralen Server abgibt und Bildschirminhalte von diesem empfängt.\" (Dehoff, S. 47)"
+        },
+        "19": {
+          "q": "Um mehrere Netzwerke miteinander verbinden zu können benötigt man Kopplungselemente. Nenne 6 Kopplungselemente und auf welcher Schicht sie jeweils agieren.",
+          "a": "Auf der 1. OSI-Schicht arbeiten Repeater oder Hubs. Auf der 2. OSI-Schicht arbeiten Switches und Bridges. Router arbeiten auf OSI-Schicht 3 und Gateways auf jeder Schicht des OSI-Modells. (Vgl. Dehoff, S. 48)"
+        },
+        "20": {
+          "q": "Wozu dienen Repeater bzw. Hubs?",
+          "a": "Repeater und Hubs dienen jeweils dazu die Spannungssignale zu verstärken, um höhere Reichweiten zu erreichen. (Vgl. Dehoff, S. 48)"
+        },
+        "21": {
+          "q": "Wie unterscheiden sich Hubs von Repeatern?",
+          "a": "\"Der Hub ist ein Repeater mit mehreren Ports und wird auch als Multiport-Repeater bezeichnet. Er gibt ein eingehendes Signal gleichzeitig auf allen Ports an alle angeschlossenen Geräte aus.\" (Dehoff, S. 48)"
+        },
+        "22": {
+          "q": "Wozu dienen Switches?",
+          "a": "Switche bzw. Bridges können den Datenverkehr steuern. \"Ist der Weg zur Zieladresse noch unbekannt (Lernphase), leitet der Switch das betreffende Frame an alle anderen aktiven Ports.\" Ansonsten sendet der Switch nur an den Empfängerport die Nachrichten weiter. (Dehoff, S. 48)"
+        },
+        "23": {
+          "q": "Wozu dienen Router?",
+          "a": "Router können \"Datenpakete über Weitverkehrsnetze übertragen\". (Dehoff, S. 48)"
+        },
+        "24": {
+          "q": "Wozu dienen Gateways?",
+          "a": "Gateways \"verbinden Netzwerke mit völlig unterschiedlichen Strukturen\". (Dehoff, S. 48)"
+        },
+        "25": {
+          "q": "Nenne und erläutere die drei Arbeitsweisen und von Switches, die wir in der Vorlesung behandelt haben.",
+          "a": "1. Cut-through: Frames werden direkt an die vorhandene MAC-Adresse weitergeleitet. 2. Store-and-Forward: Empfängt alle Frames, prüft sie und schickt sie erst dann weiter. 3. Error-Free-Cut-Through: Mischung aus den vorherigen Arbeitsweisen: arbeitet erst im Cut-throug, behält dabei eine Kopie und prüft diese im Nachgang. Dabei zählt er die Anzahl an Fehlern pro Zeiteinheit und entscheidet dann über den Modus. (Vgl. Dehoff, S. 49)"
+        },
+        "26": {
+          "q": "Was ist Stacking?",
+          "a": "Stacking ist eine Technik, mit der aus mehreren unabhängigen, stackfähigen Switches ein gemeinsamer logischer Switch mit höherer Portanzahl und gemeinsamem Management konstruiert wird. (Vgl. Dehoff, S. 49-50)"
+        },
+        "27": {
+          "q": "Definiere den Begriff \"Netzwerkprotokoll\".",
+          "a": "Netzwerkprotokolle sind die Grundlage aller Netzwerksoftwares, \"deren Aufgabe es ist, die Kommunikation zwischen den einzelnen Rechnern im Netz zu steuern und zu verwalten.\" (Dehoff, S. 50)"
+        },
+        "28": {
+          "q": "Was ist IPv4?",
+          "a": "IPv4 ist eine Methode der Adressierung. Dabei besteht eine IPv4-Adresse \"aus 32 Bit, die in 4 Tupel zu je 8 Bit (...). Diese Internetadressen werden von der InterNIC weltweit eindeutig vergeben.\". (Dehoff, S. 51)"
+        },
+        "29": {
+          "q": "Was ist Subnetting?",
+          "a": "Subnetting ist die \"Aufteilung eines zusammenhängenden Adressraums von IP-Adressen in mehrere kleinere Adressräume\". (Dehoff, S. 52)"
+        },
+        "30": {
+          "q": "Was ist IPv6?",
+          "a": "\"Das Internet Protocol Version 6 (IPv6) (...) ist ein von der Internet Engineering Task Force (IETF) seit 1998 standardisiertes Verfahren zur Übertragung von Daten in paketvermittelnden Rechnernetzen, insbesondere dem Internet. (...) Die Darstellungsform entspricht fast der von IPv4 nur, dass hier anstatt 8 Bit jeweils 16 Bit zu einem Block zusammengefasst werden.\" (Dehoff, S. 53)"
+        },
+        "31": {
+          "q": "Wofür steht VLAN und wodurch zeichnet es sich aus?",
+          "a": "VLAN steht für virtuelle LANs und ist eine Netzstruktur ohne räumliche Bindung. (Vgl. Dehoff S. 56)"
+        }
+      }
+    }
+  }
+}
