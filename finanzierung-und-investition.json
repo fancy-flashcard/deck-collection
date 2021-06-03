@@ -1,0 +1,1098 @@
+{
+    "meta": {
+      "author": "Tobias Lorenz & FFC Quickcheck",
+      "version": "1.1.1",
+      "uuid": "97a30bc3-822e-4d1e-a84b-f61e747bbc1b"
+    },
+    "decks": {
+      "d1": {
+        "meta": {
+          "deck_name": "Finanzierung und Investition",
+          "next_card_id": 1,
+          "description": "Kartendeck für das Fach Finanzierung und Investition mit Fokus auf die Finanzierung"
+        },
+        "cards": {
+          "0": {
+            "q": "Was sind die 2 elementaren  Positionen der Bilanz?",
+            "a": "Vermögen und Kapital bzw. Aktiva und Passiva"
+          },
+          "1": {
+            "q": "Was kennzeichnet die Aktivseite der Bilanz?",
+            "a": "Die Mittelverwendung, d.h. die Schaffung von verschiedenen Vermögenspositionen"
+          },
+          "2": {
+            "q": "Was kennzeichnet die Passivseite der Bilanz?",
+            "a": "Die Mittelbeschaffung, d.h. die Finanzierung aus verschiedenen Kapitalquellen"
+          },
+          "3": {
+            "q": "Die Vorstufe der Bilanz ist...",
+            "a": "das Inventar"
+          },
+          "4": {
+            "q": "Was ist unter einem Inventar zu verstehen?",
+            "a": "Eine detaillierte Auflistung der Mengen, Einzelwerte und Gesamtwerte in Tabellenform"
+          },
+          "5": {
+            "q": "Was ist unter einer Bilanz zu verstehen?",
+            "a": "Eine komprimierte Auflistung der Gesamtwerte in Tabellenform"
+          },
+          "6": {
+            "q": "Die Aktivseite der Bilanz gliedert sich nach dem Kriterium der...",
+            "a": "Liquidierbarkeit und zwar vom schwer Liquidierbaren zum leicht Liquidierbaren"
+          },
+          "7": {
+            "q": "Die Passivseite der Bilanz gliedert sich nach dem Kriterium der...",
+            "a": "Fristigkeit bzw. Laufzeit, d.h. vom Langfristigen zum Kurzfristigen"
+          },
+          "8": {
+            "q": "Was sind Aufgaben der Finanzwirtschaft?",
+            "a": "Festlegen von Finanzierungsregeln; Ermittlung von Finanzierungsmöglichkeiten; Durchführung des Liquiditätsmanagements; Gestaltung der Vermögens- und Kapitalstruktur; Bewertung potenzieller Investitionen; Einrichtung effektiver Kennzahlensysteme zur Planung und Analyse etc."
+          },
+          "9": {
+            "q": "Die Voraussetzung für eine Investition ist die...",
+            "a": "Finanzierung"
+          },
+          "10": {
+            "q": "Was ist unter einer Investition zu verstehen?",
+            "a": "Die Kapitalverwendung"
+          },
+          "11": {
+            "q": "Was ist unter einer Investition nach der engen Fassung zu verstehen?",
+            "a": "Die Anschaffung eines langfristigen Anlagegutes, das über den gesamten Nutzungszeitraum abgeschrieben wird"
+          },
+          "12": {
+            "q": "Was ist unter einer Investition nach der weiten Fassung zu verstehen?",
+            "a": "Die Umwandlung von Kapital in eine beliebige Form von Vermögen, d.h. sowohl in Anlagevermögen als auch in Umlaufvermögen"
+          },
+          "13": {
+            "q": "Nennen Sie 3 verschiedene Investitionsarten!",
+            "a": "Sachinvestitionen; Finanzinvestitionen; Immaterielle Investitionen"
+          },
+          "14": {
+            "q": "Erläutern Sie die Terminologie Sachinvestitionen!",
+            "a": "Sachinvestitionen sind Beschaffungen des Sachanlagevermögens und desjenigen Teil des Umlaufvermögens, der Sachgüter darstellt"
+          },
+          "15": {
+            "q": "Was ist unter Finanzinvestitionen zu verstehen?",
+            "a": "Der Erwerb von Forderungsrechten (Fremdkapital), wie z.B. Bankguthaben, ausgegebene Kredite oder Anleihen sowie der Erwerb von Beteiligungsrechten (Eigenkapital), wie bspw. Aktien"
+          },
+          "16": {
+            "q": "Nennen Sie Beispiele für immaterielle Investitionen!",
+            "a": "Der Erwerb von Wissen, Marketing, Rechten, Forschung & Entwicklung sowie Personalressourcen"
+          },
+          "17": {
+            "q": "Es ist in Bezug auf Finanzierungsanlässe zu differenzieren zwischen...",
+            "a": "laufenden Finanzierungen und besonderen Finanzierungen."
+          },
+          "18": {
+            "q": "Was sind laufende Finanzierungen?",
+            "a": "Die Kapitalbeschaffung für täglich oder periodisch vorkommende Bedarfsfälle"
+          },
+          "19": {
+            "q": "Was ist unter besonderen Finanzierungen zu verstehen?",
+            "a": "Die Kapitalbeschaffung für einmalige oder gelegentliche Bedarfsfälle"
+          },
+          "20": {
+            "q": "Nennen Sie exemplarische laufende Finanzierungen!",
+            "a": "Lohn; Miete; RHB"
+          },
+          "21": {
+            "q": "Was sind Beispiele für besondere Finanzierungen?",
+            "a": "Kapitalerhöhung; Unternehmensgründung, d.h. z.B. Notargebühren, HR-Eintrag, Mindestkapital; Fusion, z.B. in Form von Abfindungszahlungen sowie die Umwandlung in eine andere Rechtsform"
+          },
+          "22": {
+            "q": "Zwischen welchen Finanzherkunftsarten ist zu differenzieren?",
+            "a": "Eigenkapital und Fremdkapital"
+          },
+          "23": {
+            "q": "Was sind mögliche Abgrenzungskriterien bzgl. der Begriffe Eigenkapital und Fremdkapital?",
+            "a": "Haftung; Ertragsanspruch; Vermögensanspruch; Unternehmensleitung; Zeitliche Verfügbarkeit des Kapitals; Finanzielle Kapazität"
+          },
+          "24": {
+            "q": "Wie ist die Haftung für Eigenkapitalgeber geregelt?",
+            "a": "(Mit-)Eigentümerstellung, d.h. im Konkursfall Haftung zumindest in Einlagenhöhe"
+          },
+          "25": {
+            "q": "Was gestaltet sich die Haftung für Fremdkapitalgeber?",
+            "a": "Gläubigerstellung, d.h. keine Haftung"
+          },
+          "26": {
+            "q": "Welchen Ertragsanspruch haben Eigenkapitalgeber?",
+            "a": "Teilhabe an Gewinn und Verlust"
+          },
+          "27": {
+            "q": "Welchen Ertragsanspruch haben Fremdkapitalgeber?",
+            "a": "i.d.R. Zinsanspruch in vorher festgelegter Höhe, aber kein Anteil an Gewinn und Verlust"
+          },
+          "28": {
+            "q": "Welchen Anspruch haben Eigenkapitalgeber auf das Vermögen?",
+            "a": "Einen Anspruch in Höhe der EK-Einlage, wenn der Liquidationserlös die Schulden übersteigt"
+          },
+          "29": {
+            "q": "Was ist der Vermögensanspruch von Fremdkapitalgebern?",
+            "a": "Ein Anspruch in Höhe der Gläubigerforderung"
+          },
+          "30": {
+            "q": "Was sind die Regelungen bzgl. der Unternehmensleitung für Eigenkapitalgeber?",
+            "a": "i.d.R. Anspruch auf die Unternehmensleitung"
+          },
+          "31": {
+            "q": "Was sind die Regelungen bzgl. der Unternehmensleitung für Fremdkapitalgeber?",
+            "a": "grundsätzlich ausgeschlossen, aber faktisch bspw. über den Aufsichtsrat möglich"
+          },
+          "32": {
+            "q": "Wie lange ist Eigenkapital zeitlich verfügbar?",
+            "a": "i.d.R. zeitlich unbegrenzt"
+          },
+          "33": {
+            "q": "Wie lange ist Fremdkapital zeitlich verfügbar?",
+            "a": "i.d.R. befristete Laufzeit"
+          },
+          "34": {
+            "q": "Wodurch ist die Kapazität des Eigenkapitals finanziell begrenzt?",
+            "a": "Das Eigenkapital ist begrenzt durch die Kapazität und die Bereitschaft der Kapitalgeber"
+          },
+          "35": {
+            "q": "Wodurch ist die Kapazität des Fremdkapitals finanziell begrenzt?",
+            "a": "Das Fremdkapital ist begrenzt durch die Sicherheiten der Unternehmung."
+          },
+          "36": {
+            "q": "Nennen Sie 5 verschiedene Finanzierungsarten je nach Kapitalherkunft!",
+            "a": "Eigenfinanzierung; Fremdfinanzierung; Mischfinanzierung; Außenfinanzierung; Innenfinanzierung"
+          },
+          "37": {
+            "q": "Eigenfinanzierung bedeutet...",
+            "a": "Finanzierung mit Eigenkapital."
+          },
+          "38": {
+            "q": "Fremdfinanzierung bedeutet...",
+            "a": "Finanzierung mit Fremdkapital."
+          },
+          "39": {
+            "q": "Bei einer Mischfinanzierung ist...",
+            "a": "keine eindeutige Zuordnung von Eigenkapital und Fremdkapital möglich."
+          },
+          "40": {
+            "q": "Bei einer Außenfinanzierung werden...",
+            "a": "Mittel von außen ins Unternehmen zugeführt."
+          },
+          "41": {
+            "q": "Eine Innenfinanzierung bedeutet, dass...",
+            "a": "die Finanzierung aus dem Betrieb selbst bzw. aus eigener Kraft erfolgt."
+          },
+          "42": {
+            "q": "Nennen Sie ein Beispiel für eine Finanzierungsform, die sowohl eine Eigenfinanzierung als auch eine Außenfinanzierung darstellt!",
+            "a": "Beteiligungsfinanzierung, z.B. die Kapitalerhöhung einer Aktiengesellschaft, die Erhöhung der Gesellschaftereinlage einer GmbH etc."
+          },
+          "43": {
+            "q": "Was sind Beispiele für eine Finanzierungsform, die eine Eigenfinanzierung und zugleich eine Innenfinanzierung darstellt?",
+            "a": "eine Finanzierung aus zurückbehaltenen Gewinnen, z.B. die offene oder die stille Selbstfinanzierung"
+          },
+          "44": {
+            "q": "Was sind Beispiele für eine Mischfinanzierung und zugleich Außenfinanzierung?",
+            "a": "Wandelschuldverschreibungen; Optionsanleihen"
+          },
+          "45": {
+            "q": "Was sind Beispiele für eine Mischfinanzierung und zugleich Außenfinanzierung?",
+            "a": "Wandelschuldverschreibungen; Optionsanleihen"
+          },
+          "46": {
+            "q": "Was ist ein Beispiel für eine Mischfinanzierung und zugleich Innenfinanzierung?",
+            "a": "eine Finanzierung aus Abschreibungsgegenwerten"
+          },
+          "47": {
+            "q": "Was sind Beispiele für eine Fremdfinanzierung und zugleich Außenfinanzierung?",
+            "a": "Darlehen; Anleihen; Kundenkredit; Lieferantenkredit; Kontokorrentkredit"
+          },
+          "48": {
+            "q": "Was ist ein Beispiel für eine Fremdfinanzierung und zugleich Innenfinanzierung?",
+            "a": "Finanzierung aus Rückstellungsgegenwerten"
+          },
+          "49": {
+            "q": "Was ist ein übergeordnetes Ziel des Zahlungsverkehrs?",
+            "a": "Die Kapitalaufnahme/ Kapitaltilgung"
+          },
+          "50": {
+            "q": "Der Zahlungsverkehr ist ein Bindeglied zu...",
+            "a": "Kapitalmärkten, Beschaffungsmärkten und Absatzmärkten"
+          },
+          "51": {
+            "q": "Welche Möglichkeiten bestehen zur Abwicklung des Zahlungsverkehrs im In- und Ausland?",
+            "a": "Barzahlung; Überweisung; Lastschriften; Kreditkarte; Schecks; Wechsel"
+          },
+          "52": {
+            "q": "Nennen Sie 3 verschiedene Arten von Schecks!",
+            "a": "Barscheck; Verrechnungsscheck; Orderscheck"
+          },
+          "53": {
+            "q": "Was sind Beispiele für eine Mischfinanzierung und zugleich Außenfinanzierung?",
+            "a": "Wandelschuldverschreibungen; Optionsanleihen"
+          },
+          "54": {
+            "q": "Eine Lastschrift ist...?",
+            "a": "eine einmalige oder wiederkehrende Zahlung in gleicher oder unterscheidlicher Höhe zu einem festgelegten oder nicht festgelegten Zeitpunkt"
+          },
+          "55": {
+            "q": "Auf welche Art und Weisen erfolgen Lastschriften?",
+            "a": "über EC-Karten (online) oder über Unterschriften (offline)"
+          },
+          "56": {
+            "q": "Eine Beteiligungsfinanzierung ist...",
+            "a": "eine Form der Eigenfinanzierung, bei der Eigenkapital von außerhalb des Unternehmens zugeführt wird"
+          },
+          "57": {
+            "q": "Ein Synonym für die Beteiligungsfinanzierung ist...",
+            "a": "Einlagenfinanzierung"
+          },
+          "58": {
+            "q": "Welche Anlässe bestehen für eine Beteiligungsfinanzierung?",
+            "a": "Gründungs-, Wachstums- und Sanierungsprozesse; Umfinanzierung, d.h. z.B. die Substitution des bisher haftenden Eigenkapitals bei Ausscheiden eines Gesellschafters"
+          },
+          "59": {
+            "q": "Was sind mögliche Zuführungsformen des Eigenkapitals?",
+            "a": "Geldeinlagen; Sacheinlagen; Rechte"
+          },
+          "60": {
+            "q": "Für welche Unternehmen ist eine Beteiligungsfinanzierung möglich?",
+            "a": "Für alle emissionsfähigen Unternehmen, z.B. für die AG, KGaA, SE"
+          },
+          "61": {
+            "q": "Die Aktiengesellschaft ist a.) eine Personengesellschaft b.) eine Kapitalgesellschaft?",
+            "a": "b.) eine Kapitalgesellschaft"
+          },
+          "62": {
+            "q": "Mit was haftet die Aktiengesellschaft für Verbindlichkeiten ggü. Gläubigern?",
+            "a": "nur mit dem Gesellschaftsvermögen, d.h. nur mit dem Grundkapital bzw. gezeichnetem Kapital"
+          },
+          "63": {
+            "q": "Das Grundkapital bei einer Aktiengesellschaft ist in...unterteilt.",
+            "a": "Aktien"
+          },
+          "64": {
+            "q": "Die beteiligten Gesellschafter einer Aktiengesellschaft werden auch als...bezeichnet.",
+            "a": "Aktionäre"
+          },
+          "65": {
+            "q": "Was ist ein großer Vorteil von Aktionären?",
+            "a": "die leichte Veräußerbarkeit von Aktien an der Börse"
+          },
+          "66": {
+            "q": "Das Grundkapital einer Aktiengesellschaft beträgt zumindest...",
+            "a": "50.000 €"
+          },
+          "67": {
+            "q": "Die Gründung einer Aktien ist durch wieviele Personen möglich?",
+            "a": "1 oder mehrere Personen"
+          },
+          "68": {
+            "q": "Für welche Personen ist die Gründung einer AG möglich?",
+            "a": "für natürliche und juristische Personen"
+          },
+          "69": {
+            "q": "Was ist eine SE?",
+            "a": "eine Rechtsform für AGs der EU und im Europäischen Wirtschaftsraum"
+          },
+          "70": {
+            "q": "Wie wird eine SE umgangssprachlich genannt?",
+            "a": "Europa-AG"
+          },
+          "71": {
+            "q": "Was ist eine Voraussetzung für eine SE?",
+            "a": "Sitz und Hauptverwaltung der Gründungsgesellschaften in der EU sowie das Aufweisen einer Verbindung zu 1 oder mehreren Mitgliedsstaaten"
+          },
+          "72": {
+            "q": "Die Gründung einer SE ist möglich für... a.) nur natürliche Personen b.) nur juristische Personen c.) natürliche und juristische Personen?",
+            "a": "b.) nur juristische Personen"
+          },
+          "73": {
+            "q": "Das Mindestkapital einer SE beträgt... a.) 75.000 € b.) 100.000 € c.) 120.000 €",
+            "a": "c.) 120.000 €"
+          },
+          "74": {
+            "q": "Was bedeutet die Abkürzung SE (ausgeschrieben)?",
+            "a": "Societas Europaea"
+          },
+          "75": {
+            "q": "Welche Arten der Geschäftsführung bestehen für die SE?",
+            "a": "dualistisch und monistisch"
+          },
+          "76": {
+            "q": "Was bedeutet eine dualistische Geschäftsführung im Kontext der SE?",
+            "a": "Trennung von Geschäftsführung und Überwachung durch die Organe Vorstand und Aufsichtsrat"
+          },
+          "77": {
+            "q": "Was bedeutet eine monistische Geschäftsführung im Kontext der SE?",
+            "a": "Geschäftsführung und Überwachung sind nicht getrennt, d.h. sie werden von einem Organ, dem Verwaltungsrat wahrgenommen"
+          },
+          "78": {
+            "q": "Nennen Sie einen elementaren Vorteil der SE!",
+            "a": "Vereinfachung grenzenüberschreitender Kooperationen"
+          },
+          "79": {
+            "q": "Nennen Sie Rechte von Aktionären!",
+            "a": "Recht auf Anteil am Bilanzgewinn; Teilnahmerecht, Rederecht und Stimmrecht bei der Hauptversammlung; Bezugsrecht bei Kapitalerhöhung; Anteil am Liquidationserlös"
+          },
+          "80": {
+            "q": "Was sind Aktien?",
+            "a": "ein bestimmter Anteil am Grundkapital, d.h. Nennwert = Grundkapital / Anzahl der Aktien"
+          },
+          "81": {
+            "q": "Zwischen welchen Aktienarten ist zu differenzieren?",
+            "a": "Nennwertaktien; Unechte (nennwertlose) Stückaktien; Inhaberaktien; Namensaktien; Vinkulierte Namensaktien; Stammaktien; Vorzugsaktien"
+          },
+          "82": {
+            "q": "Erläutern Sie Nennwertaktien!",
+            "a": "Mindestwert: 1 €; auf volle € teilbar; verschiedene Nennwerte der Aktien möglich"
+          },
+          "83": {
+            "q": "Erläutern Sie unechte (nennwertlose) Stückaktien!",
+            "a": "Der rechnerisch entfallende Anteil am Grundkapital ist nicht aus der Aktienurkunde hervorgehend; Mindestnennwert: 1 €"
+          },
+          "84": {
+            "q": "Was ist unter einer Inhaberaktie zu verstehen?",
+            "a": "ein anonymes Inhaberpapier, das durch einfache Einigung über Übergabe übertragen wird"
+          },
+          "85": {
+            "q": "Was ist eine Namensaktie?",
+            "a": "Die Namensaktie enthält den Namen des Aktionärs und wird mittels Einigung und Übergabe mit Indossament sowie Eintragung in das Aktienbuch der Gesellschaft übertragen."
+          },
+          "86": {
+            "q": "Was kennzeichnet die vinkulierte Namensaktie?",
+            "a": "Eine vinkulierte Namensaktie ist eine Namensaktie mit einer Übertragungsbeschränkung durch Zustimmungspflicht der Gesellschaft beim Aktienübergang."
+          },
+          "87": {
+            "q": "Definieren Sie eine Stammaktie!",
+            "a": "Bei einer Stammaktie sind alle Aktionäre bzgl. des Stimmrechts und der Dividende gleichberechtigt."
+          },
+          "88": {
+            "q": "Definieren Sie eine Vorzugsaktie!",
+            "a": "Eine Vorzugsaktie gewährt den Aktionären Sonderrechten bzgl. der Dividende oder des Stimmrechts und wird meist als stimmrechtslose Vorzugsaktie mit höherer Dividende herausgegeben."
+          },
+          "89": {
+            "q": "Was ist unter einer Aktienemission zu verstehen?",
+            "a": "die Ausgabe von Aktien und Unterbringung bei interessierten Anlegern"
+          },
+          "90": {
+            "q": "Wann findet eine Aktienemission statt?",
+            "a": "Neugründung einer AG (Neuemission); Ausgabe junger Aktien im Kontext einer Kapitalerhöhung; Aktiensplit; Umwandlung einer Gesellschaft mit einer anderen Rechtsform in eine AG"
+          },
+          "91": {
+            "q": "Nennen Sie ein mögliches Verfahren für die Aktienemission!",
+            "a": "Festpreisverfahren"
+          },
+          "92": {
+            "q": "Wie funktioniert das Festpreisverfahren bei der Aktienemission?",
+            "a": "1.) Festlegung des Emissionspreises vom Emittenten (orientiert bei vergleichsweisen Unternehmen) 2.) Schaffung der Aktien 3.) Platzierung der Aktien durch ein Bankenkonsortium als Vermittler 3.) Angebot der Aktien für Anleger zur Zeichnung"
+          },
+          "93": {
+            "q": "Was passiert, wenn die Anleger im Kontext der Aktienemission zu viele Aktien bestellen?",
+            "a": "Die Aktie ist überzeichnet, d.h. die Konsortialbanken entscheiden über Zuteilungsquoten."
+          },
+          "94": {
+            "q": "Was passiert, wenn im Kontext der Aktienemission zu wenige Aktienbestellungen der Anleger vorliegen?",
+            "a": "Die Aktie ist unterzeichnet, d.h. die Erhöhung des Grundkapitals findet nicht in geplantem Maße statt."
+          },
+          "95": {
+            "q": "Wo werden Aktien gehandelt?",
+            "a": "außerbörslich oder an Wertpapierbörsen"
+          },
+          "96": {
+            "q": "Was ist unter einer Börse zu verstehen?",
+            "a": "Die Börse ist ein organisierter Markt, der Angebot und Nachfrage zusammenführt und an welchem laufende Preise gebildet werden."
+          },
+          "97": {
+            "q": "Zwischen welchen Börsenarten ist zu differenzieren?",
+            "a": "Präsenzbörsen (Parketthandel) und Computerbörsen (Xetra Exchange Electronic)"
+          },
+          "98": {
+            "q": "Die wichtigste Wertpapierbörse in Deutschland steht in... a.) Frankfurt b.) Berlin c.) München?",
+            "a": "a.) Frankfurt"
+          },
+          "99": {
+            "q": "Wo werden wichtige Bekanntmachungen börsennotierter Unternehmen und Wertpapieremittenten veröffentlicht?",
+            "a": "in Börsenpflichtblättern"
+          },
+          "100": {
+            "q": "Going Public bedeutet, dass...",
+            "a": "ein bisher nicht börsennotiertes Unternehmen erstmalig an die Börse geht."
+          },
+          "101": {
+            "q": "Aus welchen Positionen setzt sich das Eigenkapital bei einer AG zusammen?",
+            "a": "Gezeichnetes Kapital; Kapitalrücklage; Gewinnrücklagen; Gewinnvortrag/ Verlustvortrag; Jahresüberschuss/ Jahresfehlbetrag"
+          },
+          "102": {
+            "q": "Was ist unter einer Kapitalrücklage zu verstehen?",
+            "a": "Bei einer Kapitalrücklage wird Kapital von außen zugeführt. Dies wird über das Agio bei Aktienausgabe über dem Nennwert realisiert."
+          },
+          "103": {
+            "q": "Zwischen welchen Formen der Gewinnrücklagen wird differenziert?",
+            "a": "Zuführung aus dem Jahresüberschuss (Thesaurierung); gesetzliche Gewinnrücklage; satzungsmäßige Rücklagen"
+          },
+          "104": {
+            "q": "Wie gestaltet sich die Höhe bei den gesetzlichen Gewinnrücklagen?",
+            "a": "5 % des um den Verlustvortrag geminderten Jahresüberschusses, bis die Gewinnrücklage und die Kapitalrücklage 10 % des Grundkapitals erreichen"
+          },
+          "105": {
+            "q": "Welche Arten der Kapitalerhöhung gibt es bei einer AG?",
+            "a": "Ordentliche Kapitalerhöhung; Genehmigte Kapitalerhöhung; Bedingte Kapitalerhöhung; Kapitalerhöhung aus Gesellschaftsmitteln"
+          },
+          "106": {
+            "q": "Bei einer ordentlichen Kapitalerhöhung...",
+            "a": "erhöht sich das Grundkapital durch Einlagen der Aktionäre oder durch die Emission junger Aktien"
+          },
+          "107": {
+            "q": "Was ist die Voraussetzung für eine ordentliche Kapitalerhöhung?",
+            "a": "ein Beschluss der Hauptversammlung mit einer 3/4-Mehrheit des bei der Hauptversammlung vertretenen Grundkapitals"
+          },
+          "108": {
+            "q": "Um welche Form des Beschlusses handelt es sich bei einer ordentlichen Kapitalerhöhung?",
+            "a": "direkter Beschluss, d.h. zeitnah erfolgende Kapitalerhöhung"
+          },
+          "109": {
+            "q": "Erläutern Sie eine genehmigte Kapitalerhöhung!",
+            "a": "Bei der genehmigten Kapitalerhöhung wird der Vorstand durch den HV-Beschluss unter Zustimmung des Aufsichtsrats zur Grundkapitalerhöhung für maximal 5 Jahre durch Ausgabe junger Aktien gegen Einlage ermächtigt."
+          },
+          "110": {
+            "q": "Der Nennwert bei der genehmigten Kapitalerhöhung beträgt maximal...",
+            "a": "50 % des Grundkapitals"
+          },
+          "111": {
+            "q": "Was ist die Voraussetzung für die genehmigte Kapitalerhöhung?",
+            "a": "Eine 3/4-Mehrheit des vertretenen stimmberechtigten Grundkapitals bei der Hauptversammlung."
+          },
+          "112": {
+            "q": "Um welchen Art von Beschluss handelt es sich bei der genehmigten Kapitalerhöhung?",
+            "a": "indirekter Beschluss, d.h. die Kapitalerhöhung erfolgt später"
+          },
+          "113": {
+            "q": "Was ist unter einer bedingten Kapitalerhöhung zu verstehen?",
+            "a": "Es handelt sich um eine Kapitalerhöhung, die an einen bestimmten Zweck (Vorbereitung einer Fusion; Ausgabe von Belegschaftsaktien etc.) gebunden ist. Der Vorstand wird unter Zustimmung des Aufsichtsrat ermächtigt, eine bedingte Kapitalerhöhung i.H.v. max. 50 % des Grundkapitals vorzunehmen."
+          },
+          "114": {
+            "q": "Was ist die Voraussetzung für die bedingte Kapitalerhöhung?",
+            "a": "Eintreffen der Bedingung; Zustimmung der HV mit 3/4-Mehrheit"
+          },
+          "115": {
+            "q": "Auf welche Art und Weise erfolgt die bedingte Kapitalerhöhung: a.) direkt b.) indirekt?",
+            "a": "b.) indirekt"
+          },
+          "116": {
+            "q": "Was passiert bei einer Kapitalerhöhung aus Gesellschaftsmitteln?",
+            "a": "Es findet ein Passivtausch statt, d.h. die Gewinnrücklage oder Kapitalrücklage werden un gezeichnetes Kapital umgewandelt. Demnach werden keine neuen Finanzmittel zugeführt."
+          },
+          "117": {
+            "q": "Was sind die Voraussetzungen einer Kapitalerhöhung aus Gesellschaftsmitteln?",
+            "a": "Eine 3/4-Mehrheit der Hauptversammlung sowie eine Eintragung in das Handelsregister"
+          },
+          "118": {
+            "q": "Ein Synonym für eine Kapitalerhöhung aus Gesellschaftsmitteln ist die...",
+            "a": "nominelle Kapitalerhöhung"
+          },
+          "119": {
+            "q": "Was sind die Ziele der Kapitalerhöhung aus Gesellschaftsmitteln?",
+            "a": "Senkung des Aktienkurses (Aktien besser handelbar); Schaffung eines positiven Börsenklimas"
+          },
+          "120": {
+            "q": "Was ist bei der Festlegung des Bezugspreises für die Ausgabe junger Aktien zu beachten?",
+            "a": "Dieser muss einerseits über dem Nennwert liegen, da eine Ausgabe unter pari verboten ist. Er sollte zudem unterhalb des derzeitigen Aktienkurses der alten Aktien liegen, da der Aktienkauf für die Anleger sonst unattraktiv ist.  "
+          },
+          "121": {
+            "q": "Was passiert auf dem Markt nach erfolgreicher Kapitalerhöhung?",
+            "a": "Die alten und jungen Aktien haben unterschiedliche Kurse und verschmelzen zu einem neuen gemeinsamen Mittelkurs, der unter dem Kurs der Altaktie liegt."
+          },
+          "122": {
+            "q": "Was sind die Nachteile der Altaktionäre bzgl. der Verschmelzung zu einem gemeinsamen Mittelkurs?",
+            "a": "Kursverwässerung; Verschlechterung des prozentualen Anteils am Grundkapitals durch mehr im Umlauf befindliche Aktien"
+          },
+          "123": {
+            "q": "Wodurch werden die Stimmrechtsverhältnisse und Vermögensverhältnisse bei einer Kapitalerhöhung gewahrt?",
+            "a": "durch die Einführung des Bezugsrechts"
+          },
+          "124": {
+            "q": "Wieviele Bezugsrechte gewährt jede Altaktie: a.) 1 Bezugsrecht b.) 2 Bezugsrechte c.) 5 Bezugsrechte?",
+            "a": "a.) 1 Bezugsrecht"
+          },
+          "125": {
+            "q": "Was gibt das Bezugsverhältnis an?",
+            "a": "das Verhältnis des alten Grundkapitals zum Erhöhungskapital"
+          },
+          "126": {
+            "q": "Wieviele Bezugsrechte sind für den Bezug einer jungen Aktie erforderlich?",
+            "a": "1 oder mehrere Bezugsrechte des Käufers, wobei die Anzahl vom Bezugsverhältnis abhängt"
+          },
+          "127": {
+            "q": "Die Investitionskosten des Anlegers beim Kauf junger Aktien berechnen sich wie folgt:",
+            "a": "Investitionskosten = Anzahl zusätzlich benötigter Bezugsrechte * Wert des Bezugsrechts + Anzahl der jungen Aktien * Bezugspreis"
+          },
+          "128": {
+            "q": "Was gibt der Bilanzkurs an?",
+            "a": "Der Bilanzkurs gibt an, wieviel Eigenkapital aus bilanzieller Sicht auf eine Aktie entfällt."
+          },
+          "129": {
+            "q": "Wie wird der Bilanzkurs berechnet?",
+            "a": "Bilanzkurs = alle EK-Positionen / Anzahl der Aktien"
+          },
+          "130": {
+            "q": "Welche Bilanzpositionen verändern sich durch eine Kapitalerhöhung bei einer AG?",
+            "a": "Erhöhung der Kapitalrücklagen; Erhöhung des gezeichneten Kapitals; Erhöhung des Bankguthabens"
+          },
+          "131": {
+            "q": "Die Fremdfinanzierung begründet ein...",
+            "a": "Schuldverhältnis."
+          },
+          "132": {
+            "q": "Welche Organisationen geben Fremdkapital aus?",
+            "a": "Banken; Kapitalsammelstellen; Lieferanten; Substitution der direkten Kreditaufnahme durch Leasing oder Factoring"
+          },
+          "133": {
+            "q": "Welche Kapitalkosten fallen bei einer Fremdfinanzierung an?",
+            "a": "Zinsen; Bereitstellungsprovision; Disagio; Bearbeitungsgebühren; Überziehungsprovisionen"
+          },
+          "134": {
+            "q": "Welche Gefahr besteht bei der Darlehensaufnahme im Falle von Auftrags-/ Umsatzrückgängen?",
+            "a": "Liquiditätsengpässe"
+          },
+          "135": {
+            "q": "Was sind die Voraussetzungen für eine Vergabe von Fremdkapital?",
+            "a": "Prüfung der Kreditwürdigkeit; Stellung von Kreditsicherheiten"
+          },
+          "136": {
+            "q": "Nennen Sie mögliche Informationsquellen für eine Kreditfähigkeitsprüfung!",
+            "a": "Rating; Schufa; Handelsregister; GuV; Bilanz"
+          },
+          "137": {
+            "q": "Was beinhaltet eine Kreditfähigkeitsprüfung?",
+            "a": "die Überprüfung der rechtlichen und persönlichen Kreditfähigkeit"
+          },
+          "138": {
+            "q": "Erläutern Sie die rechtliche Kreditfähigkeit!",
+            "a": "Die rechtliche Kreditfähigkeit gibt durch die rechtlichen Verhältnisse des Antragsstellers Auskunft, ob der Antragssteller einen Kredit aufnehmen darf."
+          },
+          "139": {
+            "q": "Was beinhaltet die rechtliche Kreditfähigkeit?",
+            "a": "die Geschäftsfähigkeit und die Vertretungsbefugnis"
+          },
+          "140": {
+            "q": "Wer gilt als geschäftsfähig?",
+            "a": "natürliche Personen ab 18 Jahren sowie juristische Personen und Personengesellschaften ab Eintragung ins Handelregister"
+          },
+          "141": {
+            "q": "Was bedeutet Vertretungsbefugnis?",
+            "a": "Im Kontext von Unternehmen bedeutet eine Vertretungsbefugnis, dass die antragsstellende Personen, z.B. durch eine Prokura, handeln darf."
+          },
+          "142": {
+            "q": "Erläutern Sie die persönliche  Kreditfähigkeit!",
+            "a": "Der Kreditnehmer ist persönlich kreditfähig, wenn er einen aufgenommenen Kredit auch tatsächlich zurückzahlen kann/ will."
+          },
+          "143": {
+            "q": "Welche charakterlichen Gegebenheiten des Kreditnehmers sind relevant zur Überprüfung der persönlichen Kreditfähigkeit?",
+            "a": "Disziplin; Sparsamkeit; Zuverlässigkeit; Zahlungsmoral; geschäftliche & berufliche Qualifikationen"
+          },
+          "144": {
+            "q": "Nennen Sie verschiedene Risiken, welche mit der Kreditvergabe sachlich immer einhergehen!",
+            "a": "Kapitalverlustrisiko; Liquiditätsrisiko; Zinsrisiko"
+          },
+          "145": {
+            "q": "Wodurch kann der Kreditgeber die Risiken der Kreditvergabe minimieren?",
+            "a": "Risikostreuung; Zusammenschluss mit anderen Kapitalgebern; Risikoabfederung durch Konditionengestaltung (Zinsen; Mitbestimmungsrechte); Einfordern von Sicherheiten"
+          },
+          "146": {
+            "q": "Zwischen welchen verschiedenen Kreditsicherheiten ist zu differenzieren?",
+            "a": "Zwischen Personalsicherheiten und Realsicherheiten sowie zwischen akzessorischen und fiduziarischen Sicherheiten"
+          },
+          "147": {
+            "q": "Was sind Personalsicherheiten?",
+            "a": "Bei Personalsicherheiten haftet zusätzlich zum Hauptschuldner eine weitere Person."
+          },
+          "148": {
+            "q": "Was kennzeichnet Realsicherheiten?",
+            "a": "Bei Realsicherheiten werden Sachwerte zur Absicherung zur Verfügung gestellt."
+          },
+          "149": {
+            "q": "Was ist der Unterschied zwischen akzessorischen und fiduziarischen Sicherheiten?",
+            "a": "Akzessorische Sicherheiten sind an eine Forderung gebunden, wohingegen fiduziarische Sicherheiten nicht an bestehende Forderungen gebunden sind."
+          },
+          "150": {
+            "q": "Nennen Sie Beispiele für Personalsicherheiten!",
+            "a": "Bürgschaft; Garantie"
+          },
+          "151": {
+            "q": "Nennen Sie Beispiele für Realsicherheiten!",
+            "a": "Eigentumsvorbehalt; Verpfändung; Sicherungsübereignung; Zession; Grundpfandrechte"
+          },
+          "152": {
+            "q": "Nennen Sie Beispiele für akzessorische Sicherheiten!",
+            "a": "Bürgschaft; Pfandrecht; Hypothek."
+          },
+          "153": {
+            "q": "Die Sicherungsübereignung und Grundschuld sind Beispiele für: a.) akzessorische Sicherheiten b.) fiduziarische Sicherheiten?",
+            "a": "b.) fiduziarische Sicherheiten"
+          },
+          "154": {
+            "q": "Die in Deutschland am häufigsten verwendete Personalsicherheit ist die...?",
+            "a": "Bürgschaft"
+          },
+          "155": {
+            "q": "Sind eine zeitliche und betragsmäßige Begrenzung bei der Bürgschaft möglich? a.) Ja b.) Nein",
+            "a": "a.) Ja"
+          },
+          "156": {
+            "q": "Die Bürgschaft zählt zu den...?",
+            "a": "Avalkrediten"
+          },
+          "157": {
+            "q": "Nennen Sie zwei verschiedene Bürgschaftsarten!",
+            "a": "Ausfallbürgschaft; selbstschuldnerische Bürgschaft"
+          },
+          "158": {
+            "q": "Bei der Ausfallbürgschaft haftet der Bürge...",
+            "a": "ausschließlich für den Gläubiger nachgewiesenen Ausfall bei erfolgsloser Zwangsvollstreckung des Vermögens des Hauptschuldners"
+          },
+          "159": {
+            "q": "Bei welcher Art der Bürgschaft besitzt der Bürge das Recht auf Einrede der Vorausklage? a.) Ausfallbürgschaft b.) selbstschuldnerische Bürgschaft",
+            "a": "a.) Ausfallbürgschaft"
+          },
+          "160": {
+            "q": "Was ist unter einer Bürgschaft zu verstehen?",
+            "a": "Bei einer Bürgschaft verpflichtet sich der Bürge ggü. dem Gläubiger für die Erfüllung der Verbindlichkeiten des Dritten mit eigenen Vermögenswerten einzustehen."
+          },
+          "161": {
+            "q": "Bei der selbstschuldnerischen Bürgschaft...",
+            "a": "zahlt der Sürge sofort, wenn der Hauptschuldner seinen Rückzahlungsverpflichtungen nicht vertragsgemäß nachgekommen ist, d.h. er verzichtet auf die Einrede der Vorausklage."
+          },
+          "162": {
+            "q": "Bei einer Garantie...",
+            "a": "verpflichtet sich der Garantiegeber ggü. einem Garantienehmer, dass bei einem bestimmten Geschäft ein künftiger Erfolg eintritt oder ein Schaden ausbleibt."
+          },
+          "163": {
+            "q": "Warum werden Garantien oft Bankavale genannt?",
+            "a": "Dies ist darin begründet, dass Banken oft Garantiegeber sind."
+          },
+          "164": {
+            "q": "Nennen Sie 3 verschiedene Garantiearten!",
+            "a": "Bietungsgarantie; Gewährleistungsgarantie; Zahlungsgarantie"
+          },
+          "165": {
+            "q": "Wo wird der Eigentumsvorbehalt insbesondere eingesetzt? a.) beim Lieferantenkredit b.) beim Kontokorrentkredit",
+            "a": "a.) beim Lieferantenkredit"
+          },
+          "166": {
+            "q": "Auf welche Art des Vermögens bezieht sich der Eigentumsvorbehalt? a.) bewegliches Vermögen b.) unbewegliches Vermögen",
+            "a": "a.) bewegliches Vermögen"
+          },
+          "167": {
+            "q": "Erläutern Sie den Eigentumsvorbehalt!",
+            "a": "Der Käufer ist durch die Übergabe der Sache Besitzer, jedoch ist der Verkäufer bis zur vollständigen Zahlung des Kaufpreises Eigentümer."
+          },
+          "168": {
+            "q": "Nennen Sie 3 verschiedene Arten des Eigentumsvorbehalts!",
+            "a": "Einfacher Eigentumsvorbehalt; Verlängerter Eigentumsvorbehalt; Erweiterter Eigentumsvorbehalt"
+          },
+          "169": {
+            "q": "Was ist das Ziel des verlängerten Eigentumsvorbehalts?",
+            "a": "Verhinderung des entfallenden Sicherungseffekts des Eigentumsvorbehalts mit Weiterveräußerung/ Weiterverarbeitung der Sachen"
+          },
+          "170": {
+            "q": "Was ist ein verlängerter Eigentumsvorbehalts?",
+            "a": "Hierbei ist die Weiterverarbeitung und Weiterveräußerung der Sachen des Käufers mit vorherigem Abtreten der Forderungen zur Sicherung an den Käufer möglich, die der Käufer durch den Weiterverkauf der unter Eigentumsvorbehalt stehenden Sachen erhält."
+          },
+          "171": {
+            "q": "Erläutern Sie den einfachen Eigentumsvorbehalt!",
+            "a": "Der Verkäufer kann bei Zahlungsverzug durch den Käufer den Rücktritt vom Kaufvertrag erklären und die Herausgabe der Sache fordern."
+          },
+          "172": {
+            "q": "In welchen Fällen wirkt der einfache Eigentumsvorbehalt nicht?",
+            "a": "Eigentumsübergang auf Käufer bei Verarbeitung der Sache; Eigentumsübergang auf Dritterwerber bei Gutgläubigkeit etc."
+          },
+          "173": {
+            "q": "Für wen ist die Vereinbarung eines einfachen Eigentumsvorbehalts möglich?",
+            "a": "zwischen Unternehmern und Privatverbrauchern"
+          },
+          "174": {
+            "q": "Gegenüber wen können verlängerte und erweiterte Eigentumsvorbehalte erklärt werden?",
+            "a": "nur ggü. Unternehmen"
+          },
+          "175": {
+            "q": "Was kennzeichnet einen erweiterten Eigentumsvorbehalt?",
+            "a": "Das Eigentum geht auf den Käufer erst nach Tilgung sämtlicher aus einer Geschäftsverbindung stammenden Verbindlichkeiten über."
+          },
+          "176": {
+            "q": "Was ist ein Synonym für einen erweiterten Eigentumsvorbehalt?",
+            "a": "Kontokorrentvorbehalt"
+          },
+          "177": {
+            "q": "Was ist unter einer Sicherungsübereignung zu verstehen?",
+            "a": "Bei einer Sicherungsübereignung findet eine Einigung über den Eigentumsübergang statt und es wird ein Besitzkonstitut vereinbart. Der Kreditnehmer kann die sicherungsübereignete Sache weiterhin nutzen."
+          },
+          "178": {
+            "q": "Was erwirbt der Kreditgeber bei einer Sicherungsübereignung?",
+            "a": "mittelbaren Besitz und treuhänderisches Eigentum"
+          },
+          "179": {
+            "q": "Auf welche Art des Vermögens bezieht sich eine Sicherungsübereignung? a.) unbewegliches Vermögen b.) bewegliches Vermögen",
+            "a": "b.) bewegliches Vermögen"
+          },
+          "180": {
+            "q": "Was bedeutet die Vereinbarung eines Besitzkonstituts im Kontext der Sicherungsübereignung?",
+            "a": "Der Kreditgeber überlässt dem Kreditnehmer den Besitz an der Sache, der Kreditnehmer verpflichtet sich dazu, die Gegenstände auf eigene Kosten zu versichern."
+          },
+          "181": {
+            "q": "Nennen Sie 3 verschiedene Beispiele für eine Sicherungsübereignung!",
+            "a": "Sicherungsübereignung KFZ; Sicherungsübereignung Maschinen; Sicherungsübereignung Vorräte"
+          },
+          "182": {
+            "q": "Auf welche Art des Vermögens bezieht sich die Verpfändung? a.) bewegliches Vermögen b.) unbewegliches Vermögen",
+            "a": "a.) bewegliches Vermögen, d.h. es werden Sachen/ Rechte zur Sicherheit herangezogen."
+          },
+          "183": {
+            "q": "Welche Übergabearten gibt es bei der Verpfändung?",
+            "a": "effektive Übergabe der Sache; Übergabe eines mit Indossament versehenen Orderpapiers (z.B. Lagerschein)"
+          },
+          "184": {
+            "q": "Erläutern Sie die effektive Übergabe der Sache bei der Verpfändung!",
+            "a": "Der Pfand bleibt im Eigentum des Kreditnehmers, der Besitz übergeht an den Gläubiger (=Faustpfandprinzip)."
+          },
+          "185": {
+            "q": "Wie erfolgt die Verwertung des Pfands bei der Verpfändung?",
+            "a": "üblicherweise durch öffentliche Versteigerung; bei Sachen mit einem Marktwert ist ein freihändiger Verkauf durch einen öffentlichen Makler möglich"
+          },
+          "186": {
+            "q": "Was sind die Voraussetzungen für die Verwertung des Pfandes bei der Verpfändung?",
+            "a": "teilweise/ ganze Fälligkeit des Pfandes; Androhung des Verkaufs dem Schuldner; Einhaltung von Wartefristen"
+          },
+          "187": {
+            "q": "Für welche Sachen eignet sich das Pfandrecht als Sicherungsleistung?",
+            "a": "Wertpapiere des Anlagevermögens und Edelmetalle"
+          },
+          "188": {
+            "q": "Für welche Sachen eignet sich das Pfandrecht als Sicherungsleistung nicht?",
+            "a": "für den Geschäftsablauf zwingend notwendige Vermögensteile, wie z.B. Rohstoffe, Maschinen, Waren und Fahrzeuge"
+          },
+          "189": {
+            "q": "Der Lombardkredit ist eine Sonderform... a.) der Verpfändung b.) der Sicherungsübereignung ?",
+            "a": "a.) der Verpfändung"
+          },
+          "190": {
+            "q": "Erläutern Sie den Lombardkredit!",
+            "a": "Der Kreditnehmer erhält nicht den vollen Wert seines Pfandes als Kredit, sondern nur einen bestimmten Prozentsatz davon, den sog. Beleihungswert."
+          },
+          "191": {
+            "q": "Was ist die häufigste Form des Lombardkredits?",
+            "a": "der Effektelombardkredit"
+          },
+          "192": {
+            "q": "Erläutern Sie den Effektenlombardkredit!",
+            "a": "Bankkunden, die ihre Wertpapiere nicht verkaufen wollen, stellen diese als Sicherheiten zur Verfügung. Die Wertpapiere werden bis zu den entsprechenden Lombardsätzen verpfändet und verbleiben im Depot der Bank. Der Darlehensnehmer ist weiterhin Eigentümer der Wertpapiere."
+          },
+          "193": {
+            "q": "Auf welche Art des Vermögens beziehen sich Grundpfandrechte? a.) bewegliches Vermögen b.) unbewegliches Vermögen",
+            "a": "b.) unbewegliches Vermögen"
+          },
+          "194": {
+            "q": "Nennen Sie Beispiele für Kreditsicherheiten!",
+            "a": "Hypothek und Grundschuld"
+          },
+          "195": {
+            "q": "Für welche Kredite eignen sich Grundpfandrechte vor allem zur Sicherung? a.) langfristige Kredite b.) kurzfristige Kredite",
+            "a": "a.) langfristige Kredite"
+          },
+          "196": {
+            "q": "Was ist unter Grundpfandrechten zu verstehen?",
+            "a": "dingliche Verwertungsrechte, mit denen der Gläubiger notfalls bestimmte Geldsummen durch Zwangsversteigerung aus einem Grundstück zurückerhalten kann."
+          },
+          "197": {
+            "q": "In welches Buch werden Grundpfandrechte eingetragen?",
+            "a": "Grundbuch"
+          },
+          "198": {
+            "q": "Was ist ein Grundbuch?",
+            "a": "ein vom Amtsgericht geführtes Verzeichnis aller Grundstücke des betreffenden Amtsgerichtsbezirks"
+          },
+          "199": {
+            "q": "Welchen Glauben genießt das Grundbuch?",
+            "a": "den öffentlichen Glauben"
+          },
+          "200": {
+            "q": "Welche Abteilung des Grundbuches ist für den Kreditgeber wichtig?",
+            "a": "die dritte Abteilung des Grundbuches"
+          },
+          "201": {
+            "q": "Wie bestimmt sich das Rangverhältnis, wenn im Grundbuch Grundstücke mit mehreren Rechten belastet sind?",
+            "a": "nach dem Eintragsdatum, d.h. älteres Recht hat vor jüngerem Recht bei Nicht-Vorliegen von Rangvorbehalten Vorrang"
+          },
+          "202": {
+            "q": "Wie werden ins Grundbuch eingetragene Rechte bei Nichtrückzahlung des Kredits verwertet?",
+            "a": "durch Zwangsvollstreckung"
+          },
+          "203": {
+            "q": "Auf welche Art und Weise erfolgt die Zwangsvollstreckung?",
+            "a": "Zwangsversteigerung; Zwangsverwaltung"
+          },
+          "204": {
+            "q": "Was ist unter einer Zwangsversteigerung zu verstehen?",
+            "a": "Der Gläubiger erhält den Erlös bis zur Höhe seiner Forderung."
+          },
+          "205": {
+            "q": "Was ist unter einer Zwangsverwaltung zu verstehen?",
+            "a": "Die Erträge des Grundstücks (z.B. Mieteinnahmen) werden nach Kostenabzug durch einem vom Gericht bestellten Verwalter dem Gläubiger zugeführt."
+          },
+          "206": {
+            "q": "Was ist eine Hypothek?",
+            "a": "ein Pfandrecht an einem Grundstück"
+          },
+          "207": {
+            "q": "Für was eignet sich eine Hypothek? a.) Darlehen b.) schwankende Kredite, z.B. Kontokorrentkredit",
+            "a": "a.) Darlehen"
+          },
+          "208": {
+            "q": "Inwiefern unterscheidet sich die Grundschuld von der Hypothek?",
+            "a": "Die Grundschuld ist abstrakt, d.h. sie hängt nicht vom Bestehen und Umfang der gesicherten Forderung ab."
+          },
+          "209": {
+            "q": "Für was eignet sich die Grundschuld?",
+            "a": "Darlehen und Kontokorrentkredite"
+          },
+          "210": {
+            "q": "Von wem werden langfristige Darlehen vorwiegend gewährt?",
+            "a": "durch Kreditinstitute"
+          },
+          "211": {
+            "q": "Wie viele Jahre beträgt die maximale Laufzeit bei langfristigen Darlehen? a.) 30 Jahre b.) 10 Jahre c.) 5 Jahre",
+            "a": "a.) 30 Jahre"
+          },
+          "212": {
+            "q": "Was sind Abgrenzungsmerkmale verschiedener Darlehensarten?",
+            "a": "Laufzeit; Zinskonditionen; Disagio; Besicherung; Tilgungskonditionen"
+          },
+          "213": {
+            "q": "Nennen Sie 3 verschiedene Darlehensarten!",
+            "a": "Fälligkeitsdarlehen/ Festdarlehen; Annuitätendarlehen; Ratentilgungsdarlehen/ Abzahlungsdarlehen"
+          },
+          "214": {
+            "q": "Was ist unter einem Disagio zu verstehen?",
+            "a": "ein Abgeld, d.h. der Auszahlungsbetrag ist geringer als der Rückzahlungsbetrag"
+          },
+          "215": {
+            "q": "Wie werden langfristige Darlehen oft besichert?",
+            "a": "in Form erstrangiger Grundpfandrechte"
+          },
+          "216": {
+            "q": "Wie sind Zinskonditionen und Tilgungskonditionen bei langfristigen Darlehen gestaltet? a.) bei allen Darlehensarten gleich b.) abhängig von der Darlehensart",
+            "a": "b.) abhängig von der Darlehensart"
+          },
+          "217": {
+            "q": "Was kennzeichnet das Annuitätendarlehen?",
+            "a": "Bei einem Annuitätendarlehen zahlt der Kreditnehmer gleiche Jahresbeträge (=Annuitäten), wobei der Zinsanteil im Laufe der Darlehensrückzahlung abnimmt, wohingegen der Tilgungsanteil größer wird."
+          },
+          "218": {
+            "q": "Was kennzeichnet das Fälligkeitsdarlehen?",
+            "a": "Bei dem Fälligkeitsdarlehen wird das Darlehen am Ende der Laufzeit in einer Summe zurückgezahlt, die Zinsbelastung ist jedoch konstant."
+          },
+          "219": {
+            "q": "Was kennzeichnet das Ratentilgungsdarlehen?",
+            "a": "Im Zeitablauf bleiben die Tilgungen konstant, wohingegen die Zinsanteile sinken."
+          },
+          "220": {
+            "q": "Erläutern Sie die Terminologie Effektivverzinsung!",
+            "a": "Die Effektivverzinsung gibt die jährlichen, prozentualen Gesamtkosten des Darlehens an."
+          },
+          "221": {
+            "q": "Was berücksichtigt die Effektivverzinsung?",
+            "a": "Nominalzinssatz; Bearbeitungsgebühren; Disagio; Tilgungssatz; Tilgungsbeginn; Tilgungshöhe"
+          },
+          "222": {
+            "q": "Was berücksichtigt die Effektivverzinsung nicht?",
+            "a": "Schätzgebühren; Bereitstellungsprovisionen; Kontoführungsgebühren"
+          },
+          "223": {
+            "q": "Was sind Anleihen?",
+            "a": "langfristige Darlehen, d.h. im Gegensatz zu Aktien Fremdkapital"
+          },
+          "224": {
+            "q": "Nennen Sie Synonyme für Anleihen?",
+            "a": "Schuldverschreibungen; Obligationen; Festverzinsliche Wertpapiere; Rentenpapiere; Pfandbrief; Bond"
+          },
+          "225": {
+            "q": "Welche Ansprüche verbriefen Anleihen?",
+            "a": "Zinszahlung; Forderungsrecht; Rückzahlung"
+          },
+          "226": {
+            "q": "Wie gestaltet sich der Ausgabekurs bei Anleihen?",
+            "a": "Der Ausgabekurs von Anleihen kann zu pari, unter pari und über pari erfolgen."
+          },
+          "227": {
+            "q": "Wo werden Anleihen in Deutschland gehandelt?",
+            "a": "am Rentenmarkt (=Effektenbörse)"
+          },
+          "228": {
+            "q": "Wodurch erzielen Anleger bei einem Kauf von Anleihen Erträge?",
+            "a": "Zinsen (ordentliche Erträge) und Kursgewinne (außerordentliche Erträge)"
+          },
+          "229": {
+            "q": "Nennen Sie wichtige Anleihformen!",
+            "a": "Festzinsanleihe; Nullkuponanleihe; Tilgungsanleihe; Perpetual; Anleihe mit variabler Verzinsung"
+          },
+          "230": {
+            "q": "Wozu zählen Lieferantenkredite und Kundenkredite?",
+            "a": "zu den Handelskrediten"
+          },
+          "231": {
+            "q": "Was ist unter einem Lieferantenkredit zu verstehen?",
+            "a": "Ein Lieferantenkredit ist ein Kaufvertrag zwischen einem Lieferant und einem Abnehmer, bei dem der Abnehmer die Waren unter Stundung des Kaufpreises auf Ziel erhält."
+          },
+          "232": {
+            "q": "Wie erfolgt die Bezahlung bei einem Lieferantenkredit?",
+            "a": "Die Bezahlung erfolgt entweder innerhalb eines bestimmten Zeitraums (=Skontofrist) unter Abzug des Skontosatzes vom Rechnungsbetrags oder innerhalb der Zahlungsfrist ohne Abzug des Skontosatzes vom Rechnungsbetrages."
+          },
+          "233": {
+            "q": "Wann handelt es sich bei einem Lieferantenkredit wirklich um einen Lieferantenkredit?",
+            "a": "Es handelt sich um einen Lieferantenkredit, wenn der Abnehmer nach der Skontofrist, aber innerhalb der Zahlungsfrist bezahlt."
+          },
+          "234": {
+            "q": "Wie lang sind die maximalen Skontofristen beim Lieferantenkredit? a.) 10 Tage b.) 14 Tage c.) 16 Tage d.) 18 Tage",
+            "a": "b.) 14 Tage"
+          },
+          "235": {
+            "q": "Wie hoch sind Skontosätze beim Lieferantenkredit?",
+            "a": "zwischen 1 und 3 %"
+          },
+          "236": {
+            "q": "Wie lange sind die Zahlungsfristen beim Lieferantenkredit?",
+            "a": "Zwischen 10 und 40 Tage"
+          },
+          "237": {
+            "q": "Was sind Synonyme für den Kundenkredit?",
+            "a": "Kundenanzahlung; Abnehmerkredit; Vorauszahlungskredit"
+          },
+          "238": {
+            "q": "Wann wird eine Anzahlung im Kontext des Kundenkredits eingesetzt?",
+            "a": "bei langen Zeitspannen zwischen der Bestellung und Lieferung; bei sehr kundenspezifischer Ausführung, Lieferung oder Leistung; vor allem im Wohnungsbau und Großmaschinenbau"
+          },
+          "239": {
+            "q": "Was sind die Folgen eines Kundenkredits für den Lieferanten?",
+            "a": "eine erhöhte Liquidität sowie eine Sicherheit der Bezahlung der Lieferung"
+          },
+          "240": {
+            "q": "Wie sind die Zahlungsbedingungen beim Kundenkredit geregelt? a.) bei jedem Kundenkredit andere Zahlungskonditionen b.) branchenspezifisch c.) immer gleiche Konditionen",
+            "a": "b.) branchenspezifisch"
+          },
+          "241": {
+            "q": "Was ist ein Kontokorrentkredit? a.) ein Handelskredit b.) ein kurzfristiger Bankkredit",
+            "a": "b.) ein kurzfristiger Bankkredit"
+          },
+          "242": {
+            "q": "Erläutern Sie den Kontokorrentkredit!",
+            "a": "Es handelt sich um einen von einer Bank eingeräumten Kredit an einen Kunden in bestimmter Höhe, der bis zu einer bestimmten Höhe (Kreditlinie) beansprucht werden kann und binnen eines bestimmten Zeitraums zurückgezahlt werden kann."
+          },
+          "243": {
+            "q": "Wie häufig kann ein Kontokorrentkredit beansprucht werden? a.) einmalig b.) immer wieder",
+            "a": "b.) immer wieder"
+          },
+          "244": {
+            "q": "Was ist der Sinn des Kontokorrentkredits?",
+            "a": "die Abdeckung kurzfristiger Schwankungen beim Kapitalbedarf des Unternehmens"
+          },
+          "245": {
+            "q": "Welche Kapitalkosten fallen bei Beanspruchung des Kontokorrentkredits an?",
+            "a": "Sollzinsen (meist 4-8 % über den Geldmarktsätzen); Bereitstellungsprovision; Überziehungsprovision; Umsatzprovision; Barauslagen"
+          },
+          "246": {
+            "q": "Was ist unter Factoring zu verstehen?",
+            "a": "eine Finanzdienstleistung zur kurzfristigen Umsatzfinanzierung, bei der der Factor die Forderungen seines Factoring-Kunden gegen dessen Abnehmer (Debitor) erwirbt."
+          },
+          "247": {
+            "q": "Wie funktioniert das Factoring konkret?",
+            "a": "Der Factor zahlt den Forderungskaufpreis an den Factoring-Kunden und behält einen Teil des Kaufpreises auf einem Sperrkonto als Risikoabsicherung bis zur endgültigen Zahlung durch den Debitor ein."
+          },
+          "248": {
+            "q": "Nennen Sie verschiedene Funktionen des Factoring!",
+            "a": "Dienstleistungsfunktion; Delkrederefunktion (Kreditausfallrisiko); Finanzierungsfunktion"
+          },
+          "249": {
+            "q": "Nennen Sie verschiedene Arten des Factoring!",
+            "a": "Offenes Factoring; Stilles Factoring"
+          },
+          "250": {
+            "q": "Was ist unter Leasing zu verstehen?",
+            "a": "eine entgeltliche miet- oder pachtähnliche Überlassung von Wirtschaftsgütern zur Nutzung auf Zeit"
+          },
+          "251": {
+            "q": "Wie werden die Vertragspartner beim Leasing bezeichnet?",
+            "a": "Leasingnehmer und Leasinggeber"
+          },
+          "252": {
+            "q": "Was passiert nach Ende des Leasingvertrags?",
+            "a": "Die Leasinggut geht an den Leasinggeber zurück oder es wird an den Leasingnehmer oder an einen Dritten weiterveräußert."
+          },
+          "253": {
+            "q": "Was ist die primäre Kundschaft des Leasings? a.) Privatverbraucher b.) Gewerbetreibende",
+            "a": "b.) Gewerbetreibende"
+          },
+          "254": {
+            "q": "Nennen Sie bestimmte Merkmale des Leasings!",
+            "a": "Anpassung an den technischen Fortschritt; Liquiditätsschonung; Leasingraten als Betriebsausgaben; hohe Leasingskosten"
+          },
+          "255": {
+            "q": "Was ist eine Wandelschuldverschreibung/ Wandelanleihe?",
+            "a": "eine Anleihe, die nach einer Sperrfrist ein Umtauschrecht auf Aktien verbrieft, d.h. mit der Wandelung wird auf einem Forderungspapier (Fremdkapital) ein Anteilspapier (Eigenkapital)."
+          },
+          "256": {
+            "q": "Wann geben Unternehmen Wandelanleihen aus?",
+            "a": "wenn das derzeitige Zinsniveau bei Anleihen zu hoch und das derzeitige Niveau der Aktienkurse zu niedrig ist."
+          },
+          "257": {
+            "q": "Was ist eine Optionsanleihe?",
+            "a": "Bei einer Optionsanleihe handelt es sich um eine Anleihe, die neben den Rechten aus der Teilschuldverschreibung ein Bezugsrecht auf Aktien verbrieft."
+          },
+          "258": {
+            "q": "Was beinhaltet jede Optionsanleihe?",
+            "a": "eine bestimmte Anzahl von Optionsscheinen, die für den Bezug der Aktien benötigt werden"
+          },
+          "259": {
+            "q": "Auf welche Art und Weise werden Optionsanleihen an der Börse gehandelt?",
+            "a": "Optionsanleihe mit Optionsschein; Optionsanleihe ohne Bezugsschein; nur der Optionsschein"
+          },
+          "260": {
+            "q": "Erläutern Sie die Cash-Flow-Finanzierung!",
+            "a": "Bei der Cash-Flow-Finanzierung fließt aus Umsatzerlösen Kapital in das Unternehmen für Finanzierungsmaßnahmen."
+          },
+          "261": {
+            "q": "Was sind die Bedingungen der Cash-Flow-Finanzierung?",
+            "a": "Einzahlungen aus dem Umsatzprozess; den Einzahlungen stehen keine Auszahlungen gegenüber"
+          },
+          "262": {
+            "q": "Erläutern Sie die offene Selbstfinanzierung!",
+            "a": "Bei der offenen Selbstfinanzierung wird der ausgewiesene und versteuerte erwirtschaftete Gewinn nicht komplett an die Gesellschafter ausgeschüttet, sondern als Gewinnrücklage einbehalten/ thesauriert."
+          },
+          "263": {
+            "q": "Erläutern Sie die stille Selbstfinanzierung!",
+            "a": "Die stillen Reserven entstehen bei der Nutzung von Bewertungs- und Bilanzierungswahlrechten resultierend aus dem Vorsichtsprinzip, indem Aktiva unterbewertet oder Passiva überbewertet wird."
+          },
+          "264": {
+            "q": "Welche Effekte sind bei der Finanzierung aus Abschreibungsgegenwerten relevant?",
+            "a": "Kapitalfreisetzungseffekt; Kapazitätserweiterungseffekt"
+          },
+          "265": {
+            "q": "Was besagt der Kapitalfreisetzungseffekt im Kontext der Finanzierung aus Abschreibungsgegenwerten?",
+            "a": "Nach dem Kapitalfreisetzungseffekt fließen die Abschreibungen durch eine Einkalkulation in diese Preise zurück, zusätzlich werden Abschreibungen als Aufwand erfasst, wodurch sich Steuerersparnisse ergeben und die Gewinnausschüttungen an die Aktionäre verringert werden. Diese Abschreibungsgegenwerte werden für sofortige Investitionen oder zur Kredittilgung eingesetzt."
+          },
+          "266": {
+            "q": "Was besagt der Kapazitätserweiterungseffekt im Kontext der Finanzierung aus Abschreibungsgegenwerten?",
+            "a": "Sobald die Höhe des freigesetzten Kapitals den Anschaffungskosten einer neuen Maschine entspricht, wird eine komplett innenfinanzierte Erweiterungsinvestition vorgenommen."
+          },
+          "267": {
+            "q": "Nennen Sie die Prämissen des Kapazitätserweiterungseffekts!",
+            "a": "sämtliche Anlagen technisch baugleich und problemlos ersetzbar; fester Anfangsbestand an Anlagen; Reinvestition nur zum Jahresende; Abschreibungsdauer = Nutzungsdauer; keine relevanten Zinserträge für Abschreibungsgegenwerte; konstante Periodenkapazität jeder einzelnen Anlage; Wiederbeschaffungskosten = Anschaffungskosten; kein Preisverfall am Markt"
+          },
+          "268": {
+            "q": "Erläutern Sie die Finanzierung aus Rückstellungsgegenwerten!",
+            "a": "Die Finanzierung aus Rückstellungsgegenwerten basiert auf einer Überbewertung des Passiva durch zu hohe Rückstellungen."
+          },
+          "269": {
+            "q": "Wann werden Rückstellungen gebildet?",
+            "a": "für ungewisse Verbindlichkeiten; für unterlassene Instandhaltungsaufwendungen; für Gewährleistungen ohne rechtliche Verpflichtungen (Kulanzgewährleistungen)"
+          }
+        }
+      }
+    }
+  }
