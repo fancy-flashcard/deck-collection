@@ -1,0 +1,630 @@
+{
+  "meta": {
+    "author": "Nina Meffert",
+    "version": "1.1.1",
+    "uuid": "13834498-d27e-4c4b-b337-c6bac72cad5c"
+  },
+  "decks": {
+    "d0": {
+        "meta": {
+          "deck_name": "Begrifflichkeiten",
+          "next_card_id": 2,
+          "description": "Dieses Deck bezieht sich auf allgemeine Unterscheidungen im Rahmen von Rechtsakten."
+        },
+        "cards": {
+          "0": {
+            "q": "Unterscheide die Begriffe Richtlinien und Verordnung?",
+            "a": "Eine Verordnung ist ein verbindlicher Rechtsakt, der von allen EU-Ländern umgesetzt werden müssen, die Richtlinie hingegen ist ein festgelegtes Ziel, das es von allen EU-Ländern zu erreichenden gilt. Die Umsetzung von Richtlinien ist Sache der einzelnen Länder. (Definition nach: https://europa.eu/european-union/law/legal-acts_de)"
+          },
+          "1": {
+            "q": "Welche weiteren Rechtsakte gibt es noch und was machen diese aus?",
+            "a": "Weitere Rechtsakte sind Beschlüsse, Empfehlungen und Stellungnahmen. Beschlüsse sind nur für diejenigen verbindlich und unmittelbar anwendbar, an die sie gerichtet sind. Das Nichteinhalten von Empfehlungen hat keine rechtlichen Folgen. Stellungnahmen sind von Institutionen und sind weder verbindlich noch haben sie rechtliche Folgen. Sie werden bei der Erarbeitung von Rechtsvorschriften von Ausschüssen vorgelegt. (Definition nach: https://europa.eu/european-union/law/legal-acts_de)"
+          }
+        }
+      },
+      "d1": {
+      "meta": {
+        "deck_name": "Datenschutz nach der DSGVO (Datenschutzgrundverordnung)",
+        "next_card_id": 33,
+        "description": "Dieses Kapitel behandelt Themen rund um den Datenschutz rund um die DSGVO. Es behandelt die Zuverlässigkeit und Sicherheit des Umgangs mit personenbezogenen Daten, wichtige datenschutzrechtliche Pflichten, Sanktionen bei Verstößen und die wichtigsten Rechte der Betroffenen nach DSGVO. Die Auswahl der Fragen und Antworten orientieren sich am Vorlesungsskript von Frau Dr. Barbara Sommer (RA)."
+      },
+      "cards": {
+        "0": {
+          "q": "Welche Ziele wurden mit der Einführung der europäischen Datenschutzgrundverordnung verfolgt?",
+          "a": "Ziel war es, ein europaweites Datenschutzrecht und einen besseren Schutz personenbezogener Daten zu erzielen."
+        },
+        "1": {
+          "q": "Wann wurde die DSGVO rechtskräftig?",
+          "a": "Die DSGVO wurde am 25.08.2018 rechtskräftig."
+        },
+        "2": {
+          "q": "Ja oder nein: EU-Verordnungen stehen über nationalem Recht.",
+          "a": "Ja, die Verordnung hat das Vorrecht vor dem nationalen Recht."
+        },
+        "3": {
+          "q": "Die DSGVO erlaubt Präzisierungen durch nationales Recht. Welches Gesetz enthält diese in Deutschland?",
+          "a": "In Deutschland werden Präzisierungen der DSGVO durch das neue Bundesdatenschutzgesetz (BDSG-neu, einsehbar unter https://www.gesetze-im-internet.de/bdsg_2018/)."
+        },
+        "4": {
+          "q": "Nenne die wichtigsten Regelungen der in der Reihenfolge ihres Vorkommens in der DSGVO.",
+          "a": "Begriffsbestimmungen (Art. 4), Rechtmäßigkeit der Verarbeitung personenbezogener Daten (Art. 6), Bedingungen für die Einwilligung (Art. 7), Verarbeitung besonderer Kategorien personenbezogener Daten (Art. 9), Informationspflicht bei Erhebung von personenbezogenen Daten (Art. 13 und 14), Betroffenenrechte (Art. 15 bis 20), gemeinsame Verantwortlichkeiten und Auftragsverarbeitung (Art. 26 und 28), Technikgestaltung und Sicherheitsstandards für die Datenverarbeitung (Art 25 und 32) (Übersicht: https://dsgvo-gesetz.de/)"
+        },
+        "5": {
+          "q": "Welcher Artikel der DSGVO definiert den Begriff \"personenbezogene Daten\"?",
+          "a": "Artikel 4."
+        },
+        "6": {
+          "q": "Definiere den Begriff \"personenbezogene Daten\" nach Art. 4 Nr. 1 DSGVO",
+          "a": "\"Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (...) beziehen\" (Skript, DSGVO Art. 4 Nr. 1: https://dsgvo-gesetz.de/art-4-dsgvo/)"
+        },
+        "7": {
+          "q": "Wann wird eine Person als identifizierbar angesehen?",
+          "a": "\"Als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind, identifiziert werden kann.\" (Skript)"
+        },
+        "8": {
+          "q": "Was bedeutet der Begriff \"personenbezogene Daten\" und seine Definition für den Online-Bereich?",
+          "a": "Es bedeutet \"es gibt keine Trennung mehr zwischen Pseudonymen (z.B. Nutzer-IDs) und personenbezogenen Daten.\" (Skript)"
+        },
+        "9": {
+          "q": "Definiere den Begriff \"Verarbeitung\" nach Art. 4 Nr. 2 DSGVO",
+          "a": "\"Jeden mit oder ohne Hilfe automatisierter Verfahren ausgeführten Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung\" (DSGVO Art. 4 Nr. 1: https://dsgvo-gesetz.de/art-4-dsgvo/)"
+        },
+        "10": {
+          "q": "Definiere den Begriff \"Verantwortlicher\" nach Art. 4 Nr. 7 DSGVO",
+          "a": "\"Die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet\" (DSGVO Art. 4 Nr. 1: https://dsgvo-gesetz.de/art-4-dsgvo/)"
+        },
+        "11": {
+          "q": "Definiere den Begriff \"Auftragsverarbeiter\" nach Art. 4 Nr. 8 DSGVO",
+          "a": "\"Eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.\" (DSGVO Art. 4 Nr. 1: https://dsgvo-gesetz.de/art-4-dsgvo/)"
+        },
+        "12": {
+          "q": "Definiere den Begriff \"Betroffener\" bzw. \"betroffene Person\" nach Art.4 Nr. 1 DSGVO (indirekt definiert)",
+          "a": "Person, deren personenbezogene Daten durch die Verarbeitung betroffen sind (nach DSGVO Art. 4 Nr. 1: https://dsgvo-gesetz.de/art-4-dsgvo/)"
+        },
+        "13": {
+          "q": "Definiere den Begriff \"Besondere Kategorien personenbezogener Daten\" nach Art. 9 DSGVO",
+          "a": "\"Daten, aus denen die rassische und ethnische Herkunft, politische Meinungen, religiöse oder weltanschauliche Überzeugungen oder die Gewerkschaftszugehörigkeit hervorgehen, sowie die  (...)\" genetischen oder \"biometrischen Daten zur eindeutigen Identifizierung einer natürlichen Person, Gesundheitsdaten oder Daten zum Sexualleben oder der sexuellen Orientierung\" (DSGVO Art. 9: https://dsgvo-gesetz.de/art-9-dsgvo/)"
+        },
+        "14": {
+          "q": "Nenne die Grundsätze für die Verarbeitung personenbezogener Daten nach Art. 5 DSGVO. (Voraussetzungen)",
+          "a": "1.) Verarbeitung nach Treu und Glauben, Transparenz 2.) Zweckbindung 3.) Datenminimierung 4.) Sachliche Richtigkeit und Aktualität 5.) Speicherbegrenzung 6.) Integrität und Vertraulichkeit 7.) Rechtmäßigkeit (Verarbeitungsverbot, außer es gibt eine Rechtsgrundlage aus Gesetz oder aufgrund von Einwilligung) (DSGVO Art. 5: https://dsgvo-gesetz.de/art-9-dsgvo/)"
+        },
+        "15": {
+          "q": "Nenne die Bedingungen nach Art. 6 Abs. 1 DSGVO, die eine Verarbeitung von Daten rechtmäßig erlauben. (Gesetzorientiert)",
+          "a": "Eine Verarbeitung ist rechtmäßig, wenn die betroffene Person eine Einwilligung gegeben hat, \"die Verarbeitung für die Erfüllung eines Vertrages\", \"einer rechtlichen Verpflichtung\" oder \"für die Wahrnehmung einer Aufgabe erforderlich\" ist. Die Verarbeitung ist ebenfalls rechtens, wenn die Verarbeitung erforderlich ist, \"um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen\". Sie ist rechtens, wenn \"die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten erforderlich, sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen, insbesondere dann, wenn es sich bei der betroffenen Person um ein Kind handelt.\" (Letzteres \"gilt nicht für die von Behörden in Erfüllung ihrer Aufgaben vorgenommene Verarbeitung.\")(DSGVO Art. 6 Abs. 1: https://dsgvo-gesetz.de/art-6-dsgvo/)"
+        },
+        "16": {
+          "q": "Welche Erlaubnistatbestände müssen nach Art. 6 DSGVO vorliegen, damit eine Verarbeitung rechtmäßig ist? (Skriptorientiert)",
+          "a": "1.) \"Einwilligung des Betroffenen\" 2.) \"Verarbeitung zur Erfüllung eines Vertrags bzw. zur Durchführungvorvertraglicher Maßnahmen\" 3.) \"Verarbeitung aufgrund rechtlicher Verpflichtungen\" 4.) \"die Verarbeitung ist erforderlich, um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen\" 5.) \"die Verarbeitung ist für die Wahrnehmung einer Aufgabe erforderlich, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde\" 6.) \"Verarbeitung zur Wahrung berechtigter Interessen\" (DSGVO Art. 6 https://dsgvo-gesetz.de/art-6-dsgvo/)"        
+        },
+        "17": {
+          "q": "Die DSGVO bringt eine generelle Informationspflicht mit sich. Was bedeutet das?",
+          "a": "Die generelle Informationspflicht besagt, dass eine Informationspflicht gegenüber dem Betroffenen besteht, sowohl wenn die Daten direkt vom Betroffenen kommen, als auch wenn man auf anderem Wege an die Daten eines Betroffenen kommt. (Ab hier nicht mehr Klausurrelevant) \"Werden personenbezogene Daten bei der betroffenen Person erhoben, \" so ist \"der Verantwortliche der betroffenen Person zum Zeitpunkt der Erhebung\" verpflichtet, die folgenden Daten mitzuteilen: Namen und Kontaktdaten des Verantwortlichen + ggfs. Vertreter, ggfs. Kontaktdaten des Datenschutzbeauftragten, Zwecke + Rechtsgrundlage, ggfs. Empfänger oder Kategorien von Empfängern der personenbezogenen Daten, ggfs. Absicht des Verantwortlichen, Informationen, die notwendig sind, um eine faire und transparente Verarbeitung zu gewährleisten, Information an die betroffene Person, wenn eine Verarbeitung außerhalb der Zwecksmäßgkeit angestrebt wird (DSGVO Art. 13 + 14: https://dsgvo-gesetz.de/art-4-dsgvo/)"
+        },
+        "18": {
+          "q": "Welche Regeln gelten für die Offenlegung von Daten?",
+          "a": "Der Betroffene muss Zustimmen oder es muss ein Erlaubnistatbestand vorliegen. Auftragsverarbeitung: \"Die Verarbeitung durch einen Auftragsverarbeiter erfolgt auf der Grundlage eines Vertrags oder eines anderen Rechtsinstruments\" (DSGVO Art. 28 Abs. 1: https://dsgvo-gesetz.de/art-28-dsgvo/) Die verantwortliche Stelle behält die Kontrolle über die personenbezogenen Daten beim Auftragsverarbeiter."
+        },
+        "19": {
+          "q": "Welche Regeln gelten für die Sicherheit der Verarbeitung (Nach Art. 32 DSGVO)?",
+          "a": "Für die Sicherheit der Daten sind verschiedene TOM (technische und organisatorische Maßnahmen) zu treffen. Darunter fallen \"die Pseudonymisierung und Verschlüsselung personenbezogener Daten\", \"die Fähigkeit, die Vertraulichkeit, Integrität, Verfügbarkeit und Belastbarkeit der Systeme und Dienste im Zusammenhang mit der Verarbeitung auf Dauer sicherzustellen\", \"die Verfügbarkeit der personenbezogenen Daten und den Zugang zu ihnen bei einem physischen oder technischen Zwischenfall rasch wiederherzustellen\", \"ein Verfahren zur regelmäßigen Überprüfung, Bewertung und Evaluierung der Wirksamkeit der technischen und organisatorischen Maßnahmen zur Gewährleistung der Sicherheit der Verarbeitung.\" (DSGVO Art. 32: https://dsgvo-gesetz.de/art-32-dsgvo/)"
+        },
+        "20": {
+          "q": "Welche Maßnahmen gibt es, um die Vertraulichkeit sicherzustellen?",
+          "a": "Zutritts- & Zugangskontrolle zu den Datenverarbeitungsanlagen, Zugriffskontrolle, Trennungskontrolle, Pseudonymisierung von Daten"
+        },
+        "21": {
+          "q": "Nenne 2 Maßnahmen um die Zutrittskontrolle zu den Datenverarbeitungsanlagen sicherzustellen?",
+          "a": "\"Chipkarten, Pförtner, Alarmanlagen…\"(Skript)"
+        },
+        "22": {
+          "q": "Nenne 2 Maßnahmen um die Zugangskontrolle zu den Datenverarbeitungsanlagen und -systemen sicherzustellen?",
+          "a": "\"Sichere Kennwörter, Verschlüsselung von Datenträgern…\"(Skript)"
+        },
+        "23": {
+          "q": "Nenne 2 Maßnahmen um die Zugriffskontrolle sicherzustellen?",
+          "a": "\"Berechtigungskonzepte, Protokollierung von Zugriffen…\"(Skript)"
+        },
+        "24": {
+          "q": "Nenne 2 Maßnahmen um die Trennungskontrolle sicherzustellen?",
+          "a": "\"Sandboxing, Mandantenfähigkeit…\"(Skript)"
+        },
+        "25": {
+          "q": "Welche Maßnahmen gibt es, um die Integrität der Systeme und Dienste sicherzustellen?",
+          "a": "Weitergabe-, Eingabe- und Zugriffskontrolle."
+        },
+        "26": {
+          "q": "Nenne 2 Maßnahmen um die Weitergabekontrolle sicherzustellen?",
+          "a": "\"verschlüsselte Übertragung, VPNs, elektronische Signatur…\"(Skript)"
+        },
+        "27": {
+          "q": "Nenne 2 Maßnahmen um die Eingabekontrolle sicherzustellen?",
+          "a": "\"Protokollierung von Systemaktivitäten, Dokumentenmanagement…\"(Skript)"
+        },
+        "28": {
+          "q": "Welche Maßnahmen gibt es, um die Verfügbarkeit und Belastbarkeit der Systeme und Dienste sicherzustellen?",
+          "a": "Verfügrbarkeitskontrolle UND \"Maßnahmen zur Gewährleistung der raschen Widerherstellbarkeit der Verfügbarkeit der personenbezogenen Daten und des Zugangs zu ihnen bei einem physischen oder technischen Zwischenfall.\" (Skript)"
+        },
+        "29": {
+          "q": "Nenne 4 Maßnahmen um die Verfügbarkeitskontrolle sicherzustellen?",
+          "a": "\"Backup-Strategie, USV, Virenschutz, Firewall, Notfallpläne…\"(Skript)"
+        },
+        "30": {
+          "q": "Welche Möglichkeiten des Datenschutzs \"durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen\" gibt es?",
+          "a": "Es gibt die beiden Möglichkeiten \"by design\" und \"by default\". \"By design\": \"zum Zeitpunkt der Festlegung der Mittel für die Verarbeitung als auch zum Zeitpunkt der eigentlichen Verarbeitung geeignete technische und organisatorische Maßnahmen\" vorhanden sein, die darauf ausgelegt sind, die Datenschutzgrundsätze (Art. 5 DSGVO) wirksam umzusetzen und \"die notwendigen Garantien in die Verarbeitung aufzunehmen, um den Anforderungen dieser Verordnung zu genügen und die Rechte der betroffenen Personen zu schützen.\" \"By default\": \"sicherstellen, dass durch Voreinstellung nur personenbezogene Daten, deren Verarbeitung für den jeweiligen bestimmten Verarbeitungszweck erforderlich ist, verarbeitet werden.\"(Nach Art. 25 DSGVO)"
+        },
+        "31": {
+          "q": "Welche Sanktionen fallen nach DSGVO bei Verstößen an?",
+          "a": "Schadensersatzansprüche des Betroffenen (nach Art. 82), Bußgelder (nach Art. 83)"
+        },
+        "32": {
+          "q": "Welche Rechte haben Betroffene nach DSGVO (Art. 15 ff.)?",
+          "a": "Rechte auf Auskunft, Erhalt der Kopie (Art. 15), Berichtigung (Art. 16), Löschung (Vergessen werden, Art. 17), Sperrung (Art. 18), Benachrichtigung (Art. 19), Dateübertragbarkeit (Art. 20) und Widerspruchsrecht (Art. 21)"
+        }
+      }
+    },
+    "d2": {
+      "meta": {
+        "deck_name": "Internetrecht",
+        "next_card_id": 11,
+        "description": "Dieses Deck enthält Fragen zur Sicherheit von Webseiten durch das TMG (Telemediengesetz), Verbraucherschutz und Markenrechten. Die Auswahl der Fragen und Antworten orientieren sich am Vorlesungsskript von Frau Dr. Barbara Sommer (RA)."
+      },
+      "cards": {
+        "0": {
+          "q": "Ja oder Nein: Ein Webseitenbesucher muss \"jegliche Datenerhebung\" hingewiesen werden.",
+          "a": "Ja, auch auf Internetseiten gilt die \"Informationspflicht bei Erhebung von personenbezogenen Daten bei der betroffenen Person\". (nach Art. 13 (https://dsgvo-gesetz.de/art-13-dsgvo/) DSGVO) "
+        },
+        "1": {
+          "q": "Welche Regeln gelten für die Zulässigkeit von Cookies, Logfiles und Ähnlichem?",
+          "a": "Die \"Zulässigkeit\" bei der Erhebung durch Cookies oder Logfiles \"beurteilt sich nach (der) DSGVO\" (Skript). Es muss ein \"berechtiges Interesse\" nach Art. 6 DSGVO (https://dsgvo-gesetz.de/art-6-dsgvo/) bestehen. Weiterhin muss es bei Direktwerbung möglich sein zu widersprechen (Art. 21 DSGVO https://dsgvo-gesetz.de/art-21-dsgvo/). Bei Cookie o.ä., die das Ziel haben zu Tracken, ist eine Einwilligung einzuholen. (Art 7 DSGVO https://dsgvo-gesetz.de/art-7-dsgvo/)"
+        },
+        "2": {
+          "q": "Ja oder Nein: Sind Schnittstellen zu Drittanbietern, wie z. B. ein Facebook-like-Button oder \"geframte Inhalte wie Videos\" bspw. von Youtube, zulässig?",
+          "a": "Nur dann ja, wenn der Betroffene vorher darüber informiert wurde. (Vorlesungsskipt, § 13 Abs. 5 TMG https://www.gesetze-im-internet.de/tmg/__13.html)"
+        },
+        "3": {
+          "q": "Welche Möglichkeiten gibt es, Schnittstellen zu Drittanbietern auf der Webseite einzubinden, ohne den Betroffenen vorab informieren zu müssen?",
+          "a": "Eine legale Möglichkeit ist die \"2-Klick-Lösung\", d. h. man wird auf die entsprechende Seite des Drittanbieters weitergeleitet. Dieser ist dann selbst für die Datenerhebung zuständig."
+        },
+        "4": {
+          "q": "Wahr oder Falsch: Jede Webseite benötigt ein Impressum.",
+          "a": "Ein Impressum wird immer dann benötigt, wenn die Inahlte der Webseite \"geschäftsmäßige, in der Regel gegen Entgelt angebotene\" Dienste anbieten. (nach  § 5 TMG https://www.gesetze-im-internet.de/tmg/__5.html) "
+        },
+        "5": {
+          "q": "Ja oder Nein: Ein Dienstanbieter ist dazu verpflichten, den Zugriff auf die technischen Systeme und Einrichtungen mittels TOM (technische und organisatorische Maßnahmen) zu schützen.",
+          "a": "Ja, nach § 13 Abs. 7 TMG haben Dienstanbieter, \"soweit dies technisch möglich und wirtschaftlich zumutbar ist\", ihre Systeme vor unerlaubten Zugriffen zu schützen. Besonders hervorgehobene wird dabei die Schutzmaßnahmen durch die Anwendung eines als \"sicher anerkannten Verschlüsselungsverfahrens\". (https://www.gesetze-im-internet.de/tmg/__13.html)"
+        },
+        "6": {
+          "q": "Außer vor unerlaubten Zugriffen, wovor müssen Dienstanbieter ihre technischen Systeme und Einrichtungen noch beschützen?",
+          "a": "Man sollte seine Systeme \"gegen Verletzungen des Schutzes personenbezogener Daten und (...) gegen Störungen, auch soweit sie durch äußere Angriffe bedingt sind\" (https://www.gesetze-im-internet.de/tmg/__13.html)"
+        },
+        "7": {
+          "q": "Auch bei der Wahl der Domain sollte man achtsam sein. Denn \"der Erwerb des Markenschutzes nach § 4 gewährt dem Inhaber der Marke ein ausschließliches Recht\". Worauf sollte bei der Wahl einer Domain oder einem Namen geachtet werden, um nicht gegen das Markengesetz zu verstoßen (nach § 14 MarkenG)?",
+          "a": "Man sollte keine identischen Namen oder Domaine für identische Waren oder Dienstleistungen wählen, bei Ähnlichkeiten, die zur Verwechselung führen können oder bei Rufausbeutung. (§ 14 MarkenG https://www.gesetze-im-internet.de/markeng/__14.html)"
+        },
+        "8": {
+          "q": "Was ist bei der Verwendung von Zeichen Dritter zu beachten?",
+          "a": "Eine Rechtverlettung kann auch bei nicht eingetragegenen Unternehmenskennzeichen vorliegen. (Nach § 15 MarkenG: https://www.gesetze-im-internet.de/markeng/__15.html). \"Auch Metatagging und Keyword-Verwendung kann Marken-und Kennzeichenrechte Dritter nach o.g. Maßstäben verletzen\" (Skript)."
+        },
+        "9": {
+          "q": "Wahr oder Falsch: Zuerst eingetragene Domain schützt, auch wenn später ein Dritter den Begriff als Marke schützen lässt.",
+          "a": "Falsch."
+        },
+        "10": {
+          "q": "Laut dem Verbraucherschutz gibt es Vorgaben, die \"schon bei technischer Gestaltung des Webshops zu beachten\" gibt. Nenne mind. 5 Beispiele für 5 Sterne.",
+          "a": "a.) \"Mitteilung aller erforderlichen Informationen vor Abgabe der Bestellung\" b.) \"Bestimmte Informationen müssen unmittelbar vor Aufgeben der Bestellung angezeigt werden\" c.) \"Bestellprozess muss mit Übersicht über alle wesentlichen Angaben und Merkmale der Bestellung enden\" d.) \"Möglichkeit der Korrektur von Eingabefehlern\" e.) \"Zusenden einer Bestellbestätigungs-Mail\" f.) \"Nur B2C: Buttonbeschriftung: \"Zahlungspflichtig\"\" g.) \"Keine voreingestellten Bestellungen\" h.) \"Kosten von Zahlungsmöglichkeiten\" i.) \"Kostenpflichtige Rufnummer für Fragen oder Erklärungen zum Vertrag ist nicht zulässig\"."
+        }
+      }
+    },
+    "d3": {
+      "meta": {
+        "deck_name": "Verschiedene Rechte der IT-Sicherheit für Unternehmen",
+        "next_card_id": 2,
+        "description": "Dieses Deck enthält ausschließlich Fragen zu Rechten und Hilfestellungen der IT-Sicherheit für Unternehmen nach dem Vorlesungsskript von Frau Dr. Barbara Sommer (RA)."
+      },
+      "cards": {
+        "0": {
+          "q": "Welches sind die häufigsten Versäumnisse von Unternehmen in Sachen IT-Sicherheit? (nach Skript)",
+          "a": "a.) Fehlende angepasste Strategie zur Herstellung und Erhaltung der IT-Sicherheit sowie fehlende \"Wartungszyklen für zentrale IT-Systeme\". b.) Sicherheitsschwächen \"Sowohl im internen Netzwerk als auch bei der Anbindung an das Internet\" c.) Mangelhafte, unzureichende oder fehlende Backup-Routinen, Schutz von Backups, Einbruchs-, Elementarschädens- und Diebstahlschutz für Hardware d.) Fehlende oder unzureichende Schulungen von Mitarbeitern."
+        },
+        "1": {
+          "q": "Gibt es gesetzliche Grundlagen für IT-Sicherheit? (nach Skript)",
+          "a": "Ja, beispielsweise an folgenden Stellen: \"Allgemeine Anforderungen an die Geschäftsleitung bei der Organisation eines Unternehmens\" (bspw. § 91 Abs. 2 AktG https://www.gesetze-im-internet.de/aktg/__91.html); \"Rechtliche Anforderungen an einzelne Tätigkeiten in Unternehmen\" (bspw. für Buchhaltung und Steuern); das GeschGehG (Gesetz zum Schutz von Geschäftsgeheimnissen, https://www.gesetze-im-internet.de/geschgehg/BJNR046610019.html); DSGVO (https://dsgvo-gesetz.de/); TMG (https://www.gesetze-im-internet.de/tmg/)"
+        }
+      }
+    },
+    "d4": {
+      "meta": {
+        "deck_name": "Immaterialgüterrecht, Urheberrechte",
+        "next_card_id": 20,
+        "description": "Dieses Deck enthält Fragen zu immateriellen Gütern mit Fokus auf Urheberrechte. Die Fragen orientieren sich am Vorlesungsskript von Frau Dr. Barbara Sommer (RA)."
+      },
+      "cards": {
+        "0": {
+          "q": "Nenne die grobe Struktur des UrhG (Urheberrechtsgesetz).",
+          "a": "Werke, die durch das UrhG geschützt sind (§§ 2 - 6 UrhG); der Urheber (§§ 7 - 10 UhrG); Persönlichkeits-und Verwertungsrechte (§§ 11 - 27 UrhG); Einräumung von Nutzungsrechten (§§ 31 - 44 UrhG); Schranken des Urheberrechts durch gesetzlich erlaubte Nutzungen (§§ 44a - 63a UrhG); Dauer des Urheberrechts (§§ 64 - 69 UrhG); Besondere Bestimmungen für Computerprogramme (§§ 69a - 69g UrhG) (https://www.gesetze-im-internet.de/urhg/inhalts_bersicht.html)"
+        },
+        "1": {
+          "q": "\"Werke im Sinne (des UrhG) sind nur persönliche geistige Schöpfungen\". Was zählt zu den geistigen Schöpfungen? (nach Skript)",
+          "a": "Das Abgrenzungskriterium hängt von der Gestaltungshöhe ab. Auch ein Tweet auf Twitter kann eine geistige Schöpfung sein. Ausschlaggebend ist dabei nicht nach Inhalt, sondern die \"gestalterische Eigenart\". Als schutzfähig gelten auch Kartenausschnitte und \"kleine Eigenarten im Bereich der Kunst\" (Telekom-Jingle)."
+        },
+        "2": {
+          "q": "Sind Fotos und Bilder urheberrechtlich geschützt?",
+          "a": "Nach § 2 Abs. 5 des UrhG gelten \"Lichtbildwerke einschließlich der Werke, die ähnlich wie Lichtbildwerke geschaffen werden\" als geschütze Werke (§ 2 UrhG https://www.gesetze-im-internet.de/urhg/__2.html). \"EuGH sieht niedrige Anforderungen an den Schutz von Fotos: Auch Porträts gelten im Regelfall als geschützte Werke\" (Skript)."
+        },
+        "3": {
+          "q": "Im Internet wird häufig mit \"kostenlosen Fotos\" geworben. Was bedeutet das formal? (Nach Skript)",
+          "a": "Es gibt keine kostenlosen Fotos. Formal korrekt sind es lizenzfreie Fotos. Dennoch ist die Nutzung nicht immer und uneingeschränkt zulässig. Die Lizenzbestimmungen und Urheberpersönlichkeitsrecht sind zu beachten."
+        },
+        "4": {
+          "q": "Sind Texte urheberrechtlich geschützt?",
+          "a": "Nach § 2 Abs. 1 des UrhG gelten \"Sprachwerke, wie Schriftwerke, Reden und Computerprogramme\" als urheberrechtlich geschützt (§ 2 UrhG https://www.gesetze-im-internet.de/urhg/__2.html). Auch kurze Texte, wie Songtexte oder Werbetexte sind schutzfähig. Die \"Wiedergabe wissenschaftlicher Erkenntnisse ist nicht schutzfähig, wohl aber besondere Leistung bei Erläuterung/Darstellung.\" Auch Anleitungen können unter das UrhG fallen, wenn diese eine besondere konzeptionelle oder darstellerische Leistung darstellen. (Skript) "
+        },
+        "5": {
+          "q": "Wahr oder Falsch: Zitate sind rechtswidrig.",
+          "a": "Nein, aber \"die Vervielfältigung, Verbreitung und öffentliche Wiedergabe eines veröffentlichten Werkes zum Zweck des Zitats \" ist nur dann gestattet, wenn \"die Nutzung in ihrem Umfang durch den besonderen Zweck gerechtfertigt ist.\" Diese Regelung gilt ebenfalls für Abbildungen. (UrhG § 51 https://www.gesetze-im-internet.de/urhg/__51.html)"
+        },
+        "6": {
+          "q": "Nenne die wichtigsten Verwertungsrechte im UrhG, die in der Vorlesung besprochen wurden. (§ 15 UrhG, Stück)",
+          "a": "Vervielfältigung (§ 16 UrhG), Verbreitung (§ 17 UrhG), Recht der öffentlichen Zugänglichmachung (§ 19a UrhG), Bearbeitungen und Umgestaltungen (§ 23 UrhG), zustimmungsbedürftige Handlungen bei Computerprogrammen (§ 69c UrhG); (Übersicht: https://www.gesetze-im-internet.de/urhg/inhalts_bersicht.html, § 15: https://www.gesetze-im-internet.de/urhg/__15.html)"
+        },
+        "7": {
+          "q": "Welche Rechte schützen die Softwares?",
+          "a": "Das Urheber- und das Patentrecht."
+        },
+        "8": {
+          "q": "Was schützt das Urheberrecht?",
+          "a": "Das \"Urheberrecht schützt künstlerische oder wissenschaftlich technische Leistungen, die eine gewisse Originalität und Kreativität aufweisen.\" (Skript)"
+        },
+        "9": {
+          "q": "Was schützt das Patentrecht?",
+          "a": "Das \"Patentrecht schützt dagegen innovative Erfindungen –für Software in Deutschland kaum relevant\". (Skript)"
+        },
+        "10": {
+          "q": "Wahr oder Falsch: Um ein Werk urheberrechtlich zu schützen ist eine Anmeldung notwendig.",
+          "a": "Falsch. Der Schutz entsteht durch die Schöpfung eines schutzfähigen Werkes. \"Das Urheberrecht erlischt siebzig Jahre nach dem Tode des Urhebers.\" (§ 64 UrhG: https://www.gesetze-im-internet.de/urhg/__64.html)"
+        },
+        "11": {
+          "q": "Wie lange gilt der Urheberschutz?",
+          "a": "\"Das Urheberrecht erlischt siebzig Jahre nach dem Tode des Urhebers.\" (§ 64 UrhG: https://www.gesetze-im-internet.de/urhg/__64.html)"
+        },
+        "12": {
+          "q": "Wahr oder Falsch: Um ein Werk durch das Patentrecht zu schützen, ist eine Anmeldung notwendig.",
+          "a": "Wahr. Patente sind anmeldepflichtig. Die Anmeldung erfolgt in Deutschland beim DPMA (Deutsches Patent- und Markenamt)."
+        },
+        "13": {
+          "q": "Wie lange besteht ein Patent?",
+          "a": "\"Das Patent dauert zwanzig Jahre, die mit dem Tag beginnen, der auf die Anmeldung der Erfindung folgt.\" (§ 16 PatG: https://www.gesetze-im-internet.de/patg/__16.html)"
+        },
+        "14": {
+          "q": "Welche Bestimmungen für Computerprogramme gibt es im UrhG (§§ 69a - g)?",
+          "a": "(§ 69a UrhG) Gegenstand des Schutzes; (§ 69b UrhG) Urheber in Arbeits- und Dienstverhältnissen; (§ 69c UrhG) Zustimmungsbedürftige Handlungen; (§ 69d UrhG) Ausnahmen von den zustimmungsbedürftigen Handlungen; (§ 69e UrhG) Dekompilierung; (§ 69f UrhG) Rechtsverletzungen; (§ 69g UrhG) Anwendung sonstiger Rechtsvorschriften; Vertragsrecht (Übersicht: https://www.gesetze-im-internet.de/urhg/inhalts_bersicht.html)"
+        },
+        "15": {
+          "q": "Welche Gegenstände von Computerprogrammen sind rechtlich durch das UrhG geschützt (§ 69a UrhG)?",
+          "a": "Geschützt sind \"Computerprogramme im Sinne dieses Gesetzes sind Programme in jeder Gestalt, einschließlich des Entwurfsmaterials.\"(Skript) (Additional Info: Sie \"werden geschützt, wenn sie individuelle Werke in dem Sinne darstellen, dass sie das Ergebnis der eigenen geistigen Schöpfung ihres Urhebers sind. Zur Bestimmung ihrer Schutzfähigkeit sind keine anderen Kriterien, insbesondere nicht qualitative oder ästhetische, anzuwenden.\" Nicht geschützt sind \"Ideen und Grundsätze, die einem Element eines Computerprogramms zugrunde liegen\" (UrhG § 69a: https://www.gesetze-im-internet.de/urhg/__69a.html))"
+        },
+        "16": {
+          "q": "Welche Gegenstände von Computerprogrammen sind nicht rechtlich geschützt?",
+          "a": "Nicht geschützt sind \"Ideen und Grundsätze, die einem Element eines Computerprogramms zugrunde liegen, einschließlich der den Schnittstellen zugrundeliegenden Ideen und Grundsätze\"(Skript)."
+        },
+        "17": {
+          "q": "Was sollte man laut Vorlesung bei Open Source Software beachten?",
+          "a": "Die Lizenzbestimmungen sollten beachtet werden. Der kommerzielle Nutzung ist teilweise kritisch, was aufgrund von Copyleft und viralen Effekten gefährlich sein kann."
+        },
+        "18": {
+          "q": "Welche Aspekte sind bei Lizenzverträgen zu beachten?",
+          "a": "(§ 31a UrhG) Verträge über unbekannte Nutzungsarten; (§ 32 UrhG) Angemessene Vergütung; (§ 32c UrhG) Vergütung für später bekannte Nutzungsarten; (§ 41 UrhG) Rückrufsrecht wegen Nichtausübung; (§ 13 UrhG) Anerkennung der Urheberschaft (Nach UrhG: https://www.gesetze-im-internet.de/urhg/inhalts_bersicht.html)"
+        },
+        "19": {
+          "q": "In der Vorlesung haben wir gelernt, dass es 6 Fragen im Rahmen der Lizenzerteilung zu beantworten gibt. Welche sind das?",
+          "a": "\"1.) Wer soll Rechteempfänger sein? 2.) Welche Nutzungsrechte sollen eingeräumt werden? 3.) Wann soll die Rechteeinräumung erfolgen? 4.)Erfolgt die Einräumung einfach oder ausschließlich? 5.)Sollen die eingeräumten Rechte beschränkt werden? a.) Inhaltliche Beschränkung z. B. auf den Einsatz auf best. Systemen? b.) Zeitliche und/oder räumliche Beschränkung? c.) Unterlizensierung? 6.) Gegenleistung/Vergütung?\" (Skript)"
+        }
+      }
+    },    
+    "d5": {
+      "meta": {
+        "deck_name": "Wettbewerbsrecht und Rechtsschutz",
+        "next_card_id": 7,
+        "description": "Dieses Deck bezieht sich auf das Wettbewerbsrecht und den Rechtsschutz. Die Auswahl der Fragen und Antworten orientieren sich am Vorlesungsskript von Frau Dr. Barbara Sommer (RA)."
+      },
+      "cards": {
+        "0": {
+          "q": "Welche wichtigen Regeln werden im UWG (Gesetz gegen den unlauteren Wettbewerb) abgehandelt?",
+          "a": "Generalnorm (\"(1) Unlautere geschäftliche Handlungen sind unzulässig.\" § 3 Abs. 1 UWG: https://www.gesetze-im-internet.de/uwg_2004/__3.html); Verbotsnormen (§§ 3a bis 7 UWG, Rechtsbruch, Mitbewerberschutz, aggressive/irreführende geschäftl. Handlungen, vergleichende Werbung, unzumutbare Belästigungen https://www.gesetze-im-internet.de/uwg_2004/); Rechtsfolgen bei Verstößen (§§ 8-10 (Beseitigung und Unterlassen, Schadensersatz, Gewinnabschöpfung), § 16 (Strafgeldvorschriften) und § 20 (Bußgeldvorschriften) https://www.gesetze-im-internet.de/uwg_2004/)"
+        },
+        "1": {
+          "q": "Nenne mind. 3 Beispiele von unlauteren Handlungen für 5 Sterne",
+          "a": "a.) Datnerschutzverstoß (Verstoß gegen wettbewerbsschützende Regelungen (§ 3a Rechtsbruch UWG)) b.) Verbraucherschutz (Verstoß gegen wettbewerbsschützende Regelungen (§ 3a Rechtsbruch UWG https://www.gesetze-im-internet.de/uwg_2004/__3a.html)) c.) \"Täuschung des Verbrauchers z.B. über Produkteigenschaften (§ 5 UWG\" https://www.gesetze-im-internet.de/uwg_2004/__5.html) d.) \"Verschleierung von werbendem Charakter (Trennungsgebot, § 5a Abs. 6 UWG\" https://www.gesetze-im-internet.de/uwg_2004/__5a.html) e.) \"Unzulässige vergleichende Werbung (§ 6 UWG\" https://www.gesetze-im-internet.de/uwg_2004/__6.html) f.) \"E-Mail-oder Telefonwerbung ohne Einwilligung des Adressaten (§ 7 UWG\" https://www.gesetze-im-internet.de/uwg_2004/__7.html) (Skript) "
+        },
+        "2": {
+          "q": "Was ist eine Abmahnung?",
+          "a": "Eine Abmahnung ist ein \"Anwaltsschreiben mit Aufforderung zu Unterlassung, ggf. Schadensersatz (häufig im Urheberrecht), (und) Zahlung der Anwaltskosten\" (Skript)."
+        },
+        "3": {
+          "q": "Die \"Abgabe einer strafbewehrten Unterlassungserklärung führt zu (einem) Vertrag\". Was wird in diesem Vertrag geregelt?",
+          "a": "Der \"Gegner kann für 30 Jahre bei Verstoß (eine) Zahlung der vereinbarten Vertragsstrafe verlangen\" (Skript)."
+        },
+        "4": {
+          "q": "Welche Folgen hat es, wenn die Unterlassungserklärung auf eine Aufforderung hin nicht abgegeben wird?",
+          "a": "Es \"drohen einstweilige Verfügung und/oder (ein) Hauptsacheprozess\" (Skript)."
+        },
+        "5": {
+          "q": "Wovon ist das Kostenrisiko abhängig?",
+          "a": "Das \"Kostenrisiko hängt von (dem) Verstoß und von (dem) Gegner ab\" (Skript)."
+        },
+        "6": {
+          "q": "Was ist ein \"einstweiliger Rechtsschutz\"?",
+          "a": "Der einstweilige Rechtsschutz ist ein besonderes Gerichtsverfahren, bei dem das \"Gericht den Anspruch nicht in der Tiefe, sondern nur \"summarisch\"\" prüft. Das Gericht trifft schnell (vorläufige) Entscheidungen. Anschließend \"kann (ein) Hauptsacheverfahren angestrengt werden.\" (Skript)"
+        }
+      }
+    },
+    "d6": {
+      "meta": {
+        "deck_name": "Gründung und Führung IT-orientierter Unternehmen",
+        "next_card_id": 17,
+        "description": "Dieses Deck bezieht sich auf die Gesellschaftsformen, Unternehmensgründungen und typische IT-bezogene Rechtsfragen. Die Auswahl der Fragen und Antworten orientieren sich am Vorlesungsskript von Frau Dr. Barbara Sommer (RA)."
+      },
+      "cards": {
+        "0": {
+          "q": "Welche Personengeschellschaften gibt es in Deutschland?",
+          "a": "Gesellschaft bürgerlichen Rechts (GbR), offene Handelsgesellschaft (OHG), Kommanditgesellschaft (KG) und Gesellschaft mit beschränkter Haftung & Compagnie Kommanditgesellschaft (GmbH & Co. KG)."
+        },
+        "1": {
+          "q": "Welche Kapitalgesellschaften gibt es in Deutschland?",
+          "a": "Gesellschaft mit beschränkter Haftung (GmbH), Unternehmergesellschaft (UG - haftungsbeschränkt) und Aktiengesellschaft (AG)."
+        },
+        "2": {
+          "q": "Welche Unternehmensform gibt es neben den Personen- und Kapitalgesellschaften?",
+          "a": "Das Einzelunternehmen."
+        },
+        "3": {
+          "q": "Wie wird eine GbR gegründet?",
+          "a": "Die \"Gründung bedarf keines formalen Aktes\"."
+        },
+        "4": {
+          "q": "Wahr oder Falsch: Die GbR Bedarf der Eintragung im Handelsregister (HR).",
+          "a": "Falsch."
+        },
+        "5": {
+          "q": "Wahr oder Falsch: In der GbR gilt eine gesamtschuldnerische Haftung aller Gesellschafter.",
+          "a": "Wahr."
+        },
+        "6": {
+          "q": "Wahr oder Falsch: Die GbR ist gesamtvertretungsberechtigt.",
+          "a": "Wahr."
+        },
+        "7": {
+          "q": "Wahr oder Falsch: Die OHG Bedarf keiner Eintragung im Handelsregister (HR).",
+          "a": "Falsch."
+        },
+        "8": {
+          "q": "Wahr oder Falsch: Die OHG ist einzelvertretungsberechtigt.",
+          "a": "Wahr."
+        },
+        "9": {
+          "q": "Wahr oder Falsch: Die KG Bedarf keiner Eintragung im Handelsregister (HR).",
+          "a": "Falsch."
+        },
+        "10": {
+          "q": "Was gilt in der KG für die Haftung eines Komplmentärs und was gilt für die Haftung der Kommanditisten?",
+          "a": "Komplementäre haften persönlich, Kommandisten ausschließlich mit ihrer Einlage."
+        },
+        "11": {
+          "q": "Welches Gesetz gibt die Regelungen der GmbH vor?",
+          "a": "Das Gesetz betreffend die Gesellschaften mit beschränkter Haftung (GmbHG)."
+        },
+        "12": {
+          "q": "Wie hoch ist das Mindeststammkapital bei der Gründung einer GmbH?",
+          "a": "25.000 EUR, wobei die Hälfte einzuzahlen ist."
+        },
+        "13": {
+          "q": "Wahr oder Falsch: Die GmbH ist ein \"notariell beurkundungspflichtiger Gründungsakt.\"",
+          "a": "Wahr."
+        },
+        "14": {
+          "q": "Welche Schritte sind nötig für die Gründung der GmbH?",
+          "a": "Die Satzungserstellung (Geschäftsführung, Anteilsverfügung und Vorerwerbsrecht, \"Gesellschafterversammlungen und Beschlussmehrheiten (...) Anteilseinziehungen und Abfindung (...) Eheverträge, Schlichtungen\"), Gründungsakt inkl. notarieller Beurkundung, Bestellung der Geschäftsführung, \"Einzahlung des Stammkapitals (und) Eintragung in das Handelsregister (Skript)"
+        },
+        "15": {
+          "q": "Welche Gesellschaftsform ist für den \"Betrieb von B2C-Webplattformen und Apps\" ausreichend? (B2C = Business-to-Consumer)",
+          "a": "Die UG ist ausreichend, aber nicht für B2B-Geschäftsmodelle geeignet. (B2B = Business-to-Business)"
+        },
+        "16": {
+          "q": "Was gilt für Geschäftsführer in Sachen Haftung nach Außen im Rahmen des Datenschutzrechts, des Wettbewerbsrechts und der Urheber- und Persönlichkeitsrechte?",
+          "a": "Der Geschäftsführer haftet persönlich gegenüber der Gesellschaft. (§ 43 GmbHG: Haftung der Geschäftsführer https://www.gesetze-im-internet.de/gmbhg/__43.html)"
+        }
+      }
+    },
+    "d7": {
+      "meta": {
+        "deck_name": "Besonderheiten in Sachen Hard- und Software bzgl. des Vertragsrechts",
+        "next_card_id": 28,
+        "description": "Dieses Deck bezieht sich auf das AGB-Recht, Softwareprojektverträge und typische IT-Verträge. Die Auswahl der Fragen und Antworten orientieren sich am Vorlesungsskript von Frau Dr. Barbara Sommer (RA)."
+      },
+      "cards": {
+        "0": {
+          "q": "Definiere das Wort AGB (Allgemeine Geschäftsbedingungen) nach BGB. ",
+          "a": "\"Allgemeine Geschäftsbedingungen sind alle für eine Vielzahl von Verträgen vorformulierten Vertragsbedingungen, die eine Vertragspartei (Verwender) der anderen Vertragspartei bei Abschluss eines Vertrags stellt. (Ab hier nicht mehr Klausurrelevant) Gleichgültig ist, ob die Bestimmungen einen äußerlich gesonderten Bestandteil des Vertrags bilden oder in die Vertragsurkunde selbst aufgenommen werden, welchen Umfang sie haben, in welcher Schriftart sie verfasst sind und welche Form der Vertrag hat. Allgemeine Geschäftsbedingungen liegen nicht vor, soweit die Vertragsbedingungen zwischen den Vertragsparteien im Einzelnen ausgehandelt sind.\" (§ 305 Abs. 1 BGB: https://www.gesetze-im-internet.de/bgb/__305.html)"
+        },
+        "1": {
+          "q": "\"Was sind AGB?\"",
+          "a": "\"Die allermeisten im Rechtsverkehr genutzten Vertragsbestimmungen! (Außer sog. Bereichsausnahmen gemäß § 310 BGB)\" (https://www.gesetze-im-internet.de/bgb/__310.html ; Skript)"
+        },
+        "2": {
+          "q": "\"Kann vertraglich bestimmt werden, dass keine AGB vorliegen?\"",
+          "a": "\"Nein, die Regelung des § 305 BGB ist zwingend /nicht disponibel.\" (https://www.gesetze-im-internet.de/bgb/__305.html ; Skript)"
+        },
+        "3": {
+          "q": "\"Warum werden AGB im Gesetz gesondert geregelt?\"",
+          "a": "Es ist der \"Ausgleich des \"organisatorischen Vorsprungs\" des Verwenders.\""
+        },
+        "4": {
+          "q": "Welche Rechte werden im BGB zum AGB in den §§ 305 bis 310 geregelt?",
+          "a": "§ 305 Einbeziehung allgemeiner Geschäftsbedingungen in den Vertrag (https://www.gesetze-im-internet.de/bgb/__305.html), § 306 Rechtsfolgen bei Nichteinbeziehung und Unwirksamkeit (https://www.gesetze-im-internet.de/bgb/__306.html), § 307 Inhaltskontrolle (https://www.gesetze-im-internet.de/bgb/__307.html), § 308 Klauselverbote mit Wertungsmöglichkeit (https://www.gesetze-im-internet.de/bgb/__308.html), § 309 Klauselverbote ohne Wertungsmöglichkeit (https://www.gesetze-im-internet.de/bgb/__309.html), § 310 Anwendungsbereich (https://www.gesetze-im-internet.de/bgb/__310.html)"
+        },
+        "5": {
+          "q": "Wann müssen die AGB bekannt gegeben werden?",
+          "a": "Bei Vertragsabschluss."
+        },
+        "6": {
+          "q": "In welcher Art und Weise müssen die AGB zur Verfügung gestellt werden?",
+          "a": "Nach § 305 Abs. 2 BGB: \"Allgemeine Geschäftsbedingungen werden nur dann Bestandteil eines Vertrags, wenn der Verwender bei Vertragsschluss 1. die andere Vertragspartei ausdrücklich oder, wenn ein ausdrücklicher Hinweis wegen der Art des Vertragsschlusses nur unter unverhältnismäßigen Schwierigkeiten möglich ist, durch deutlich sichtbaren Aushang am Ort des Vertragsschlusses auf sie hinweist und 2.der anderen Vertragspartei die Möglichkeit verschafft, in zumutbarer Weise, die auch eine für den Verwender erkennbare körperliche Behinderung der anderen Vertragspartei angemessen berücksichtigt, von ihrem Inhalt Kenntnis zu nehmen, und wenn die andere Vertragspartei mit ihrer Geltung einverstanden ist.\" (§ 305 Abs. 2: https://www.gesetze-im-internet.de/bgb/__305.html)"
+        },
+        "7": {
+          "q": "Was gilt bei kollidierenden AGBs?",
+          "a": "Die geltende AGB ist Auslegungssache. Der \"Vertrag kommt zustande, ohne die sich widersprechenden Klauseln.\" Die \"Abwehrklauseln können darüber hinaus fremde AGB-Klauseln ohne Entsprechung in eigenen AGB ausschließen\" (Skript)"
+        },
+        "8": {
+          "q": "Wahr oder Falsch: \"Bestimmungen in allgemeinen Geschäftsbedingungen sind unwirksam, wenn sie den Vertragspartner des Verwenders entgegen den Geboten von Treu und Glauben unangemessen benachteiligen.\"",
+          "a": "Wahr, nach BGB § 307 Inhaltskontrolle Abs. 1: https://www.gesetze-im-internet.de/bgb/__307.html"
+        },
+        "9": {
+          "q": "Wahr oder Falsch: Auch unverständliche Bestimmungen sind zulässig.",
+          "a": "Falsch, nach BGB § 307 Inhaltskontrolle Abs. 1 Satz 2 (\"Eine unangemessene Benachteiligung kann sich auch daraus ergeben, dass die Bestimmung nicht klar und verständlich ist.\" https://www.gesetze-im-internet.de/bgb/__307.html)"
+        },
+        "10": {
+          "q": "Wahr oder Falsch: Die Regelungen in den AGB sind auch dann wirksam, wenn sie \"mit wesentlichen Grundgedanken der gesetzlichen Regelung (...) nicht zu vereinbaren ist\", oder anders formuliert, dann wirksam, wenn sie nicht zum jeweiligen Vertragstypen passen.",
+          "a": "Falsch, nach BGB § 307 Inhaltskontrolle Abs. 2 Nr. 1: https://www.gesetze-im-internet.de/bgb/__307.html "
+        },
+        "11": {
+          "q": "Im BGB § 308 werden Klauselvebote mit Wertungsmöglichkeiten aufgelistet, die in der AGB unwirksam sind. Wahr oder Falsch: Die Zahlungsfrist, die dem Verwender eine \"unangemessen lange Zeit für die Erfüllung einer Entgeltforderung des Vertragspartners vorbehält\", fällt ins Klauselverbot.",
+          "a": "Wahr, nach BGB § 308 Nr. 1a (https://www.gesetze-im-internet.de/bgb/__308.html) fällt die Zahlungsfrist ins Klauselverbot."
+        },
+        "12": {
+          "q": "Im BGB § 308 werden Klauselvebote mit Wertungsmöglichkeiten aufgelistet, die in der AGB unwirksam sind. Wahr oder Falsch: Die AGB kann frei über die Fristen der Überprüfung und Abnahme von Gegenleistungen verfügen.",
+          "a": "Falsch, nach BGB § 308 Nr. 1b (https://www.gesetze-im-internet.de/bgb/__308.html) ist die Überprüfung oder Abnahme der Gegenleistung nach unangemessen langer Zeit unwirksam. Der Zeitraum bezieht sich dabei auf nicht mehr als 15 Tage."
+        },
+        "13": {
+          "q": "Im BGB § 308 werden Klauselvebote mit Wertungsmöglichkeiten aufgelistet, die in der AGB unwirksam sind. Wahr oder Falsch: Die Regelung der AGB, die besagt, dass auch nach Vertragsabschluss ohne Grund eine nachträgliche Auflösung des Vertrags möglich ist, ist nicht erlaubt.",
+          "a": "Wahr, nach BGB § 308 Nr. 3 (https://www.gesetze-im-internet.de/bgb/__308.html)"
+        },
+        "14": {
+          "q": "Im BGB § 308 werden Klauselvebote mit Wertungsmöglichkeiten aufgelistet, die in der AGB unwirksam sind. Wahr oder Falsch: Eine Vereinbarung in den AGB, bei der der Verwender Veränderungen über die versprochene Leistung vornehmen kann, sind rechtens.",
+          "a": "Falsch, nach BGB § 308 Nr. 4 (https://www.gesetze-im-internet.de/bgb/__308.html) ist die Klausel der AGB unwirksam, wenn \"die Vereinbarung eines Rechts des Verwenders, die versprochene Leistung\" ändert oder von ihr abweicht."
+        },
+        "15": {
+          "q": "Im BGB § 309 werden Klauselvebote ohne Wertungsmöglichkeiten aufgelistet, die in der AGB unwirksam sind. Wahr oder Falsch: In den AGB ist eine Bestimmung unwirksam, wenn eine kurzfristige Preiserhöhung für Waren oder Leistungen, die in einem Zeitraum von 4 Monaten nach Vertragsabschluss erbracht oder geliefert werden soll, vorliegt.",
+          "a": "Wahr, nach BGB § 309 Nr. 1 (https://www.gesetze-im-internet.de/bgb/__309.html) ist die Klausel der AGB unwirksam, wenn \"eine Bestimmung (vorliegt), welche die Erhöhung des Entgelts für Waren oder Leistungen vorsieht, die innerhalb von vier Monaten nach Vertragsschluss geliefert oder erbracht werden sollen."
+        },
+        "16": {
+          "q": "Im BGB § 309 werden Klauselvebote ohne Wertungsmöglichkeiten aufgelistet, die in der AGB unwirksam sind. Wahr oder Falsch: Das Einschränken oder Ausschließen des Leistungsverweigerungsrechts und des Zurückbehaltungsrechts ist in den AGB nicht erlaubt.",
+          "a": "Wahr, nach BGB § 309 Nr. 2 (https://www.gesetze-im-internet.de/bgb/__309.html) ist die Klausel der AGB unwirksam, wenn das Leistungsverweigerungsrecht (nach § 320 BGB: Einrede des nicht erfüllten Vertrags https://www.gesetze-im-internet.de/bgb/__320.html) oder das Zurückbehaltungsrecht (§ 273 BGB Zurückbehaltungsrecht: https://www.gesetze-im-internet.de/bgb/__273.html) eingeschränkt oder ausgeschlossen werden."
+        },
+        "17": {
+          "q": "Im BGB § 309 werden Klauselvebote ohne Wertungsmöglichkeiten aufgelistet, die in der AGB unwirksam sind. Wahr oder Falsch: Die AGB kann den Haftungsausschluss bei \"Verletzung von Leben, Körper, Gesundheit und bei grobem Verschulden\" ausschließen.",
+          "a": "Falsch, nach BGB § 309 Nr. 7 (https://www.gesetze-im-internet.de/bgb/__309.html) ist die Klausel der AGB unwirksam. Ausnahmen: Die im Personenbeförderungsgesetz genehmigten Beförderungsbestimmungen."
+        },
+        "18": {
+          "q": "Im BGB § 309 werden Klauselvebote ohne Wertungsmöglichkeiten aufgelistet, die in der AGB unwirksam sind. Wahr oder Falsch: Die AGB kann den Verwender vor Haftungsausschlüssen bei Pflichtverletzungen in Sachen Vertragsauflösung und Mängel schützen.",
+          "a": "Falsch, nach BGB § 309 Nr. 8 (https://www.gesetze-im-internet.de/bgb/__309.html) ist die Klausel der AGB unwirksam."
+        },
+        "19": {
+          "q": "Nenne die 6 typischen Elemente eines Werkvertrags in Softwareprojektverträgen, die wir im Rahmen der Vorlesung kennengelernt haben. (Nach §§ 631 bis 650 BGB)",
+          "a": "1.) (§ 631 BGB) \"Vertragstypische Pflichten beim Werkvertrag\" (Lasten- und Pflichtenheft) 2.) (§ 640 BGB) Abnahme (auch Teilabnahme und Milestones) 3.) (§ 641 BGB) \"Fälligkeit der Vergütung\" 4.) (§ 642 BGB) \"Mitwirkung des Bestellers\" und (§ 643 BGB) \"Kündigung bei unterlassener Mitwirkung\" 5.) (§§ 633 bis 634 BGB) \"Sach- und Rechtsmangel\" 6.) (§ 648 BGB) \"Kündigungsrecht des Bestellers\" (https://www.gesetze-im-internet.de/bgb/index.html)"
+        },
+        "20": {
+          "q": "Nenne die 6 typischen Elemente der Projektsteuerung in Softwareprojektverträgen, die wir im Rahmen der Vorlesung kennengelernt haben.",
+          "a": "Informationspflichten bspw. zu Presien, Ansprechpartner, Form der Kommunikation, Eskalation- & Change-Request-Verfahren sowie Zeit- und Ressourcenmanagement."
+        },
+        "21": {
+          "q": "Nenne zwei weitere typische Verträge im IT-Bereich, die wir in der Vorlesung kennengelernt haben.",
+          "a": "1. Support-/Maintenance-Vertrag 2. IaaS-/SaaS-Vertrag (IaaS = Infrastructure-as-a-Service, SaaS = Software-as-a-Service), Hosting."
+        },
+        "22": {
+          "q": "Was ist ein Support-/Maintenance-Vertrag?",
+          "a": "Ein Support-/Maintenance-Vertrag ist ein Dauerschuldverhältnis für ein Softwaresystem."
+        },
+        "23": {
+          "q": "Was ist zum Thema Vertragsbeendigung bei einem Support-/Maintenance-Vertrag zu beachten?",
+          "a": "Die AGB-Inhaltskontrolle nach §§ 307 bis 309 BGB ist zu beachten."
+        },
+        "24": {
+          "q": "Was ist zum Thema Dienstleistung bzw. Erfolgsversprechen bei einem Support-/Maintenance-Vertrag zu beachten?",
+          "a": "In dieser Art von Verträgen sollte sehr genau auf die Formulierung geachtet werden: \"Störung wird behoben\" vs. \"Störung wird bearbeitet\" (Skript)"
+        },
+        "25": {
+          "q": "Warum ist die Leistungsdefinition in Verträgen so wichtig?",
+          "a": "Durch genaue Definitionen kann Streit zwischen den Parteien vermieden werden. Zudem ist häufig sonst kein Haftungsausschluss möglich."
+        },
+        "26": {
+          "q": "Zu den typischen Punkten, die in einem Support-/Maintenance-Vertrag geregelt werden, zählen die SLAs (Service-Level-Agreements). Welches sind die 3 typischen Bestimmungen, die in den SLAs geregelt werden?",
+          "a": "1.) Erreichbarkeit 2.) Reaktionszeit 3.) Kommunikationswege."
+        },
+        "27": {
+          "q": "Was gilt in Sachen Verfügbarkeitsregelungen bei IaaS-/SaaS-Verträgen?",
+          "a": "1.) Das Transparenzgebot (nach § 307 Abs. 1 Satz 2 BGB: https://www.gesetze-im-internet.de/bgb/__307.html) für die Höchstunterbrechungszeit 2.) Die Verständlichkeit (nach § 307 Abs. 1 Satz 2 BGB: https://www.gesetze-im-internet.de/bgb/__307.html) über die eindeutige prozentuale Berechnung von Ausfall-/Verfügbarkeitszeiten 3.) Ausnahmeregelungen der Verfügbarkeit für Wartungen usw. "
+        }
+      }
+    },
+    "d8": {
+      "meta": {
+        "deck_name": "Strafrecht",
+        "next_card_id": 15,
+        "description": "Dieses Deck bezieht sich die Besonderheiten für das Internet und die digitalen Werke in Verbindung zum Strafrecht. Die Auswahl der Fragen und Antworten orientieren sich am Vorlesungsskript von Frau Dr. Barbara Sommer (RA)."
+      },
+      "cards": {
+        "0": {
+          "q": "Wie ist der vereinfachte Prüfungsaufbau für strafrechtliche Tatbestände? (4 Schritte)",
+          "a": "1.) Objektiver Tatbestand 2.) Subjektiver Tatbestand 3.) Rechtswidrigkeit 4.) Schuld"
+        },
+        "1": {
+          "q": "Welche Fragen sollte man sich stellen, um den objektiven Tatbestand zu ermitteln?",
+          "a": "1.) \"Was sind die Tat-Voraussetzungen der Norm?\" 2.) \"Wurden Handlungen, wie in der Norm definiert, vom Täter durchgeführt?\" (Skript)"
+        },
+        "2": {
+          "q": "Welche Fragen sollte man sich stellen, um den subjektiven Tatbestand zu ermitteln?",
+          "a": "1.) \"Ist Vorsatz gefordert oder nur Fahrlässigkeit?\" 2.) \"Mit welchem Wissen und Wollen hat der Täter gehandelt?\" (Skript)"
+        },
+        "3": {
+          "q": "Welche Frage sollte man sich stellen, um die Rechtswidrigkeit festzustellen?",
+          "a": "\"Ist der Täter in seinem Handeln evtl. gerechtfertigt (Notwehr oder Nothilfe)?\" (Skript)"
+        },
+        "4": {
+          "q": "Was gibt es bei der Schuldfrage zu beachten?",
+          "a": "\"Ist der Täter schuldfähig bzw. wenn ja: Ist er ggf. entschuldigt?\" (Skript)"
+        },
+        "5": {
+          "q": "Wie lautet der objektive Tatbestand beim Ausspähen von Daten nach § 202a StGB (Strafgesetzbuch)?",
+          "a": "Straffällig ist, \"Wer unbefugt sich oder einem anderen Zugang zu Daten, die nicht für ihn bestimmt und die gegen unberechtigten Zugang besonders gesichert sind, unter Überwindung der Zugangssicherung verschafft\" (§ 202a Abs. 1 StGB Ausspähen von Daten: https://www.gesetze-im-internet.de/stgb/__202a.html)"
+        },
+        "6": {
+          "q": "Wie lautet der subjektive Tatbestand beim Ausspähen von Daten nach § 202a StGB?",
+          "a": "Es liegt ein Vorsatz vor. (\"Es reicht aus, wenn der Täter den Taterfolg billigend in Kauf nimmt.\" (Skript))"
+        },
+        "7": {
+          "q": "Wie hoch ist die Bestrafung beim Ausspähen von Daten nach § 202a StGB?",
+          "a": "Wer gegen § 202a verstößt wird mit \"Freiheitsstrafe bis zu drei Jahren oder mit Geldstrafe bestraft.\" (§ 202a Abs. 1 StGB Ausspähen von Daten: https://www.gesetze-im-internet.de/stgb/__202a.html)"
+        },
+        "8": {
+          "q": "Wie lautet der objektive Tatbestand beim Vorbereiten des Ausspähens und Abfangens von Daten nach § 202c StGB?",
+          "a": "Straffällig ist, wer das Ausspähen (§ 202a StGB) oder Abfangen (§ 202b StGB) von Daten vorbereitet, \"indem er 1. Passwörter oder sonstige Sicherungscodes, die den Zugang zu Daten (§ 202a Abs. 2) ermöglichen, oder 2. Computerprogramme, deren Zweck die Begehung einer solchen Tat ist, herstellt, sich oder einem anderen verschafft, verkauft, einem anderen überlässt, verbreitet oder sonst zugänglich macht\" (§ 202c Abs. 1 StGB Ausspähen von Daten: https://www.gesetze-im-internet.de/stgb/__202c.html)"
+        },
+        "9": {
+          "q": "Wie lautet der subjektive Tatbestand beim Vorbereiten des Ausspähens und Abfangens von Daten nach § 202c StGB?",
+          "a": "Es liegt ein bedingter Vorsatz oder auch Eventualvorsatz vor. (\"Beim Eventualvorsatz hält der Täter die Verwirklichung eines Tatbestandes ernsthaft für möglich, findet sich aber mit diesem Risiko ab.\" (https://de.wikipedia.org/wiki/Eventualvorsatz)"
+        },
+        "10": {
+          "q": "Wie hoch ist die Bestrafung beim Vorbereiten des Ausspähens und Abfangens von Daten nach § 202c StGB?",
+          "a": "Wer gegen § 202c verstößt wird mit \"Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe bestraft.\" (§ 202c Abs. 1 StGB: https://www.gesetze-im-internet.de/stgb/__202c.html)"
+        },
+        "11": {
+          "q": "Was fällt laut § 303a StGB unter Datenveränderungen?",
+          "a": "Unter Datenveränderungen fällt das Löschen, Unterdrücken, unbrauchbar Machen oder Verändern von Daten (Nach § 303a Abs. 1 StGB Datenveränderungen: https://www.gesetze-im-internet.de/stgb/__303a.html)"
+        },
+        "12": {
+          "q": "Wie hoch ist die Bestrafung bei Datenveränderungen nach § 303a StGB?",
+          "a": "Wer gegen § 303a verstößt wird mit \"Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe bestraft.\" (Nach § 303a Abs. 1 StGB Datenveränderungen: https://www.gesetze-im-internet.de/stgb/__303a.html)"
+        },
+        "13": {
+          "q": "Ist der Versuch einer Datenveränderung strafbar?",
+          "a": " Ja. (Nach § 303a Abs. 2 StGB Datenveränderungen: https://www.gesetze-im-internet.de/stgb/__303a.html)"
+        },
+        "14": {
+          "q": "Ist dir Vorbereitung einer Datenveränderung strafbar?",
+          "a": " Ja. (Nach § 303a Abs. 3 StGB Datenveränderungen: https://www.gesetze-im-internet.de/stgb/__303a.html)"
+        }
+      }
+    }
+  }
+}
