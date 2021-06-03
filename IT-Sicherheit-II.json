@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "author": "Gian-Luca Beck & FFC Quick Check",
+    "uuid": "b2f5e912-9141-11eb-a8b3-0242ac130003"
+  },
+  "decks": {
+    "IT-Sicherheit II": {
+      "meta": {
+        "deck_name": "IT-Sicherheit II V1.0",
+        "next_card_id": 1,
+        "description": "This is a deck for educational purposes."
+      },
+      "cards": {
+        "0": {
+          "q": "Was sind Spoofing-Angriffe?",
+          "a": "Bei einem Spoofing-Angriff täuscht der Angreifer eine falsche Identität vor. Das kann auch verschiedenen Ebenen geschehen."
+        },
+        "1": {
+          "q": "Welche Arten von Spoofing gibt es? (5)",
+          "a": "IP-Spoofing, ARP-Spoofing,  DNS-Spoofing, DHCP-Spoofing, Spoofing im Kontext des Routing"
+        },
+        "3": {
+          "q": "Wie funktioniert IP-Spoofing?",
+          "a": "Angreifer trägt falsche Absenderadresse ein. Empfänger protokolliert Zugriffsversuch falsch und Empfänge könnte dem Angreifer trauen."
+        },
+        "4": {
+          "q": "Wie funktioniert ein Spoofing-Angriff im Kontext des Routing?",
+          "a": "Ein Angreifer schleust falsche Routing-Informationen ein und IP-Pakete werden daraufhin über seinen Rechner umgeleitet."
+        },
+        "5": {
+          "q": "Wie kann ein Angreifer beim IP-Spoofing Antworten erhalten?",
+          "a": "Durch einen Spoofing-Angriff im Kontext des Routing können die Antworten des angegriffenen Rechners mitgelesen werden, auch wenn sie nicht an den Rechner des Angreifers adressiert sind."
+        },
+        "6": {
+          "q": "Was ist das ARP?",
+          "a": "Das Address Resolution Protocol wird vom Router im Netzwerk verwendet um herauszufinden welche MAC-Adresse zu welcher IP-Adresse gehört. Die Anfrage wird per Broadcast ins gesamte lokale Netzwerk gesendet."
+        },
+        "7": {
+          "q": "Was ist DNS?",
+          "a": "Das Domain Name System ist für die Namensauflösung im Internet zuständig. Es verknüpft Namen mit der entsprechenden IP."
+        },
+        "9": {
+          "q": "Wie funktioniert DNS-Spoofing?",
+          "a": "Ein Angreifer agiert als DNS-Server und beantwortet Anfragen schneller als andere DNS-Server. Diese Antwort ist jedoch falsch. Der falsche DNS-Server muss IP-Spoofing verwenden damit der Rechner der Antwort vertraut."
+        },
+        "10": {
+          "q": "Wie funktioniert DNS-Spoofing in der Variante Cache Poisoning?",
+          "a": "DNS-Server speichern im Cache ihnen bekannte Namensauflösungen, können jedoch nicht prüfen ob diese richtig sind. Beim DNS-Spoofing entstehende falsche Einträge werden dadurch auch bei echten DNS-Servern gespeichert und für die Namensauflösung verwendet."
+        },
+        "11": {
+          "q": "Wie funktioniert ARP-Spoofing?",
+          "a": "Ein Angreifer reagiert auf eine ARP-Anfrage vom Router und antwortet mit seiner MAC-Adresse, obwohl die IP nach der gefragt wurde, zu einem anderen Rechner gehört. Der Angriff ist jedoch nur in lokalen Netz möglich."
+        },
+        "12": {
+          "q": "Was ist DHCP?",
+          "a": "Das Dynamic Host Configuration Protocol wird verwendet um einem Rechner in einem Netzwerk eine IP-Adresse zuzuweisen und weitere Informationen zu Verfügung zu stellen. Über eine Broadcast-Nachricht sucht ein neuer Rechner im Netzwerk nach dem DHCP-Server."
+        },
+        "13": {
+          "q": "Was ist DHCP-Spoofing?",
+          "a": "Ein Angreifer gibt sich im Netzwerk als falscher DHCP-Server aus und kann falsche Informationen an alle neuen Rechner senden. Beispielsweise kann ein falscher Gateway-Router oder DNS-Server angegeben werden."
+        },
+        "14": {
+          "q": "Was ist ein Sniffing-Angriff?",
+          "a": "Die Filterfunktion in der Netzwerkkarte wird abgeschaltet, sodass alle Pakete im Netzwerk empfangen werden (auch die an andere Rechner adressierte)"
+        },
+        "15": {
+          "q": "Was ist Connection Hijacking?",
+          "a": "Angreifer übernimmt bereits bestehende TCP Verbindung (nachdem Handshake durchgeführt wurde) indem er eine Nachricht mit passender Sequenznummer (die findet er heraus, indem er vorher lauscht und das Muster erkennt) und IP-Spoofing nutzt."
+        },
+        "16": {
+          "q": "Was ist der Unterschied zwischen TLS und SSL?",
+          "a": "Secure Sockets Layer ist der Vorgänger des Transport Layer Security-Protokolls"
+        },
+        "17": {
+          "q": "Was ist ein TCP Connect Scan?",
+          "a": "Bei einem TCP Connect Scan wird versucht eine vollständige Verbindung zu ausgewählten oder allen Ports an einem Server aufzubauen. Kann eine Verbindung aufgebaut werden, arbeitet an diesem Port ein Dienst, der antwortet."
+        },
+        "18": {
+          "q": "Wie kann man den TCP Connect Scan verbessern, um nicht erkannt zu werden?",
+          "a": "Nicht alle Ports abfragen; Nicht in der aufsteigenden Reihenfolge abfragen; Pausen zwischen Abfragen einstreuen"
+        },
+        "19": {
+          "q": "Was ist ein TCP Syn Scan?",
+          "a": "Wie Connect Scan aber nach Antwort des Servers wird ein RST gesendet um den Verbindungsaufbau abzubrechen. Vorteil: Anfrage wird meistens nicht protokolliert und Scan bleibt unbemerkt."
+        },
+        "20": {
+          "q": "Was ist ein Stealth Scan?",
+          "a": "Versenden eines für den Verbindungsaufbau ungültigen TCP-Segments an einen Port. Bei einem offenen Port kommt ein RST als Antwort (laut RFC -> Windows hält sich nicht daran). Vorteil: Anfrage wird meistens nicht protokolliert und Scan bleibt unbemerkt."
+        },
+        "21": {
+          "q": "Welche Varianten gibt es beim Stealth Scan?",
+          "a": "NULL-Scan (keine Flags), ACK-Scan (ACK-Flag), FIN-Scan (FIN-Flag), XMAS-Scan (alle Flags)"
+        },
+        "22": {
+          "q": "Was ist ein Idle-Scan?",
+          "a": "Kombination von Connect Scan & IP-Spoofing: Es wird eine Anfrage an einen Zombie-Rechner gesendet und die Sequenznummer dokumentiert. Dann wird eine Anfrage an den Ziel-Rechner mit der IP des Zombie-Rechners als Absenderadresse versendet. Antwortet der Server dem Zombie-Rechner, zählt dieser die Sequenznummer hoch (das passiert allerdings nur bei alten OS). Nun wird wieder eine Anfrage an den Zombie-Rechner gestellt und die Sequenznummer betrachtet. Entspricht diese der dokumentierten +2*X (zwei regelmäßige Sprünge) war der Port am Ziel-Rechner offen."
+        },
+        "23": {
+          "q": "Was ist Port-Knocking?",
+          "a": "Ein Knock-Deamon versteckt offene Ports. Beim Versuch auf einen Port zuzugreifen wird ein Log-Eintrag erstellt und der Knock-Deamon erkennt dies und öffnet den Port wenn die richtige Klopfsequenz gesendet wurde."
+        },
+        "24": {
+          "q": "In welcher Schicht des OSI Modells ist SSL implementiert?",
+          "a": "In der 4. Schicht (als Teil von TCP)"
+        },
+        "25": {
+          "q": "Welche Entwurfsziele hatte SSL?",
+          "a": "Generische Lösung des Sicherheitsproblems; abgesicherte Verbindung für beliebige TCP-basierte Dienste; flexibel: Sicherheitsniveau je nach Bedarf wählbar; offen: leichte Integrierbarkeit neuer Verfahren; transparente Verschlüsselung der Nutzdaten; schnell: Wiederverwendung alter Authentisierungsinformationen"
+        },
+        "26": {
+          "q": "Wie sieht ein Verbindungsaufbau mit SSL aus?",
+          "a": "Client: Cipher Suite, RAND  Server: Public Key des Servers, Cipher Suite  Client: Hauptschlüssel (Basis: Public Key des Servers), Session ID (Basis: Hauptschlüssel)  Server: RAND (Basis: Sitzungsschlüssel = f(Hauptschlüssel, Session ID))"
+        },
+        "27": {
+          "q": "Grundlagen zum Verbindungsaufbau mit SSL",
+          "a": "Server muss sich gegenüber Client immer authentisieren  Client muss dies nur auf Anforderung des Servers  Kommunikationspartner einigen sich auf eine Chipher Suite Bilden eines gemeinsamen Geheimnisses: - einfaches Diffie-Hellman Verfahren ohne Authentisierung - RSA zur verschlüsselten Übertragung des Geheimnisses - Diffie-Hellman mit Signierung der übertragenen Parameter"
+        },
+        "28": {
+          "q": "Was definiert eine Chipher Suite?",
+          "a": "Verfahren für Authentisierung / Schlüsseltausch   Verfahren zur Nutzdatenverschlüsselung  Verfahren zur Integritätssicherung (MAC, krypt. Hashfunktion)"
+        },
+        "29": {
+          "q": "Wie funktioniert der Schlüsseltausch und die Authentifizierung?",
+          "a": "Es gibt übergeordnete Authentifizierungsautoritäten   einseitige oder gegenseitige Authentisierung mittels (X.509) Zertifikaten   Zertifikat des Servers enthält DNS Namen des Rechners   Einsparung der langsamen asymmetrischen Verschlüsselung -> viel schneller"
+        },
+        "30": {
+          "q": "Wie funktioniert das verkürzte SSL Verfahren für häufige Verbindungen zum selben Server?",
+          "a": "Client schickt beim Verbindungsaufbau Session ID einer früheren Verbindung mit falls Session ID beim Server noch bekannt: einfach neuen Sitzungsschlüssel aus Hauptschlüssel und Session ID generieren"
+        },
+        "31": {
+          "q": "Wie funktioniert bei SSL die Übertragung der Nutzdaten?",
+          "a": "Voraussetzungen: spezifischer Sitzungsschlüssel für den vereinbarten symmetrischen Verschlüsselungsalgorithmus; geheimer Wert für Message Authentication Code (MAC)   Bildung des MAC aus geheimen Wert, Daten, Padding-Daten und Sequenznummer: Frequenznummer verhindert Replay-Attacke; Voranstellen des geheimen Wertes verhindert Known-Plantext-Angriffe (bei HTTP z.B. immer GET)"
+        },
+        "32": {
+          "q": "Was ist DoS?",
+          "a": "DoS steht für Denial-of-Service und beschreibt Angriffe bei denen ein Dienst oder System lahmgelegt werden soll. Dazu werden Schwachstellen ausgenutzt oder das System überlastet"
+        },
+        "33": {
+          "q": "Was ist Ping-of-Death?",
+          "a": "PING-Größe kann verändert werden -> Buffer Overflow und Systemabsturz durch sehr große PINGs"
+        },
+        "34": {
+          "q": "Was ist der SYN-flooding Angriff?",
+          "a": "Angreifer sendet eine Verbindungsaufbauanforderung (SYN-Flag) an Opfer; Server erstellt halboffene TCP-Verbindung; Angreifer wiederholt dies in schneller Folge -> vollständiges füllen der internen Systemtabelle, Anfragen normaler Benutzer werden zurückgewiesen; Angreifer verwendet IP-Spoofing -> Firewall wirkungslos; mögliche Abwehr mit SYN-Cookies"
+        },
+        "35": {
+          "q": "Was bedeutet verteiltes DoS und was ist ein Smurf-Angriff?",
+          "a": "Verteiltes DoS oder auch DDoS bedeutet, dass sehr viele Angreifer ein Opfer angreifen bzw. mit Nachrichten überfluten      Smurf-Angriff: Per Broadcast Ping mit gefälschter Absenderadresse -> sehr viele Antworten an Absenderadresse, die bei allen die gleiche ist"
+        }
+      }
+    }
+  }
+}
