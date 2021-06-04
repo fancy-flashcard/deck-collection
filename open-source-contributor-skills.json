@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "author": "Michael Spengler et al.",
+        "version": "0.0.1",
+        "uuid": ""
+    },
+    "decks": {
+        "d1": {
+            "meta": {
+                "deck_name": "Open Source Contributor Skills",
+                "next_card_id": 1,
+                "description": "Open Source Contributor Skills"
+            },
+            "cards": {
+                "0": {
+                    "q": "Where can I get some information about the GitHub CLI?",
+                    "a": "Just try it https://cli.github.com/"
+                }
+            }
+        }
+    }
+}
