@@ -8,8 +8,11 @@ As there are different types of learners, there are different flavours of the FF
 ### Classic Flashcard Based Learning
 [FFC Classic](https://fancy-flashcard.github.io/ffc/#/)
 
-### Visual + Chatbot Support
+### Visual Chatbot Based
 [FFC Visual Chatbot](https://fancy-flashcard.github.io/ffc-extended/#/)
 
-### Audio Chatbot
+### Audio Chatbot Based
 tbd
+
+### Study Group Based
+tbd (main developer: Lukas Blank)  
