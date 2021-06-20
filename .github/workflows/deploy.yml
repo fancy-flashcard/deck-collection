@@ -1,0 +1,31 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Install Deno
+        uses: denolib/setup-deno@v2
+        with:
+         deno-version: v1.x
+
+      - name: Build
+        run: |
+          cd data-adapter
+          deno run --allow-run --allow-read https://deno.land/x/snel/install.ts
+          trex run build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3 # https://github.com/marketplace/actions/deploy-to-github-pages
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: data-adapter/dist

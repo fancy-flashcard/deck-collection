@@ -1,6 +1,18 @@
-# Wirtschaftsinformatik
-Dieses Repository enthält Zusammenfassungen einiger Vorlesungen im Bereich Wirtschaftsinformatik.  
-Diese Zusammenfassungen können in der [FFC Anwendung](https://fancy-flashcard.github.io/ffc/#/) importiert werden um den Lernprozess möglichst angenehm und effektiv zu gestalten.
+# Deck Collection
+This repository contains card decks which summarize lectures from different study paths.  
+Those decks can be imported in the [FFC Application](https://fancy-flashcard.github.io/ffc/#/) in order to simplify the learing process.
 
-## Ausblick
-Diese Daten können langfristig auch als Trainingsdaten für einen Chatbot genutzt werden, welcher den Studierenden als virtueller Trainingspartner zur Verfügung steht.
+## Learning Flavours
+As there are different types of learners, there are different flavours of the FFC Application available.
+
+### Classic Flashcard Based Learning
+[FFC Classic](https://fancy-flashcard.github.io/ffc/#/)
+
+### Visual Chatbot Based
+[FFC Visual Chatbot](https://fancy-flashcard.github.io/ffc-extended/#/)
+
+### Audio Chatbot Based
+tbd
+
+### Study Group Based
+tbd (main developer: Lukas Blank)  
