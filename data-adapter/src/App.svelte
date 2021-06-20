@@ -28,7 +28,7 @@
   autofocus
 />
 
-<button on:click={() => handleInput(userInput)}>Send</button>
+<button on:click={() => handleInput(userInput)}>Convert To Markdown</button>
 
 <p></p>
 <textarea bind:value={markdown} name="" id="" cols="30" rows="10" />

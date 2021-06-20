@@ -19,4 +19,4 @@ tbd (main developer: Lukas Blank)
 
 ## Data Provisioning
 ### Data Adapter
-Whenever you wish to transform data from one format to another (e.g. from JSON to markdown), you might use the [Data Adapter]()
+Whenever you wish to transform data from one format to another (e.g. from JSON to markdown), you might use the [Data Adapter](https://fancy-flashcard.github.io/deck-collection/)
